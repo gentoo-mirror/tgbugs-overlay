@@ -4,4 +4,4 @@ dev-python/joblib 0.11: Tools to provide lightweight pipelining in Python
 dev-python/py-amqp 2.3.2: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pyro 4.56: Distributed object middleware for Python (RPC)
 dev-python/serpent 1.19: A simple serialization library based on ast.literal_eval
-kde-frameworks/solid 5.29.0 5.34.0 5.37.0 5.40.0 5.43.0 5.46.0-r1: Provider for platform independent hardware discovery, abstraction and management
+kde-frameworks/solid 5.50.0: Provider for platform independent hardware discovery, abstraction and management
