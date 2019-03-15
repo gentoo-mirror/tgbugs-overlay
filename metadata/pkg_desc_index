@@ -1,6 +1,9 @@
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
+dev-python/args 0.1.0: Command Arguments for Humans
+dev-python/clint 0.5.1: Python Command-line Application Tools
 dev-python/cycler 0.10.0: Composable style cycles
 dev-python/docopt 0.6.2-r2: Pythonic argument parser, that will make you smile
+dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
 dev-python/joblib 0.11: Tools to provide lightweight pipelining in Python
 dev-python/kiwisolver 1.0.1: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/matplotlib 3.0.0 3.0.3: Pure python plotting library with matlab like syntax
