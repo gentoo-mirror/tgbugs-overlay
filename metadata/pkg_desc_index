@@ -14,6 +14,7 @@ dev-python/oauth2client 4.1.2: Library for accessing resources protected by OAut
 dev-python/py-amqp 2.3.2: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pyro 4.56: Distributed object middleware for Python (RPC)
 dev-python/serpent 1.19: A simple serialization library based on ast.literal_eval
+dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
 dev-python/versioneer 0.18: Easy VCS-based management of project version strings
 kde-frameworks/solid 5.50.0 5.52.0: Provider for platform independent hardware discovery, abstraction and management
