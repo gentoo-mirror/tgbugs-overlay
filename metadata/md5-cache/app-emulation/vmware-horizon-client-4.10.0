@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DEPEND=app-arch/bzip2 dev-libs/atk dev-libs/expat dev-libs/fribidi dev-libs/glib dev-libs/icu dev-libs/libbsd dev-libs/libffi dev-libs/libpcre dev-libs/libsigc++ dev-libs/libxml2 media-gfx/graphite2 media-libs/fontconfig media-libs/freetype media-libs/harfbuzz media-libs/libpng sys-apps/util-linux sys-devel/gcc sys-libs/glibc sys-libs/zlib x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXScrnSaver x11-libs/libXau x11-libs/libXcomposite x11-libs/libXcursor x11-libs/libXdamage x11-libs/libXdmcp x11-libs/libXext x11-libs/libXfixes x11-libs/libXi x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/libxcb x11-libs/libxkbfile x11-libs/pango x11-libs/pixman
+DESCRIPTION=VMware Horizon View client
+EAPI=6
+HOMEPAGE=https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_horizon_clients/4_0
+KEYWORDS=~amd64
+LICENSE=vmware
+RDEPEND=app-arch/bzip2 dev-libs/atk dev-libs/expat dev-libs/fribidi dev-libs/glib dev-libs/icu dev-libs/libbsd dev-libs/libffi dev-libs/libpcre dev-libs/libsigc++ dev-libs/libxml2 media-gfx/graphite2 media-libs/fontconfig media-libs/freetype media-libs/harfbuzz media-libs/libpng sys-apps/util-linux sys-devel/gcc sys-libs/glibc sys-libs/zlib x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXScrnSaver x11-libs/libXau x11-libs/libXcomposite x11-libs/libXcursor x11-libs/libXdamage x11-libs/libXdmcp x11-libs/libXext x11-libs/libXfixes x11-libs/libXi x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/libxcb x11-libs/libxkbfile x11-libs/pango x11-libs/pixman
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://download3.vmware.com/software/view/viewclients/CART19FQ4/VMware-Horizon-Client-4.10.0-11053294.x64.bundle -> vmware-horizon-client-4.10.0.bin
+_md5_=6ad1765b47c77bf5b89cb6ff6c95d960
