@@ -3,7 +3,8 @@ DEPEND=dev-libs/uriparser dev-db/postgresql:= dev-vcs/git
 DESCRIPTION=uri datatype for PostgreSQL
 EAPI=5
 HOMEPAGE=https://github.com/petere/pguri
+PROPERTIES=live
 RDEPEND=dev-libs/uriparser dev-db/postgresql:=
 SLOT=0
-_eclasses_=git-2	249c1a0962573f4ce2c28f0d5b6b35d4
+_eclasses_=git-2	3aabf18eba60687bbe6855eba271f688
 _md5_=9dfb13b9ffea7115a55c3d14a7f34ae4
