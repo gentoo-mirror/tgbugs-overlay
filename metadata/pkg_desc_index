@@ -1,20 +1,83 @@
+app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
+dev-db/metabase-bin 0.31.2: Get business intelligence from databases
+dev-db/pguri 9999: uri datatype for PostgreSQL
+dev-db/schemaspy-bin 6.0.0: Document your database simply and easily
+dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
+dev-embedded/teensyduino-bin 1.35: USB-based electronics prototyping platform compatible with Arduino
+dev-java/scigraph-bin 9999: Web services for SciGraph, A Neo4j backed ontology store.
+dev-lang/hy 0.15.0 0.16.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-python/args 0.1.0: Command Arguments for Humans
+dev-python/astor 0.7.1: Read/rewrite/write Python ASTs
+dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
 dev-python/cachetools 3.1.0: Extensible memoizing collections and decorators
+dev-python/celery 4.2.1 4.2.2: Asynchronous task queue/job queue based on distributed message passing
 dev-python/clint 0.5.1: Python Command-line Application Tools
+dev-python/colorclass 2.2.0-r1: Yet another ANSI color text library for Python
+dev-python/colorlog 4.0.2: Log formatting with colors
+dev-python/curio 0.9: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.10.0: Composable style cycles
 dev-python/docopt 0.6.2-r2: Pythonic argument parser, that will make you smile
+dev-python/factory_boy 2.11.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
+dev-python/flask-restplus 0.11.0 0.12.1: Framework for fast, easy, and documented API development with Flask
 dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
+dev-python/git-python 2.1.9 2.1.11: Library used to interact with Git repositories
+dev-python/gitdb2 2.0.3 2.0.4: GitDB is a pure-Python git object database
 dev-python/google-api-python-client 1.7.8: Google API Client for Python
+dev-python/google-auth 1.6.3: Google Authentication Library
 dev-python/google-auth-httplib2 0.0.3: httplib2 Transport for Google Auth
+dev-python/htmlfn 0.0.1 0.0.2: python functions for generating html
+dev-python/hunspell 0.5.3: Module for the Hunspell spellchecker engine
+dev-python/hyputils 0.0.2 0.0.3 9999: Python utilities for the Hypothes.is REST api and websocket interface
+dev-python/interlex 0.0.0: A terminology management system.
 dev-python/joblib 0.11: Tools to provide lightweight pipelining in Python
 dev-python/kiwisolver 1.0.1: An efficient C++ implementation of the Cassowary constraint solving algorithm
+dev-python/kombu 4.2.1: AMQP Messaging Framework for Python
+dev-python/lxml 4.2.5 4.3.2 4.3.3: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/matplotlib 3.0.0 3.0.3: Pure python plotting library with matlab like syntax
+dev-python/memory_profiler 0.54.0: A module for monitoring memory usage of a python program
+dev-python/neurondm 0.1.0: A data model for neuron types.
+dev-python/nifstd-tools 0.0.1: utilities for working with the NIF ontology
+dev-python/numpy 1.15.2: Fast array and numerical python library
 dev-python/oauth2client 4.1.2: Library for accessing resources protected by OAuth 2.0
+dev-python/ontquery 0.0.8 0.1.0: 
+dev-python/parsec 3.3: A universal Python parser combinator library inspired by Parsec library of Haskell
+dev-python/pexpect 4.7.0 9999: Python module for spawning child apps and responding to expected patterns
+dev-python/pint 0.9: Operate and manipulate physical quantities in Python
+dev-python/pipenv 2018.7.1 2018.10.13 2018.11.14 2018.11.26: Python Development Workflow for Humans
+dev-python/psycopg2cffi 2.8.1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
 dev-python/py-amqp 2.3.2: Low-level AMQP client for Python (fork of amqplib)
+dev-python/pyasn1 0.4.4: ASN.1 library for Python
+dev-python/pyontutils 0.0.4_p2 0.0.5 0.1.1 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pypy3 5.10.1 6.0.0 9999: A fast, compliant alternative implementation of the Python (3.3) language
 dev-python/pyro 4.56: Distributed object middleware for Python (RPC)
+dev-python/python3-xlib 0.15 9999: X11 interface for Python3
+dev-python/pyzmq 17.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
+dev-python/rdflib 9999: RDF library containing a triple store and parser/serializer
+dev-python/rdflib-jsonld 0.4.0 9999: rdflib extension adding JSON-LD parser and serializer
+dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
+dev-python/rply 0.7.6 0.7.7: Pure python parser generator that also works with RPython
+dev-python/rsa 4.0: Pure-Python RSA implementation
+dev-python/scibot 0.0.1 0.0.2 0.0.3 9999: Web annotation curation pipeline
+dev-python/seaborn 0.9.0: Statistical data visualization
 dev-python/serpent 1.19: A simple serialization library based on ast.literal_eval
+dev-python/setproctitle 1.1.10: Allow customization of the process title
+dev-python/slugify 1.2.6 3.0.2: A Python Slugify application that handles Unicode
+dev-python/smmap2 2.0.3 2.0.4: A pure python implementation of a sliding window memory map manager
+dev-python/sparcur 0.0.0: Code for the SPARC curation workflow.
 dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
+dev-python/terminaltables 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
+dev-python/ttlser 1.0.0: Deterministic turtle serialization for rdflib.
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
 dev-python/versioneer 0.18: Easy VCS-based management of project version strings
+dev-python/websockets 4.0.1 6.0 7.0: WebSocket implementation in Python 3
+dev-python/zdesk 2.6.0 2.7.1: Zendesk API for Python generated from developer.zendesk.com
+dev-scheme/racket 6.6 6.7 6.8 6.9 6.10 6.10.1 6.11 6.12 6.90.0.901 7.0 7.1 7.2 7.3: General purpose, multi-paradigm Lisp-Scheme programming language
 kde-frameworks/solid 5.50.0 5.52.0: Provider for platform independent hardware discovery, abstraction and management
+media-gfx/yed 3.14.4 3.16.2.1 3.17.1 3.18.1.1: Diagram and graph editor that generates high-quality drawings.
+net-im/skypeforlinux 8.29.0.50: Instant messaging client, with support for audio and video
+net-mail/aerc 0.1.1 9999: Asynchronous email client for your terminal, written in Go.
+sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze Realistic 3D Cell Models
+sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
+sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
+www-servers/gunicorn 19.9.0: A WSGI HTTP Server for UNIX
