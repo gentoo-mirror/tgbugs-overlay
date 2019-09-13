@@ -7,6 +7,7 @@ dev-embedded/teensyduino-bin 1.35: USB-based electronics prototyping platform co
 dev-java/scigraph-bin 9999: Web services for SciGraph, A Neo4j backed ontology store.
 dev-lang/hy 0.15.0 0.16.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
+dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
