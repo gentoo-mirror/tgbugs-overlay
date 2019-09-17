@@ -20,7 +20,7 @@ dev-python/curio 0.9: Curio is a library for performing concurrent I/O with coro
 dev-python/cycler 0.10.0: Composable style cycles
 dev-python/docopt 0.6.2-r2: Pythonic argument parser, that will make you smile
 dev-python/factory_boy 2.11.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
-dev-python/flask-restplus 0.11.0 0.12.1: Framework for fast, easy, and documented API development with Flask
+dev-python/flask-restplus 0.11.0 0.12.1 0.13.0: Framework for fast, easy, and documented API development with Flask
 dev-python/flask-sqlalchemy 2.4.0: SQLAlchemy support for Flask applications
 dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
 dev-python/git-python 2.1.9 2.1.11: Library used to interact with Git repositories
