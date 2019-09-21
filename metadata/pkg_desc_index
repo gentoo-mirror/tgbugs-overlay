@@ -55,6 +55,7 @@ dev-python/pyontutils 0.0.4_p2 0.0.5 0.1.1 9999: utilities for working with the 
 dev-python/pypy3 5.10.1 6.0.0 9999: A fast, compliant alternative implementation of the Python (3.3) language
 dev-python/pyro 4.56: Distributed object middleware for Python (RPC)
 dev-python/python3-xlib 0.15 9999: X11 interface for Python3
+dev-python/pyxattr 0.6.1: Python interface to xattr
 dev-python/pyzmq 17.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 9999: RDF library containing a triple store and parser/serializer
 dev-python/rdflib-jsonld 0.4.0 9999: rdflib extension adding JSON-LD parser and serializer
