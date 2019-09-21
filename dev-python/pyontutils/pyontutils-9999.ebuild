@@ -12,7 +12,7 @@ EGIT_REPO_URI="https://github.com/tgbugs/pyontutils.git"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE="dev spell test"
 
 #dev-python/ipython[${PYTHON_USEDEP}]  # because who wants to deal with that mess >_<
@@ -48,3 +48,8 @@ RDEPEND="${DEPEND}"
 
 RESTRICT="test"
 
+src_prepare () {
+	# replace package version to keep python quiet
+	sed -i "s/__version__.\+$/__version__ = '9999.0.0'/" ${PN}/__init__.py
+	default
+}

@@ -1,13 +1,10 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-PYTHON_COMPAT=( pypy{3,} python{2_7,3_{4,5,6,7}} )
+PYTHON_COMPAT=( pypy{,3} python{2_7,3_{4,5,6,7}} )
 PYTHON_REQ_USE="sqlite?,threads(+)"
-
-# The usual required for tests
-DISTUTILS_IN_SOURCE_BUILD=1
 
 inherit git-r3 distutils-r1
 
@@ -15,11 +12,9 @@ DESCRIPTION="RDF library containing a triple store and parser/serializer"
 HOMEPAGE="https://github.com/RDFLib/rdflib https://github.com/tgbugs/rdflib"
 EGIT_REPO_URI="https://github.com/tgbugs/rdflib.git"
 
-PATCHES="${FILESDIR}/version.patch"
-
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE="doc berkdb examples mysql redland sqlite test"
 
 RDEPEND="
@@ -33,6 +28,12 @@ DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/sparql-wrapper[${PYTHON_USEDEP}]
 		>=dev-python/nose-1.3.1-r1[${PYTHON_USEDEP}] )"
+
+src_prepare () {
+	# replace package version to keep python quiet
+	sed -i "s/__version__\ =\ .\+$/__version__ = '9999.0.0'/" ${PN}/__init__.py
+	default
+}
 
 python_prepare_all() {
 	# Upstream manufactured .pyc files which promptly break distutils' src_test
