@@ -39,11 +39,11 @@ dev-python/kombu 4.2.1: AMQP Messaging Framework for Python
 dev-python/lxml 4.2.5 4.3.2 4.3.3: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/matplotlib 3.0.0 3.0.3: Pure python plotting library with matlab like syntax
 dev-python/memory_profiler 0.54.0: A module for monitoring memory usage of a python program
-dev-python/neurondm 0.1.0: A data model for neuron types.
+dev-python/neurondm 0.1.0 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.1: utilities for working with the NIF ontology
 dev-python/numpy 1.15.2: Fast array and numerical python library
 dev-python/oauth2client 4.1.2: Library for accessing resources protected by OAuth 2.0
-dev-python/ontquery 0.0.8 0.1.0: 
+dev-python/ontquery 0.0.8 0.1.0 9999: 
 dev-python/parsec 3.3: A universal Python parser combinator library inspired by Parsec library of Haskell
 dev-python/pexpect 4.7.0 9999: Python module for spawning child apps and responding to expected patterns
 dev-python/pint 0.9: Operate and manipulate physical quantities in Python
@@ -70,7 +70,7 @@ dev-python/smmap2 2.0.3 2.0.4: A pure python implementation of a sliding window 
 dev-python/sparcur 0.0.0: Code for the SPARC curation workflow.
 dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
 dev-python/terminaltables 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
-dev-python/ttlser 1.0.0: Deterministic turtle serialization for rdflib.
+dev-python/ttlser 1.0.0 9999: Deterministic turtle serialization for rdflib.
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
 dev-python/versioneer 0.18: Easy VCS-based management of project version strings
 dev-python/websockets 4.0.1 6.0 7.0: WebSocket implementation in Python 3
