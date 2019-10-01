@@ -1,4 +1,5 @@
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
+app-text/xlsx2csv 0.7.6: Convert MS Office xlsx files to CSV
 dev-db/metabase-bin 0.31.2: Get business intelligence from databases
 dev-db/pguri 9999: uri datatype for PostgreSQL
 dev-db/schemaspy-bin 6.0.0: Document your database simply and easily
@@ -12,6 +13,8 @@ dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
 dev-python/augpathlib 0.0.1: Augmented pathlib.
+dev-python/boto3 1.9.122: The AWS SDK for Python
+dev-python/botocore 1.12.122: Low-level, data-driven core of boto 3.
 dev-python/cachetools 3.1.0: Extensible memoizing collections and decorators
 dev-python/celery 4.2.1 4.2.2: Asynchronous task queue/job queue based on distributed message passing
 dev-python/clint 0.5.1: Python Command-line Application Tools
@@ -19,6 +22,7 @@ dev-python/colorclass 2.2.0-r1: Yet another ANSI color text library for Python
 dev-python/colorlog 4.0.2: Log formatting with colors
 dev-python/curio 0.9: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.10.0: Composable style cycles
+dev-python/dicttoxml 1.7.4: Converts a Python dictionary or other data type to a valid XML string
 dev-python/docopt 0.6.2-r2: Pythonic argument parser, that will make you smile
 dev-python/factory_boy 2.11.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/flask-restplus 0.11.0 0.12.1 0.13.0: Framework for fast, easy, and documented API development with Flask
@@ -54,6 +58,7 @@ dev-python/pyasn1 0.4.4: ASN.1 library for Python
 dev-python/pyontutils 0.0.4_p2 0.0.5 0.1.1 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pypy3 5.10.1 6.0.0 9999: A fast, compliant alternative implementation of the Python (3.3) language
 dev-python/pyro 4.56: Distributed object middleware for Python (RPC)
+dev-python/pysercomb 0.0.1 9999: parser combinator library and assorted parsers
 dev-python/python3-xlib 0.15 9999: X11 interface for Python3
 dev-python/pyxattr 0.6.1: Python interface to xattr
 dev-python/pyzmq 17.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
@@ -62,16 +67,18 @@ dev-python/rdflib-jsonld 0.4.0 9999: rdflib extension adding JSON-LD parser and 
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.6 0.7.7: Pure python parser generator that also works with RPython
 dev-python/rsa 4.0: Pure-Python RSA implementation
+dev-python/s3transfer 0.2.0: An Amazon S3 Transfer Manager
 dev-python/scibot 0.0.1 0.0.2 0.0.3 9999: Web annotation curation pipeline
 dev-python/seaborn 0.9.0: Statistical data visualization
 dev-python/serpent 1.19: A simple serialization library based on ast.literal_eval
 dev-python/setproctitle 1.1.10: Allow customization of the process title
 dev-python/slugify 1.2.6 3.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap2 2.0.3 2.0.4: A pure python implementation of a sliding window memory map manager
-dev-python/sparcur 0.0.0: Code for the SPARC curation workflow.
+dev-python/sparcur 0.0.0 9999: Code for the SPARC curation workflow.
 dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
 dev-python/terminaltables 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
 dev-python/ttlser 1.0.0 9999: Deterministic turtle serialization for rdflib.
+dev-python/uncertainties 3.1.2: Python module for calculations with uncertainties
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
 dev-python/versioneer 0.18: Easy VCS-based management of project version strings
 dev-python/websockets 4.0.1 6.0 7.0: WebSocket implementation in Python 3
