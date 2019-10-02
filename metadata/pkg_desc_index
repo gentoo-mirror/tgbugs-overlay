@@ -12,7 +12,7 @@ dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C+
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.1: Augmented pathlib.
+dev-python/augpathlib 0.0.1 9999: Augmented pathlib.
 dev-python/boto3 1.9.122: The AWS SDK for Python
 dev-python/botocore 1.12.122: Low-level, data-driven core of boto 3.
 dev-python/cachetools 3.1.0: Extensible memoizing collections and decorators
