@@ -40,7 +40,7 @@ dev-python/htmlfn 0.0.1 0.0.2: python functions for generating html
 dev-python/hunspell 0.5.3: Module for the Hunspell spellchecker engine
 dev-python/hyputils 0.0.2 0.0.3 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/interlex 0.0.0: A terminology management system.
-dev-python/joblib 0.11: Tools to provide lightweight pipelining in Python
+dev-python/joblib 0.11 0.14.0: Tools to provide lightweight pipelining in Python
 dev-python/kiwisolver 1.0.1: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 4.2.1: AMQP Messaging Framework for Python
 dev-python/lxml 4.2.5 4.3.2 4.3.3: A Pythonic binding for the libxml2 and libxslt libraries
