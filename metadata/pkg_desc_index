@@ -100,3 +100,4 @@ sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visua
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 www-servers/gunicorn 19.9.0: A WSGI HTTP Server for UNIX
+xfce-base/xfce4-meta 4.14-r1: The Xfce Desktop Environment (meta package)
