@@ -60,6 +60,7 @@ dev-python/m2r 0.1.14: Markdown to reStructuredText converter
 dev-python/matplotlib 3.0.0 3.0.3: Pure python plotting library with matlab like syntax
 dev-python/memory_profiler 0.54.0: A module for monitoring memory usage of a python program
 dev-python/namespace-google 1: Namespace package declaration for google
+dev-python/nest_asyncio 1.2.0: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.0 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.1: utilities for working with the NIF ontology
 dev-python/numpy 1.15.2: Fast array and numerical python library
