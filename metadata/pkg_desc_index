@@ -40,7 +40,7 @@ dev-python/google-api-python-client 1.7.8: Google API Client for Python
 dev-python/google-auth 1.6.3: Google Authentication Library
 dev-python/google-auth-httplib2 0.0.3: httplib2 Transport for Google Auth
 dev-python/htmlfn 0.0.1 0.0.2: python functions for generating html
-dev-python/hunspell 0.5.3: Module for the Hunspell spellchecker engine
+dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 18.0.0: A featureful, correct URL for Python
 dev-python/hyputils 0.0.2 0.0.3 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/incremental 17.5.0: Incremental is a small library that versions your Python projects
