@@ -37,7 +37,7 @@ DEPEND="
 		dev-python/wheel[${PYTHON_USEDEP}]
 	)
 	memex? (
-		dev-python/bleach[${PYTHON_USEDEP}]
+		dev-python/bleach
 		dev-python/python-dateutil[${PYTHON_USEDEP}]
 		dev-python/jsonschema[${PYTHON_USEDEP}]
 		dev-python/mistune[${PYTHON_USEDEP}]
@@ -61,20 +61,16 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
-if [[ ${PV} == "9999" ]]; then
-	src_prepare () {
-		# replace package version to keep python quiet
-		sed -i "s/__version__.\+$/__version__ = '9999.0.0'/" ${PN}/__init__.py
-		default
-	}
-fi
+src_prepare () {
+	# replace package version to keep python quiet
+	sed -i "s/__version__.\+$/__version__ = '9999.0.0'/" ${PN}/__init__.py
+	default
+}
 
 python_test() {
-	mkdir ${HOME}/.cache || die
-
 	distutils_install_for_testing
 	cd "${TEST_DIR}" || die
 	cp -r "${S}/test" . || die
 	cp "${S}/setup.cfg" . || die
-	pytest || die "Tests fail with ${EPYTHON}"
+	PYTHONWARNINGS=ignore pytest -v --color=yes || die "Tests fail with ${EPYTHON}"
 }

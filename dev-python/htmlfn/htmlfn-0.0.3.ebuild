@@ -15,24 +15,19 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 
-DESCRIPTION="A data model for neuron types."
-HOMEPAGE="https://github.com/tgbugs/pyontutils/tree/master/neurondm"
+DESCRIPTION="python functions for generating html"
+HOMEPAGE="https://github.com/tgbugs/pyontutils/tree/master/htmlfn"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="dev notebook test"
+IUSE="dev test"
 RESTRICT="!test? ( test )"
 
 DEPEND="
-	>=dev-python/hyputils-0.0.4[${PYTHON_USEDEP}]
-	>=dev-python/pyontutils-0.1.4[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/wheel[${PYTHON_USEDEP}]
-	)
-	notebook? (
-		dev-python/jupyter[${PYTHON_USEDEP}]
 	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
@@ -49,11 +44,6 @@ if [[ ${PV} == "9999" ]]; then
 		default
 	}
 fi
-
-python_install_all() {
-	local DOCS=( README* docs/* )
-	distutils-r1_python_install_all
-}
 
 python_test() {
 	distutils_install_for_testing
