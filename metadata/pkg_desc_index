@@ -86,7 +86,7 @@ dev-python/py-amqp 2.3.2: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pyasn1 0.4.4: ASN.1 library for Python
 dev-python/pycurl 7.43.0.3: python binding for curl/libcurl
 dev-python/pyhamcrest 1.9.0-r1: Hamcrest framework for matcher objects
-dev-python/pyontutils 0.1.4 0.1.5 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyontutils 0.1.4 0.1.5 0.1.6 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pypy3 5.10.1 6.0.0 9999: A fast, compliant alternative implementation of the Python (3.3) language
 dev-python/pyro 4.56: Distributed object middleware for Python (RPC)
 dev-python/pysercomb 0.0.1 0.0.2 9999: parser combinator library and assorted parsers
