@@ -1,4 +1,4 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -7,7 +7,7 @@ PYTHON_COMPAT=( pypy3 python3_{6,7} )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
-	EGIT_REPO_URI="https://github.com/tgbugs/protc.git"
+	EGIT_REPO_URI="https://github.com/tgbugs/${PN}.git"
 	inherit git-r3
 	KEYWORDS=""
 else
@@ -15,21 +15,18 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 
-DESCRIPTION="Web annotation workflows for protocol curation."
-HOMEPAGE="https://github.com/tgbugs/protc/tree/master/protcur"
+DESCRIPTION="python orthogonal authentication"
+HOMEPAGE="https://github.com/tgbugs/orthauth"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="dev test"
+IUSE="dev test yaml"
+REQUIRE_USE="
+	test? ( yaml )
+"
 RESTRICT="!test? ( test )"
 
 DEPEND="
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/htmlfn[${PYTHON_USEDEP}]
-	>=dev-python/hyputils-0.0.4[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	>=dev-python/pyontutils-0.1.8[${PYTHON_USEDEP}]
-	>=dev-python/pysercomb-0.2.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
@@ -39,15 +36,13 @@ DEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-runner[${PYTHON_USEDEP}]
 	)
+	yaml? (
+		dev-python/pyyaml[${PYTHON_USEDEP}]
+	)
 "
 RDEPEND="${DEPEND}"
 
 if [[ ${PV} == "9999" ]]; then
-	S="${S}/${PN}"
-	python_configure_all () {
-		mydistutilsargs=( --release )
-	}
-
 	src_prepare () {
 		# replace package version to keep python quiet
 		sed -i "s/__version__.\+$/__version__ = '9999.0.0'/" ${PN}/__init__.py
@@ -57,9 +52,13 @@ fi
 
 python_test() {
 	distutils_install_for_testing
-	esetup.py install_data --install-dir="${TEST_DIR}"
 	cd "${TEST_DIR}" || die
 	cp -r "${S}/test" . || die
 	cp "${S}/setup.cfg" . || die
 	PYTHONWARNINGS=ignore pytest -v --color=yes || die "Tests fail with ${EPYTHON}"
+}
+
+python_install_all() {
+	local DOCS=( README* docs/* )
+	distutils-r1_python_install_all
 }
