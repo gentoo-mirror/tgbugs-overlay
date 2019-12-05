@@ -13,7 +13,7 @@ dev-lisp/sbcl 1.5.9: Steel Bank Common Lisp (SBCL) is an implementation of ANSI 
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1 0.8.0: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.1 0.0.2 0.0.3 0.0.4 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 9999: Augmented pathlib.
 dev-python/automat 0.7.0: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0: Specifications for callback functions passed in to an API
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
@@ -94,7 +94,7 @@ dev-python/pysercomb 0.0.1 0.0.2 0.0.3 9999: parser combinator library and assor
 dev-python/python3-xlib 0.15 9999: X11 interface for Python3
 dev-python/pyxattr 0.6.1: Python interface to xattr
 dev-python/pyzmq 17.1.0 18.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
-dev-python/rdflib 9999: RDF library containing a triple store and parser/serializer
+dev-python/rdflib 5.0.1_pre0 9999: RDF library containing a triple store and parser/serializer
 dev-python/rdflib-jsonld 0.4.0 9999: rdflib extension adding JSON-LD parser and serializer
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.6 0.7.7: Pure python parser generator that also works with RPython
