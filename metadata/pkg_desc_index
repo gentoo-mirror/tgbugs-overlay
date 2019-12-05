@@ -1,6 +1,6 @@
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
 app-text/xlsx2csv 0.7.6: Convert MS Office xlsx files to CSV
-dev-db/metabase-bin 0.31.2: Get business intelligence from databases
+dev-db/metabase-bin 0.31.2 0.33.6: Get business intelligence from databases
 dev-db/pguri 9999: uri datatype for PostgreSQL
 dev-db/schemaspy-bin 6.0.0: Document your database simply and easily
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
