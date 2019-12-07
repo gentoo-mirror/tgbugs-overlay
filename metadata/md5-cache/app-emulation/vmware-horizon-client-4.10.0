@@ -9,4 +9,4 @@ RDEPEND=app-arch/bzip2 dev-libs/atk dev-libs/expat dev-libs/fribidi dev-libs/gli
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://download3.vmware.com/software/view/viewclients/CART19FQ4/VMware-Horizon-Client-4.10.0-11053294.x64.bundle -> vmware-horizon-client-4.10.0.bin
-_md5_=6ad1765b47c77bf5b89cb6ff6c95d960
+_md5_=7ebad278c648dd913cc9bbadd4aa500f

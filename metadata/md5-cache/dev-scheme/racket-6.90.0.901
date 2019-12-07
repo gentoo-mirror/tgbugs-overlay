@@ -11,4 +11,4 @@ REQUIRED_USE=futures? ( jit )
 SLOT=0
 SRC_URI=minimal? ( http://pre-release.racket-lang.org/installers/racket-minimal-6.90.0.901-src-builtpkgs.tgz ) !minimal? ( http://pre-release.racket-lang.org/installers/racket-6.90.0.901-src-builtpkgs.tgz )
 _eclasses_=pax-utils	a41d1fd1c111289ffa04490de6ee79d7
-_md5_=cbcb9a57fb9f1f2d2c754e00022c016c
+_md5_=047f4a95d68c1e031090d8a8a186fadd
