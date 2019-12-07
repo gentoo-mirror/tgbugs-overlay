@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -21,11 +21,6 @@ SRC_URI="
 	amd64? (
 		https://downloads.arduino.cc/${ARDUINO_P}-linux64.tar.xz -> ${ARDUINO_P}-linux64.tar.xz
 		https://file.fooster.io/overlay/${MY_P}-linux64.vcdiff
-	)
-
-	x86? (
-		https://downloads.arduino.cc/${ARDUINO_P}-linux32.tar.xz -> ${ARDUINO_P}-linux32.tar.xz
-		https://file.fooster.io/overlay/${MY_P}-linux32.vcdiff
 	)
 
 	http://pjrc.com/teensy/49-teensy.rules
