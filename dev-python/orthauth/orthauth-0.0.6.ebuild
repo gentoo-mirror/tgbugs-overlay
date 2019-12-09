@@ -15,55 +15,47 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 
-DESCRIPTION="a framework querying ontology terms"
-HOMEPAGE="https://github.com/tgbugs/ontquery"
+DESCRIPTION="python orthogonal authentication"
+HOMEPAGE="https://github.com/tgbugs/orthauth"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="dev services test"
+IUSE="dev test yaml"
+REQUIRE_USE="
+	test? ( yaml )
+"
 RESTRICT="!test? ( test )"
 
-SVCDEPEND="
-	>=dev-python/orthauth-0.0.3[${PYTHON_USEDEP}]
-	>=dev-python/rdflib-5.0.0[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-"
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? (
-		>=dev-python/pyontutils-0.1.5[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/wheel[${PYTHON_USEDEP}]
-	)
-	services? (
-		${SVCDEPEND}
 	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-runner[${PYTHON_USEDEP}]
-		${SVCDEPEND}
+	)
+	yaml? (
+		dev-python/pyyaml[${PYTHON_USEDEP}]
 	)
 "
+RDEPEND="${DEPEND}"
 
 if [[ ${PV} == "9999" ]]; then
-	DEPEND="${DEPEND}
-		dev-python/pyontutils[minimal,${PYTHON_USEDEP}]
-	"
 	src_prepare () {
 		# replace package version to keep python quiet
-		sed -i "s/__version__.\+$/__version__ = '9999.0.0.$(git rev-parse --short HEAD)'/" ${PN}/__init__.py
+		sed -i "s/__version__.\+$/__version__ = '9999.0.0'/" ${PN}/__init__.py
 		default
 	}
 fi
-
-RDEPEND="${DEPEND}"
 
 python_test() {
 	distutils_install_for_testing
 	cd "${TEST_DIR}" || die
 	cp -r "${S}/test" . || die
 	cp "${S}/setup.cfg" . || die
-	pytest || die "Tests fail with ${EPYTHON}"
+	PYTHONWARNINGS=ignore pytest -v --color=yes || die "Tests fail with ${EPYTHON}"
 }
 
 python_install_all() {
