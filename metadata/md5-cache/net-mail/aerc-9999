@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=app-text/scdoc
 RESTRICT=network-sandbox
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=7391f4866ddb1f1e0928f7f073d9453e
