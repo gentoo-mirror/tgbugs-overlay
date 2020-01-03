@@ -12,7 +12,7 @@ dev-lang/clojure 1.9.0-r1 1.10.0: General-purpose programming language with an e
 dev-lang/hy 0.15.0 0.16.0 0.17.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
-dev-lisp/sbcl 1.5.9: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
+dev-lisp/sbcl 1.5.9 2.0.0: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1 0.8.0: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
