@@ -5,10 +5,10 @@ dev-db/pguri 9999: uri datatype for PostgreSQL
 dev-db/schemaspy-bin 6.0.0: Document your database simply and easily
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
 dev-embedded/teensyduino-bin 1.35: USB-based electronics prototyping platform compatible with Arduino
-dev-java/core-specs-alpha 0.2.44: A Clojure library with specs to describe Clojure core macros and functions.
+dev-java/core-specs-alpha 0.1.24 0.2.44: A Clojure library with specs to describe Clojure core macros and functions.
 dev-java/scigraph-bin 9999: Web services for SciGraph, A Neo4j backed ontology store.
-dev-java/spec-alpha 0.2.176: A Clojure library to describe the structure of data and functions.
-dev-lang/clojure 1.10.0: General-purpose programming language with an emphasis on functional programming
+dev-java/spec-alpha 0.1.143 0.2.176: A Clojure library to describe the structure of data and functions.
+dev-lang/clojure 1.9.0-r1 1.10.0: General-purpose programming language with an emphasis on functional programming
 dev-lang/hy 0.15.0 0.16.0 0.17.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
