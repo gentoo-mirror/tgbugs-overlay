@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] virtual/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
 REQUIRED_USE=futures? ( jit ) install-chez? ( cs )
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	pax-utils	a41d1fd1c111289ffa04490de6ee79d7
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	pax-utils	a41d1fd1c111289ffa04490de6ee79d7
 _md5_=1589278d9c3f7647c4439d311a8a19cd
