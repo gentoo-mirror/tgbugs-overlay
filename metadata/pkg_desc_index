@@ -23,7 +23,7 @@ dev-python/blackfynn 9999: parser combinator library and assorted parsers
 dev-python/boto3 1.9.122: The AWS SDK for Python
 dev-python/botocore 1.12.122: Low-level, data-driven core of boto 3.
 dev-python/bottleneck 1.2.1: Fast NumPy array functions written in Cython
-dev-python/cachetools 3.1.0: Extensible memoizing collections and decorators
+dev-python/cachetools 3.1.0 3.1.1: Extensible memoizing collections and decorators
 dev-python/celery 4.3.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/clint 0.5.1: Python Command-line Application Tools
 dev-python/colorlog 4.0.2: Log formatting with colors
@@ -33,11 +33,12 @@ dev-python/cycler 0.10.0: Composable style cycles
 dev-python/deprecated 1.2.6: Python @deprecated decorator to deprecate old API
 dev-python/dicttoxml 1.7.4: Converts a Python dictionary or other data type to a valid XML string
 dev-python/docopt 0.6.2-r2: Pythonic argument parser, that will make you smile
+dev-python/elasticsearch-py 6.3.1-r1: official Python low-level client for Elasticsearch
 dev-python/factory_boy 2.11.1 2.12.0: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 2.0.3: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/flask-restplus 0.11.0 0.12.1 0.13.0: Framework for fast, easy, and documented API development with Flask
-dev-python/flask-sqlalchemy 2.4.0: SQLAlchemy support for Flask applications
+dev-python/flask-sqlalchemy 2.4.0 2.4.1: SQLAlchemy support for Flask applications
 dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
 dev-python/future 0.17.0: Easy, clean, reliable Python 2/3 compatibility
 dev-python/git-python 2.1.9 2.1.11: Library used to interact with Git repositories
@@ -52,7 +53,7 @@ dev-python/hyperlink 18.0.0: A featureful, correct URL for Python
 dev-python/hyputils 0.0.3 0.0.4 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/idlib 9999: A library for working with identifiers of all kinds.
 dev-python/incremental 17.5.0: Incremental is a small library that versions your Python projects
-dev-python/interlex 0.0.0: A terminology management system.
+dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 5.1.0: IPython Kernel for Jupyter
 dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
 dev-python/ipython 7.8.0: Advanced interactive shell for Python
@@ -118,6 +119,7 @@ dev-python/setproctitle 1.1.10: Allow customization of the process title
 dev-python/slugify 1.2.6 3.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap2 2.0.3 2.0.4: A pure python implementation of a sliding window memory map manager
 dev-python/sparcur 9999: Code for the SPARC curation workflow.
+dev-python/sphinx-issues 1.2.0: A Sphinx extension for linking to your project's issue tracker
 dev-python/statsmodels 0.9.0: Statistical computations and models for use with SciPy
 dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
 dev-python/terminaltables 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
