@@ -47,11 +47,11 @@ DEPEND="
 
 if [[ ${PV} == "9999" ]]; then
 	DEPEND="${DEPEND}
-		dev-python/pyontutils[minimal,${PYTHON_USEDEP}]
+		dev-python/pyontutils[${PYTHON_USEDEP}]
 	"
 	src_prepare () {
 		# replace package version to keep python quiet
-		sed -i "s/__version__.\+$/__version__ = '9999.0.0.$(git rev-parse --short HEAD)'/" ${PN}/__init__.py
+		sed -i "s/__version__.\+$/__version__ = '9999.0.0+$(git rev-parse --short HEAD)'/" ${PN}/__init__.py
 		default
 	}
 fi
