@@ -16,7 +16,7 @@ dev-lisp/sbcl 1.5.9 2.0.0: Steel Bank Common Lisp (SBCL) is an implementation of
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1 0.8.0: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 9999: Augmented pathlib.
 dev-python/automat 0.7.0: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0: Specifications for callback functions passed in to an API
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
@@ -35,6 +35,7 @@ dev-python/dicttoxml 1.7.4: Converts a Python dictionary or other data type to a
 dev-python/docopt 0.6.2-r2: Pythonic argument parser, that will make you smile
 dev-python/factory_boy 2.11.1 2.12.0: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 2.0.3: Faker is a Python package that generates fake data for you.
+dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/flask-restplus 0.11.0 0.12.1 0.13.0: Framework for fast, easy, and documented API development with Flask
 dev-python/flask-sqlalchemy 2.4.0: SQLAlchemy support for Flask applications
 dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
@@ -70,7 +71,7 @@ dev-python/nbconvert 5.5.0: Converting Jupyter Notebooks
 dev-python/nbformat 4.4.0-r1: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.2.0: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.0 0.1.1 9999: A data model for neuron types.
-dev-python/nifstd-tools 0.0.1 9999: utilities for working with the NIF ontology
+dev-python/nifstd-tools 0.0.1 0.0.1-r1 9999: utilities for working with the NIF ontology
 dev-python/numexpr 2.6.8 2.6.9: Fast numerical array expression evaluator for Python and NumPy
 dev-python/numpy 1.16.5 1.17.4: Fast array and numerical python library
 dev-python/oauth2client 4.1.2 4.1.3: Library for accessing resources protected by OAuth 2.0
@@ -88,7 +89,7 @@ dev-python/pillow 6.2.1: Python Imaging Library (fork)
 dev-python/pint 0.9: Operate and manipulate physical quantities in Python
 dev-python/pipenv 2018.11.26: Python Development Workflow for Humans
 dev-python/prompt_toolkit 2.0.7: Building powerful interactive command lines in Python
-dev-python/protcur 0.0.1 0.0.2 0.0.3 9999: Web annotation workflows for protocol curation.
+dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 9999: Web annotation workflows for protocol curation.
 dev-python/protobuf-python 3.9.1: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.8.1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
 dev-python/py-amqp 2.5.0: Low-level AMQP client for Python (fork of amqplib)
@@ -96,7 +97,7 @@ dev-python/pyasn1 0.4.4: ASN.1 library for Python
 dev-python/pycurl 7.43.0.3: python binding for curl/libcurl
 dev-python/pyhamcrest 1.9.0-r1: Hamcrest framework for matcher objects
 dev-python/pyjwt 1.7.1: JSON Web Token implementation in Python
-dev-python/pyontutils 0.1.4 0.1.5 0.1.6 0.1.7 0.1.9 0.1.11 0.1.13 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyontutils 0.1.4 0.1.5 0.1.6 0.1.7 0.1.9 0.1.11 0.1.13 0.1.13-r1 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pyro 4.56 4.77: Distributed object middleware for Python (RPC)
 dev-python/pysercomb 0.0.1 0.0.2 0.0.3 9999: parser combinator library and assorted parsers
 dev-python/pyxattr 0.6.1: Python interface to xattr
@@ -122,7 +123,7 @@ dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
 dev-python/terminaltables 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
 dev-python/text-unidecode 1.3: The most basic Text::Unidecode port
 dev-python/traitlets 4.3.2: A configuration system for Python applications
-dev-python/ttlser 1.0.0 1.1.0 9999: Deterministic turtle serialization for rdflib.
+dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 9999: Deterministic turtle serialization for rdflib.
 dev-python/twisted 18.7.0 19.10.0: An asynchronous networking framework written in Python
 dev-python/uncertainties 3.1.2: Python module for calculations with uncertainties
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
