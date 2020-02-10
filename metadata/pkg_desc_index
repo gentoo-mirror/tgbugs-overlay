@@ -125,7 +125,7 @@ dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
 dev-python/terminaltables 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
 dev-python/text-unidecode 1.3: The most basic Text::Unidecode port
 dev-python/traitlets 4.3.2: A configuration system for Python applications
-dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 9999: Deterministic turtle serialization for rdflib.
+dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 1.1.1 9999: Deterministic turtle serialization for rdflib.
 dev-python/twisted 18.7.0 19.10.0: An asynchronous networking framework written in Python
 dev-python/uncertainties 3.1.2: Python module for calculations with uncertainties
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
