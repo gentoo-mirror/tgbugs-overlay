@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile unpack
+DEPEND=dev-libs/uriparser dev-db/postgresql:= >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=uri datatype for PostgreSQL
+EAPI=5
+HOMEPAGE=https://github.com/petere/pguri
+PROPERTIES=live
+RDEPEND=dev-libs/uriparser dev-db/postgresql:=
+SLOT=0
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
+_md5_=eae0f340d5511e39b163488af0807d43
