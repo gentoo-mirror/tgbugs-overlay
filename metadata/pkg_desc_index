@@ -38,6 +38,7 @@ dev-python/factory_boy 2.11.1 2.12.0: A test fixtures replacement based on thoug
 dev-python/faker 2.0.3: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/flask-restplus 0.11.0 0.12.1 0.13.0: Framework for fast, easy, and documented API development with Flask
+dev-python/flask-restx 0.1.1: Framework for fast, easy, and documented API development with Flask
 dev-python/flask-sqlalchemy 2.4.0 2.4.1: SQLAlchemy support for Flask applications
 dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
 dev-python/future 0.17.0: Easy, clean, reliable Python 2/3 compatibility
