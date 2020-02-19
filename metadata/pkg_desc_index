@@ -91,7 +91,7 @@ dev-python/pillow 6.2.1: Python Imaging Library (fork)
 dev-python/pint 0.9: Operate and manipulate physical quantities in Python
 dev-python/pipenv 2018.11.26: Python Development Workflow for Humans
 dev-python/prompt_toolkit 2.0.7: Building powerful interactive command lines in Python
-dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 9999: Web annotation workflows for protocol curation.
+dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 9999: Web annotation workflows for protocol curation.
 dev-python/protobuf-python 3.9.1: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.8.1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
 dev-python/py-amqp 2.5.0: Low-level AMQP client for Python (fork of amqplib)
