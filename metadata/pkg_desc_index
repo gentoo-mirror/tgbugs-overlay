@@ -16,7 +16,7 @@ dev-lisp/sbcl 2.0.2: Steel Bank Common Lisp (SBCL) is an implementation of ANSI 
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1 0.8.0: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 9999: Augmented pathlib.
 dev-python/automat 0.7.0: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0: Specifications for callback functions passed in to an API
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
@@ -42,8 +42,8 @@ dev-python/flask-restx 0.1.1: Framework for fast, easy, and documented API devel
 dev-python/flask-sqlalchemy 2.4.0 2.4.1: SQLAlchemy support for Flask applications
 dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
 dev-python/future 0.17.0: Easy, clean, reliable Python 2/3 compatibility
-dev-python/git-python 2.1.9 2.1.11: Library used to interact with Git repositories
-dev-python/gitdb2 2.0.3 2.0.4: GitDB is a pure-Python git object database
+dev-python/git-python 2.1.9 2.1.11 3.1.0: Library used to interact with Git repositories
+dev-python/gitdb2 2.0.3 2.0.4 4.0.2: GitDB is a pure-Python git object database
 dev-python/google-api-python-client 1.7.8: Google API Client for Python
 dev-python/google-auth 1.6.3: Google Authentication Library
 dev-python/google-auth-httplib2 0.0.3: httplib2 Transport for Google Auth
@@ -79,7 +79,7 @@ dev-python/numpy 1.17.4 1.17.4-r3: Fast array and numerical python library
 dev-python/oauth2client 4.1.2 4.1.3: Library for accessing resources protected by OAuth 2.0
 dev-python/oauthlib 3.0.1: Spec-compliant and thorough implementation of the OAuth request-signing logic
 dev-python/ontquery 0.2.0 0.2.1 0.2.2 9999: a framework querying ontology terms
-dev-python/orthauth 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 0.0.7 0.0.8 0.0.9 9999: python orthogonal authentication
+dev-python/orthauth 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 0.0.7 0.0.8 0.0.9 0.0.10 9999: python orthogonal authentication
 dev-python/pandas 0.24.2: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.4.2-r1: Utilities for writing pandoc filters in python
 dev-python/parsec 3.3: A universal Python parser combinator library inspired by Parsec Haskell library
@@ -119,12 +119,12 @@ dev-python/serpent 1.28: A simple serialization library based on ast.literal_eva
 dev-python/service_identity 17.0.0-r1: Service identity verification for pyOpenSSL
 dev-python/setproctitle 1.1.10: Allow customization of the process title
 dev-python/slugify 1.2.6 3.0.2: A Python Slugify application that handles Unicode
-dev-python/smmap2 2.0.3 2.0.4: A pure python implementation of a sliding window memory map manager
+dev-python/smmap2 2.0.3 2.0.4 3.0.1: A pure python implementation of a sliding window memory map manager
 dev-python/sparcur 9999: Code for the SPARC curation workflow.
 dev-python/sphinx-issues 1.2.0: A Sphinx extension for linking to your project's issue tracker
 dev-python/statsmodels 0.9.0: Statistical computations and models for use with SciPy
 dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
-dev-python/terminaltables 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
+dev-python/terminaltables 3.1.0-r1 3.1.0-r2: Generate simple tables in terminals from a nested list of strings
 dev-python/text-unidecode 1.3: The most basic Text::Unidecode port
 dev-python/traitlets 4.3.2: A configuration system for Python applications
 dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 1.1.1 9999: Deterministic turtle serialization for rdflib.
@@ -145,7 +145,7 @@ sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visua
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 sci-libs/scipy 1.2.1 1.4.1: Scientific algorithms library for Python
-sys-apps/file 5.37-r1: identify a file's format by scanning binary data for patterns
+sys-apps/file 5.37-r1 5.38: identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 www-servers/gunicorn 19.9.0: A WSGI HTTP Server for UNIX
