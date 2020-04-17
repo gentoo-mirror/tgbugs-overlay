@@ -60,7 +60,7 @@ dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
 dev-python/ipython 7.8.0: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0: Vestigial utilities from IPython
 dev-python/jedi 0.12.1: Autocompletion library for Python
-dev-python/joblib 0.11 0.14.0: Tools to provide lightweight pipelining in Python
+dev-python/joblib 0.11 0.14.0 0.14.1: Tools to provide lightweight pipelining in Python
 dev-python/jupyter_client 5.2.4: Jupyter protocol implementation and client libraries
 dev-python/jupyter_core 4.4.0-r1: Core common functionality of Jupyter projects
 dev-python/kiwisolver 1.0.1: An efficient C++ implementation of the Cassowary constraint solving algorithm
@@ -88,7 +88,7 @@ dev-python/patsy 0.5.1: Python module to describe statistical models and design 
 dev-python/pexpect 4.7.0 4.8.0 9999: Python module for spawning child apps and responding to expected patterns
 dev-python/pickleshare 0.7.4-r1: A small 'shelve' like datastore with concurrency support
 dev-python/pillow 6.2.1 7.0.0: Python Imaging Library (fork)
-dev-python/pint 0.9: Operate and manipulate physical quantities in Python
+dev-python/pint 0.9 0.11: Operate and manipulate physical quantities in Python
 dev-python/pipenv 2018.11.26: Python Development Workflow for Humans
 dev-python/prompt_toolkit 2.0.7: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 9999: Web annotation workflows for protocol curation.
