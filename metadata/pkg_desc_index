@@ -133,7 +133,7 @@ dev-python/twisted 18.7.0 19.10.0: An asynchronous networking framework written 
 dev-python/uncertainties 3.1.2: Python module for calculations with uncertainties
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
 dev-python/versioneer 0.18: Easy VCS-based management of project version strings
-dev-python/websockets 4.0.1 6.0 7.0: WebSocket implementation in Python 3
+dev-python/websockets 4.0.1 6.0 7.0 8.1: WebSocket implementation in Python 3
 dev-python/wrapt 1.10.11: Module for decorators, wrappers and monkey patching
 dev-python/zdesk 2.6.0 2.7.1: Zendesk API for Python generated from developer.zendesk.com
 dev-scheme/racket 6.6 6.7 6.8 6.9 6.10 6.10.1 6.11 6.12 6.90.0.901 7.0 7.1 7.2 7.3 7.6 9999: General purpose, multi-paradigm Lisp-Scheme programming language
