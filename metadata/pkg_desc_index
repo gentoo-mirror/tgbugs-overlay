@@ -17,7 +17,7 @@ dev-lisp/sbcl 2.0.2: Steel Bank Common Lisp (SBCL) is an implementation of ANSI 
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1 0.8.0: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 0.0.15 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 0.0.15 0.0.16 9999: Augmented pathlib.
 dev-python/automat 0.7.0: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0: Specifications for callback functions passed in to an API
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
@@ -147,7 +147,7 @@ sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visua
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 sci-libs/scipy 1.2.1 1.4.1: Scientific algorithms library for Python
-sys-apps/file 5.37-r1 5.38: identify a file's format by scanning binary data for patterns
+sys-apps/file 5.37-r1 5.38-r1: identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 www-servers/gunicorn 19.9.0: A WSGI HTTP Server for UNIX
