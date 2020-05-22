@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy3 python3_{6,7} )
+PYTHON_COMPAT=( pypy3 python3_{6,7,8} )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
@@ -11,38 +11,33 @@ if [[ ${PV} == "9999" ]]; then
 	inherit git-r3
 	KEYWORDS=""
 else
-	MY_P=${PN}-${PV/_pre/.dev}  # 1.1.1_pre0 -> 1.1.1.dev0
-	S=${WORKDIR}/${MY_P}
-	SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
-DESCRIPTION="A library for working with identifiers of all kinds."
-HOMEPAGE="https://github.com/tgbugs/idlib"
+DESCRIPTION="python orthogonal authentication"
+HOMEPAGE="https://github.com/tgbugs/orthauth"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="dev rdf oauth test"
+IUSE="dev test yaml"
+REQUIRE_USE="
+	test? ( yaml )
+"
 RESTRICT="!test? ( test )"
 
 DEPEND="
-	>=dev-python/orthauth-0.0.11[yaml,${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/wheel[${PYTHON_USEDEP}]
 	)
-	oauth? (
-		dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	)
-	rdf? (
-		>=dev-python/pyontutils-0.1.22[${PYTHON_USEDEP}]
-	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-runner[${PYTHON_USEDEP}]
-		>=dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
+	)
+	yaml? (
+		dev-python/pyyaml[${PYTHON_USEDEP}]
 	)
 "
 RDEPEND="${DEPEND}"
@@ -64,6 +59,6 @@ python_test() {
 }
 
 python_install_all() {
-	local DOCS=( README* )
+	local DOCS=( README* docs/* )
 	distutils-r1_python_install_all
 }
