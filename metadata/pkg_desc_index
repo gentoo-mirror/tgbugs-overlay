@@ -19,7 +19,7 @@ dev-lisp/sbcl 2.0.2: Steel Bank Common Lisp (SBCL) is an implementation of ANSI 
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/astor 0.7.1 0.8.0: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 0.0.15 0.0.16 0.0.18 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 0.0.15 0.0.16 0.0.18 0.0.19 9999: Augmented pathlib.
 dev-python/automat 0.7.0: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0: Specifications for callback functions passed in to an API
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
@@ -54,8 +54,8 @@ dev-python/google-auth-oauthlib 0.4.1: Google Authentication Library
 dev-python/htmlfn 0.0.3 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 18.0.0: A featureful, correct URL for Python
-dev-python/hyputils 0.0.3 0.0.4 0.0.5 9999: Python utilities for the Hypothes.is REST api and websocket interface
-dev-python/idlib 0.0.1_pre2 0.0.1_pre3 0.0.1_pre4 9999: A library for working with identifiers of all kinds.
+dev-python/hyputils 0.0.3 0.0.4 0.0.5 0.0.6 9999: Python utilities for the Hypothes.is REST api and websocket interface
+dev-python/idlib 0.0.1_pre2 0.0.1_pre3 0.0.1_pre4 0.0.1_pre6 9999: A library for working with identifiers of all kinds.
 dev-python/incremental 17.5.0: Incremental is a small library that versions your Python projects
 dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 5.1.0: IPython Kernel for Jupyter
@@ -77,7 +77,7 @@ dev-python/nbconvert 5.5.0: Converting Jupyter Notebooks
 dev-python/nbformat 4.4.0-r1: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.2.0: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.0 0.1.1 9999: A data model for neuron types.
-dev-python/nifstd-tools 0.0.1 0.0.1-r1 0.0.2 0.0.3 9999: utilities for working with the NIF ontology
+dev-python/nifstd-tools 0.0.1 0.0.1-r1 0.0.2 0.0.3 0.0.4 9999: utilities for working with the NIF ontology
 dev-python/numexpr 2.6.8 2.6.9: Fast numerical array expression evaluator for Python and NumPy
 dev-python/numpy 1.17.4 1.17.4-r3: Fast array and numerical python library
 dev-python/oauth2client 4.1.2 4.1.3: Library for accessing resources protected by OAuth 2.0
@@ -89,13 +89,13 @@ dev-python/pandocfilters 1.4.2-r1: Utilities for writing pandoc filters in pytho
 dev-python/parsec 3.3: A universal Python parser combinator library inspired by Parsec Haskell library
 dev-python/parso 0.5.1: a python parser that supports error recovery and round-trip parsing
 dev-python/patsy 0.5.1: Python module to describe statistical models and design matrices
-dev-python/pexpect 4.7.0 4.8.0 9999: Python module for spawning child apps and responding to expected patterns
+dev-python/pexpect 4.7.0 9999: Python module for spawning child apps and responding to expected patterns
 dev-python/pickleshare 0.7.4-r1: A small 'shelve' like datastore with concurrency support
 dev-python/pillow 6.2.1 7.0.0: Python Imaging Library (fork)
 dev-python/pint 0.9 0.11: Operate and manipulate physical quantities in Python
 dev-python/pipenv 2018.11.26: Python Development Workflow for Humans
 dev-python/prompt_toolkit 2.0.7: Building powerful interactive command lines in Python
-dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 0.0.5 9999: Web annotation workflows for protocol curation.
+dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 0.0.5 0.0.6 9999: Web annotation workflows for protocol curation.
 dev-python/protobuf-python 3.9.1 3.10.1: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.8.1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
 dev-python/py-amqp 2.5.0: Low-level AMQP client for Python (fork of amqplib)
@@ -104,9 +104,9 @@ dev-python/pybind11 2.4.3: AST-based Python refactoring library
 dev-python/pycurl 7.43.0.3: python binding for curl/libcurl
 dev-python/pyhamcrest 1.9.0-r1: Hamcrest framework for matcher objects
 dev-python/pyjwt 1.7.1: JSON Web Token implementation in Python
-dev-python/pyontutils 0.1.4 0.1.5 0.1.6 0.1.7 0.1.9 0.1.11 0.1.13 0.1.13-r1 0.1.14 0.1.15 0.1.16 0.1.20 0.1.21 0.1.22 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyontutils 0.1.4 0.1.5 0.1.6 0.1.7 0.1.9 0.1.11 0.1.13 0.1.13-r1 0.1.14 0.1.15 0.1.16 0.1.20 0.1.21 0.1.22 0.1.23 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pyro 4.56 4.77: Distributed object middleware for Python (RPC)
-dev-python/pysercomb 0.0.1 0.0.2 0.0.3 0.0.4 0.0.5 9999: parser combinator library and assorted parsers
+dev-python/pysercomb 0.0.1 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 9999: parser combinator library and assorted parsers
 dev-python/pyxattr 0.6.1: Python interface to xattr
 dev-python/pyzmq 17.1.0 18.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 5.0.0_pre1 5.0.1_pre0 5.0.1 5.0.1-r1 9999: RDF library containing a triple store and parser/serializer
@@ -131,7 +131,7 @@ dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
 dev-python/terminaltables 3.1.0-r1 3.1.0-r2: Generate simple tables in terminals from a nested list of strings
 dev-python/text-unidecode 1.3: The most basic Text::Unidecode port
 dev-python/traitlets 4.3.2: A configuration system for Python applications
-dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 1.1.1 1.1.1-r1 1.1.2 9999: Deterministic turtle serialization for rdflib.
+dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 1.1.1 1.1.1-r1 1.1.2 1.1.3 9999: Deterministic turtle serialization for rdflib.
 dev-python/twisted 18.7.0 19.10.0: An asynchronous networking framework written in Python
 dev-python/uncertainties 3.1.2: Python module for calculations with uncertainties
 dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
