@@ -32,7 +32,7 @@ dev-python/clint 0.5.1: Python Command-line Application Tools
 dev-python/colander 1.4: A simple schema-based serialization and deserialization library
 dev-python/colorlog 4.0.2 4.1.0: Log formatting with colors
 dev-python/constantly 15.1.0-r1: Symbolic constants in Python
-dev-python/curio 0.9: Curio is a library for performing concurrent I/O with coroutines in Python 3.
+dev-python/curio 0.9 1.2: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.10.0: Composable style cycles
 dev-python/deprecated 1.2.6: Python @deprecated decorator to deprecate old API
 dev-python/dicttoxml 1.7.4: Converts a Python dictionary or other data type to a valid XML string
