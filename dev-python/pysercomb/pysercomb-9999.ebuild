@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy3 python3_{6,7,8} )
+PYTHON_COMPAT=( pypy3 python3_{6..9} )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
@@ -26,7 +26,7 @@ RESTRICT="!test? ( test )"
 DEPEND="
 	dev-python/setuptools
 	rdf? (
-		>=dev-python/pyontutils-0.1.22[${PYTHON_USEDEP}]
+		>=dev-python/pyontutils-0.1.23[${PYTHON_USEDEP}]
 	)
 	units? (
 		dev-python/protcur[${PYTHON_USEDEP}]
@@ -38,7 +38,6 @@ DEPEND="
 	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-runner[${PYTHON_USEDEP}]
 	)
 "
 RDEPEND="${DEPEND}"

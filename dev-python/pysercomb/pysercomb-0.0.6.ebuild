@@ -1,13 +1,13 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 2019-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy3 python3_{6..9} )
+PYTHON_COMPAT=( pypy3 python3_{6,7,8} )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
-	EGIT_REPO_URI="https://github.com/tgbugs/pyontutils.git"
+	EGIT_REPO_URI="https://github.com/tgbugs/parsercomb.git"
 	inherit git-r3
 	KEYWORDS=""
 else
@@ -15,19 +15,23 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 
-DESCRIPTION="Deterministic turtle serialization for rdflib."
-HOMEPAGE="https://github.com/tgbugs/pyontutils/tree/master/ttlser"
+DESCRIPTION="parser combinator library and assorted parsers"
+HOMEPAGE="https://github.com/tgbugs/parsercomb"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="dev test +ttlfmt"
-REQUIRE_USE="test? ( ttlfmt )"
+IUSE="dev test +rdf +units"
 RESTRICT="!test? ( test )"
 
 DEPEND="
-	dev-python/fastentrypoints[${PYTHON_USEDEP}]
-	>=dev-python/rdflib-5.0.0_pre0[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/setuptools
+	rdf? (
+		>=dev-python/pyontutils-0.1.23[${PYTHON_USEDEP}]
+	)
+	units? (
+		dev-python/protcur[${PYTHON_USEDEP}]
+		dev-python/pint[babel,uncertainties,${PYTHON_USEDEP}]
+	)
 	dev? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/wheel[${PYTHON_USEDEP}]
@@ -35,32 +39,16 @@ DEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
-	ttlfmt? (
-		dev-python/docopt[${PYTHON_USEDEP}]
-		>=dev-python/joblib-0.14.0[${PYTHON_USEDEP}]
-	)
 "
 RDEPEND="${DEPEND}"
 
 if [[ ${PV} == "9999" ]]; then
-	S="${S}/${PN}"
 	src_prepare () {
-		sed -i '1 i\import fastentrypoints' setup.py
 		# replace package version to keep python quiet
 		sed -i "s/__version__.\+$/__version__ = '9999.0.0+$(git rev-parse --short HEAD)'/" ${PN}/__init__.py
 		default
 	}
-else
-	src_prepare () {
-		sed -i '1 i\import fastentrypoints' setup.py
-		default
-	}
 fi
-
-python_install_all() {
-	local DOCS=( README* docs/* )
-	distutils-r1_python_install_all
-}
 
 python_test() {
 	distutils_install_for_testing
