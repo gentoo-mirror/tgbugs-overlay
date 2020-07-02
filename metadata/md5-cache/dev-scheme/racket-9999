@@ -11,4 +11,4 @@ RDEPEND=dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?
 REQUIRED_USE=futures? ( jit ) install-chez? ( cs )
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	pax-utils	a41d1fd1c111289ffa04490de6ee79d7
-_md5_=1589278d9c3f7647c4439d311a8a19cd
+_md5_=2e1ed6f8b08653c7e686e5d7c1c6539a
