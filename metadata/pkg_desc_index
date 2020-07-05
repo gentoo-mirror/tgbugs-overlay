@@ -102,7 +102,7 @@ dev-python/psycopg2cffi 2.8.1: Implementation of the psycopg2 module using cffi.
 dev-python/py-amqp 2.5.0: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pyasn1 0.4.4-r1: ASN.1 library for Python
 dev-python/pybind11 2.4.3: AST-based Python refactoring library
-dev-python/pycurl 7.43.0.3: python binding for curl/libcurl
+dev-python/pycurl 7.43.0.3 7.43.0.5: python binding for curl/libcurl
 dev-python/pyhamcrest 1.9.0-r1: Hamcrest framework for matcher objects
 dev-python/pyjwt 1.7.1: JSON Web Token implementation in Python
 dev-python/pyontutils 0.1.4 0.1.5 0.1.6 0.1.7 0.1.9 0.1.11 0.1.13 0.1.13-r1 0.1.14 0.1.15 0.1.16 0.1.20 0.1.21 0.1.22 0.1.23 9999: utilities for working with the NIF ontology, SciGraph, and turtle
@@ -146,7 +146,7 @@ media-gfx/yed 3.14.4 3.16.2.1 3.17.1 3.18.1.1: Diagram and graph editor that gen
 media-libs/assimp 3.3.1: Importer library to import assets from 3D files
 net-im/skypeforlinux 8.29.0.50: Instant messaging client, with support for audio and video
 net-mail/aerc 0.1.1 9999: Asynchronous email client for your terminal, written in Go.
-net-misc/curl 7.71.1: A Client that groks URLs
+net-misc/curl 7.71.1-r1: A Client that groks URLs
 sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
