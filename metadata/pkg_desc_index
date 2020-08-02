@@ -127,7 +127,7 @@ dev-python/service_identity 17.0.0-r1: Service identity verification for pyOpenS
 dev-python/setproctitle 1.1.10-r1: Allow customization of the process title
 dev-python/slugify 1.2.6 3.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap2 2.0.3 2.0.4 3.0.1: A pure python implementation of a sliding window memory map manager
-dev-python/sparcur 0.0.1_pre1 9999: Code for the SPARC curation workflow.
+dev-python/sparcur 0.0.1_pre1 0.0.1_pre2 9999: Code for the SPARC curation workflow.
 dev-python/sphinx-issues 1.2.0: A Sphinx extension for linking to your project's issue tracker
 dev-python/statsmodels 0.9.0: Statistical computations and models for use with SciPy
 dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
