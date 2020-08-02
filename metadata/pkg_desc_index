@@ -21,12 +21,12 @@ dev-python/astor 0.7.1 0.8.0 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
 dev-python/augpathlib 0.0.1 0.0.2 0.0.3-r1 0.0.4-r1 0.0.5 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 0.0.15 0.0.16 0.0.18 0.0.19 9999: Augmented pathlib.
 dev-python/automat 0.7.0: Self-service finite-state machines for the programmer on the go
-dev-python/backcall 0.1.0: Specifications for callback functions passed in to an API
+dev-python/backcall 0.1.0 0.1.0-r1: Specifications for callback functions passed in to an API
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
-dev-python/boto3 1.9.122: The AWS SDK for Python
-dev-python/botocore 1.12.122: Low-level, data-driven core of boto 3.
+dev-python/boto3 1.9.122 1.13.26: The AWS SDK for Python
+dev-python/botocore 1.12.122 1.16.26: Low-level, data-driven core of boto 3
 dev-python/bottleneck 1.2.1: Fast NumPy array functions written in Cython
-dev-python/cachetools 3.1.0 3.1.1: Extensible memoizing collections and decorators
+dev-python/cachetools 3.1.0 3.1.1 4.1.1: Extensible memoizing collections and decorators
 dev-python/celery 4.3.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/clint 0.5.1: Python Command-line Application Tools
 dev-python/colander 1.4: A simple schema-based serialization and deserialization library
@@ -48,10 +48,12 @@ dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on funct
 dev-python/future 0.17.0: Easy, clean, reliable Python 2/3 compatibility
 dev-python/git-python 2.1.9 2.1.11 3.1.0: Library used to interact with Git repositories
 dev-python/gitdb2 2.0.3 2.0.4 4.0.2: GitDB is a pure-Python git object database
+dev-python/google-api-core 1.17.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 1.7.8 1.8.3-r1: Google API Client for Python
-dev-python/google-auth 1.6.3: Google Authentication Library
-dev-python/google-auth-httplib2 0.0.3: httplib2 Transport for Google Auth
+dev-python/google-auth 1.6.3 1.14.3-r1: Google Authentication Library
+dev-python/google-auth-httplib2 0.0.3 0.0.4: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.4.1: Google Authentication Library
+dev-python/googleapis-common-protos 1.51.0: python classes generated from the common protos in the googleapis repository
 dev-python/htmlfn 0.0.3 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 18.0.0: A featureful, correct URL for Python
@@ -74,8 +76,8 @@ dev-python/m2r 0.1.14: Markdown to reStructuredText converter
 dev-python/matplotlib 3.0.0 3.0.3: Pure python plotting library with matlab like syntax
 dev-python/memory_profiler 0.54.0: A module for monitoring memory usage of a python program
 dev-python/namespace-google 1: Namespace package declaration for google
-dev-python/nbconvert 5.5.0: Converting Jupyter Notebooks
-dev-python/nbformat 4.4.0-r1: Reference implementation of the Jupyter Notebook format
+dev-python/nbconvert 5.5.0 5.6.1: Converting Jupyter Notebooks
+dev-python/nbformat 4.4.0-r1 5.0.7: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.2.0 1.3.3: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.0 0.1.1 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.1 0.0.1-r1 0.0.2 0.0.3 0.0.4 9999: utilities for working with the NIF ontology
@@ -86,7 +88,7 @@ dev-python/oauthlib 3.0.1: Spec-compliant and thorough implementation of the OAu
 dev-python/ontquery 0.2.0 0.2.1 0.2.2 0.2.3 9999: a framework querying ontology terms
 dev-python/orthauth 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 9999: python orthogonal authentication
 dev-python/pandas 0.24.2: Powerful data structures for data analysis and statistics
-dev-python/pandocfilters 1.4.2-r1: Utilities for writing pandoc filters in python
+dev-python/pandocfilters 1.4.2-r2: Utilities for writing pandoc filters in python
 dev-python/parsec 3.3: A universal Python parser combinator library inspired by Parsec Haskell library
 dev-python/parso 0.5.1: a python parser that supports error recovery and round-trip parsing
 dev-python/patsy 0.5.1: Python module to describe statistical models and design matrices
@@ -97,7 +99,7 @@ dev-python/pint 0.9 0.11 0.13: Operate and manipulate physical quantities in Pyt
 dev-python/pipenv 2018.11.26: Python Development Workflow for Humans
 dev-python/prompt_toolkit 2.0.7: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 0.0.5 0.0.6 9999: Web annotation workflows for protocol curation.
-dev-python/protobuf-python 3.9.1 3.10.1: Google's Protocol Buffers - Python bindings
+dev-python/protobuf-python 3.9.1 3.10.1 3.11.4: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.8.1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
 dev-python/py-amqp 2.5.0: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pyasn1 0.4.4-r1: ASN.1 library for Python
@@ -115,14 +117,14 @@ dev-python/rdflib-jsonld 0.4.0 9999: rdflib extension adding JSON-LD parser and 
 dev-python/requests-oauthlib 1.3.0: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.6 0.7.7: Pure python parser generator that also works with RPython
-dev-python/rsa 4.0: Pure-Python RSA implementation
-dev-python/s3transfer 0.2.0: An Amazon S3 Transfer Manager
+dev-python/rsa 4.0 4.2: Pure-Python RSA implementation
+dev-python/s3transfer 0.2.0 0.3.1: An Amazon S3 Transfer Manager
 dev-python/scibot 0.0.1 0.0.3 9999: Web annotation curation pipeline
 dev-python/seaborn 0.9.0: Statistical data visualization
 dev-python/semver 2.8.1 2.10.2: A Python module for semantic versioning
 dev-python/serpent 1.28: A simple serialization library based on ast.literal_eval
 dev-python/service_identity 17.0.0-r1: Service identity verification for pyOpenSSL
-dev-python/setproctitle 1.1.10: Allow customization of the process title
+dev-python/setproctitle 1.1.10-r1: Allow customization of the process title
 dev-python/slugify 1.2.6 3.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap2 2.0.3 2.0.4 3.0.1: A pure python implementation of a sliding window memory map manager
 dev-python/sparcur 0.0.1_pre1 9999: Code for the SPARC curation workflow.
