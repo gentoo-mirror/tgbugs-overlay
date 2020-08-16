@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy3 python3_{6,7,8} )
+PYTHON_COMPAT=( pypy3 python3_{6..9} )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
@@ -37,7 +37,6 @@ DEPEND="
 	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-runner[${PYTHON_USEDEP}]
 	)
 "
 RDEPEND="${DEPEND}"
@@ -51,6 +50,8 @@ if [[ ${PV} == "9999" ]]; then
 fi
 
 python_test() {
+	git config --global user.email "${USER}@ebuild-testing.${HOSTNAME}"
+	git config --global user.name "Portage Testing"
 	distutils_install_for_testing
 	cd "${TEST_DIR}" || die
 	cp -r "${S}/test" . || die
