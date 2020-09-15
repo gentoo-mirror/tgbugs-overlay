@@ -96,7 +96,7 @@ dev-python/patsy 0.5.1: Python module to describe statistical models and design 
 dev-python/pexpect 4.7.0 9999: Python module for spawning child apps and responding to expected patterns
 dev-python/pickleshare 0.7.4-r1: A small 'shelve' like datastore with concurrency support
 dev-python/pillow 6.2.1 7.0.0: Python Imaging Library (fork)
-dev-python/pint 0.9 0.11 0.13: Operate and manipulate physical quantities in Python
+dev-python/pint 0.9 0.11 0.16: Operate and manipulate physical quantities in Python
 dev-python/pipenv 2018.11.26: Python Development Workflow for Humans
 dev-python/prompt_toolkit 2.0.7: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 0.0.5 0.0.6 0.0.7 9999: Web annotation workflows for protocol curation.
