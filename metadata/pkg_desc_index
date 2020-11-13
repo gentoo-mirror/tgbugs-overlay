@@ -16,133 +16,132 @@ dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
 dev-lisp/clozurecl 1.12: Common Lisp implementation, derived from Digitool's MCL product
 dev-lisp/sbcl 2.0.2: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
-dev-python/args 0.1.0: Command Arguments for Humans
-dev-python/astor 0.7.1 0.8.0 0.8.1: Read/rewrite/write Python ASTs
-dev-python/astral 1.4 1.6 1.6.1: Calculations for the position of the sun and moon.
+dev-python/args 0.1.0-r1: Command Arguments for Humans
+dev-python/astor 0.7.1-r1 0.8.0-r1 0.8.1: Read/rewrite/write Python ASTs
+dev-python/astral 1.4-r1 1.6-r1 1.6.1-r1: Calculations for the position of the sun and moon.
 dev-python/augpathlib 0.0.21 9999: Augmented pathlib.
-dev-python/automat 0.7.0: Self-service finite-state machines for the programmer on the go
+dev-python/automat 0.7.0-r1: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0 0.1.0-r1: Specifications for callback functions passed in to an API
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
-dev-python/boto3 1.9.122 1.13.26: The AWS SDK for Python
-dev-python/botocore 1.12.122 1.16.26: Low-level, data-driven core of boto 3
-dev-python/bottleneck 1.2.1: Fast NumPy array functions written in Cython
-dev-python/cachetools 3.1.0 3.1.1 4.1.1: Extensible memoizing collections and decorators
-dev-python/celery 4.3.0: Asynchronous task queue/job queue based on distributed message passing
-dev-python/clint 0.5.1: Python Command-line Application Tools
-dev-python/colander 1.4: A simple schema-based serialization and deserialization library
-dev-python/colorlog 4.0.2 4.1.0: Log formatting with colors
-dev-python/constantly 15.1.0-r1: Symbolic constants in Python
+dev-python/boto3 1.9.122-r1 1.13.26: The AWS SDK for Python
+dev-python/botocore 1.12.122-r1 1.16.26: Low-level, data-driven core of boto 3
+dev-python/bottleneck 1.2.1-r1: Fast NumPy array functions written in Cython
+dev-python/cachetools 3.1.0-r1 3.1.1-r1 4.1.1: Extensible memoizing collections and decorators
+dev-python/celery 4.3.0-r1: Asynchronous task queue/job queue based on distributed message passing
+dev-python/clint 0.5.1-r1: Python Command-line Application Tools
+dev-python/colander 1.4-r1: A simple schema-based serialization and deserialization library
+dev-python/colorlog 4.0.2-r1 4.1.0: Log formatting with colors
+dev-python/constantly 15.1.0-r2: Symbolic constants in Python
 dev-python/curio 0.9 1.2: Curio is a library for performing concurrent I/O with coroutines in Python 3.
-dev-python/cycler 0.10.0: Composable style cycles
-dev-python/deprecated 1.2.6: Python @deprecated decorator to deprecate old API
+dev-python/cycler 0.10.0-r1: Composable style cycles
+dev-python/deprecated 1.2.6-r1: Python @deprecated decorator to deprecate old API
 dev-python/dicttoxml 1.7.4: Converts a Python dictionary or other data type to a valid XML string
-dev-python/docopt 0.6.2-r2: Pythonic argument parser, that will make you smile
-dev-python/elasticsearch-py 6.3.1-r1: official Python low-level client for Elasticsearch
-dev-python/factory_boy 2.11.1 2.12.0: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
+dev-python/docopt 0.6.2-r3: Pythonic argument parser, that will make you smile
+dev-python/elasticsearch-py 6.3.1-r2: official Python low-level client for Elasticsearch
+dev-python/factory_boy 2.11.1-r1 2.12.0: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 2.0.3: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
-dev-python/flask-restplus 0.11.0 0.12.1 0.13.0: Framework for fast, easy, and documented API development with Flask
+dev-python/flask-restplus 0.11.0-r1 0.12.1-r1 0.13.0-r1: Framework for fast, easy, and documented API development with Flask
 dev-python/flask-restx 0.1.1 0.2.0: Framework for fast, easy, and documented API development with Flask
-dev-python/flask-sqlalchemy 2.4.0 2.4.1: SQLAlchemy support for Flask applications
+dev-python/flask-sqlalchemy 2.4.0-r1 2.4.1: SQLAlchemy support for Flask applications
 dev-python/frozendict 1.2: A simple immutable mapping for python
-dev-python/funcparserlib 0.3.6: Recursive descent parsing library based on functional combinators
-dev-python/future 0.17.0: Easy, clean, reliable Python 2/3 compatibility
-dev-python/git-python 2.1.9 2.1.11 3.1.0: Library used to interact with Git repositories
-dev-python/gitdb2 2.0.3 2.0.4 4.0.2: GitDB is a pure-Python git object database
+dev-python/funcparserlib 0.3.6-r1: Recursive descent parsing library based on functional combinators
+dev-python/future 0.17.0-r1: Easy, clean, reliable Python 2/3 compatibility
+dev-python/git-python 2.1.9-r1 2.1.11-r1 3.1.0: Library used to interact with Git repositories
+dev-python/gitdb2 2.0.3-r1 2.0.4-r1 4.0.2: GitDB is a pure-Python git object database
 dev-python/google-api-core 1.17.0: Core Library for Google Client Libraries
-dev-python/google-api-python-client 1.7.8 1.8.3-r1: Google API Client for Python
-dev-python/google-auth 1.6.3 1.14.3-r1 1.20.1: Google Authentication Library
-dev-python/google-auth-httplib2 0.0.3 0.0.4: httplib2 Transport for Google Auth
+dev-python/google-api-python-client 1.7.8-r1 1.8.3-r1: Google API Client for Python
+dev-python/google-auth 1.6.3-r1 1.14.3-r1 1.20.1: Google Authentication Library
+dev-python/google-auth-httplib2 0.0.3-r1 0.0.4-r1: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.4.1: Google Authentication Library
 dev-python/googleapis-common-protos 1.51.0: python classes generated from the common protos in the googleapis repository
 dev-python/htmlfn 0.0.3 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
-dev-python/hyperlink 18.0.0: A featureful, correct URL for Python
+dev-python/hyperlink 18.0.0-r1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.3 0.0.4 0.0.5 0.0.6 0.0.8 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/idlib 0.0.1_pre2 0.0.1_pre3 0.0.1_pre4 0.0.1_pre6 0.0.1_pre7 9999: A library for working with identifiers of all kinds.
-dev-python/incremental 17.5.0: Incremental is a small library that versions your Python projects
+dev-python/incremental 17.5.0-r1: Incremental is a small library that versions your Python projects
 dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 5.1.0: IPython Kernel for Jupyter
 dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
 dev-python/ipython 7.8.0: Advanced interactive shell for Python
-dev-python/ipython_genutils 0.2.0: Vestigial utilities from IPython
-dev-python/jedi 0.12.1: Autocompletion library for Python
-dev-python/joblib 0.11 0.14.0 0.14.1: Tools to provide lightweight pipelining in Python
-dev-python/jsonschema 3.2.0: An implementation of JSON-Schema validation for Python
+dev-python/ipython_genutils 0.2.0-r1: Vestigial utilities from IPython
+dev-python/jedi 0.12.1-r1: Autocompletion library for Python
+dev-python/joblib 0.11-r1 0.14.0-r1 0.14.1: Tools to provide lightweight pipelining in Python
+dev-python/jsonschema 3.2.0-r1: An implementation of JSON-Schema validation for Python
 dev-python/jupyter_client 5.2.4: Jupyter protocol implementation and client libraries
 dev-python/jupyter_core 4.4.0-r1: Core common functionality of Jupyter projects
-dev-python/kiwisolver 1.0.1: An efficient C++ implementation of the Cassowary constraint solving algorithm
-dev-python/kombu 4.6.3: AMQP Messaging Framework for Python
-dev-python/m2r 0.1.14: Markdown to reStructuredText converter
+dev-python/kiwisolver 1.0.1-r1: An efficient C++ implementation of the Cassowary constraint solving algorithm
+dev-python/kombu 4.6.3-r1: AMQP Messaging Framework for Python
+dev-python/m2r 0.1.14-r1: Markdown to reStructuredText converter
 dev-python/matplotlib 3.0.0 3.0.3: Pure python plotting library with matlab like syntax
-dev-python/memory_profiler 0.54.0: A module for monitoring memory usage of a python program
-dev-python/namespace-google 1: Namespace package declaration for google
+dev-python/memory_profiler 0.54.0-r1: A module for monitoring memory usage of a python program
+dev-python/namespace-google 1-r1: Namespace package declaration for google
 dev-python/nbconvert 5.5.0 5.6.1: Converting Jupyter Notebooks
 dev-python/nbformat 4.4.0-r1 5.0.7: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.2.0 1.3.3: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.0 0.1.1 0.1.2 0.1.3 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.1 0.0.1-r1 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 9999: utilities for working with the NIF ontology
-dev-python/numexpr 2.6.8 2.6.9: Fast numerical array expression evaluator for Python and NumPy
+dev-python/numexpr 2.6.8-r1 2.6.9-r1: Fast numerical array expression evaluator for Python and NumPy
 dev-python/numpy 1.17.4 1.17.4-r3: Fast array and numerical python library
-dev-python/oauth2client 4.1.2 4.1.3: Library for accessing resources protected by OAuth 2.0
-dev-python/oauthlib 3.0.1: Spec-compliant and thorough implementation of the OAuth request-signing logic
+dev-python/oauth2client 4.1.2-r1 4.1.3-r1: Library for accessing resources protected by OAuth 2.0
+dev-python/oauthlib 3.0.1-r1: Spec-compliant and thorough implementation of the OAuth request-signing logic
 dev-python/ontquery 0.2.0 0.2.1 0.2.2 0.2.3 0.2.4 0.2.5 0.2.6 9999: a framework querying ontology terms
 dev-python/orthauth 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 0.0.13 0.0.14 9999: python orthogonal authentication
-dev-python/pandas 0.24.2: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.4.2-r2: Utilities for writing pandoc filters in python
-dev-python/parsec 3.3: A universal Python parser combinator library inspired by Parsec Haskell library
-dev-python/parso 0.5.1: a python parser that supports error recovery and round-trip parsing
-dev-python/patsy 0.5.1: Python module to describe statistical models and design matrices
-dev-python/pexpect 4.7.0 9999: Python module for spawning child apps and responding to expected patterns
-dev-python/pickleshare 0.7.4-r1: A small 'shelve' like datastore with concurrency support
-dev-python/pillow 6.2.1 7.0.0: Python Imaging Library (fork)
+dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired by Parsec Haskell library
+dev-python/parso 0.5.1-r1: a python parser that supports error recovery and round-trip parsing
+dev-python/patsy 0.5.1-r1: Python module to describe statistical models and design matrices
+dev-python/pexpect 4.7.0-r1 9999: Python module for spawning child apps and responding to expected patterns
+dev-python/pickleshare 0.7.4-r2: A small 'shelve' like datastore with concurrency support
+dev-python/pillow 6.2.1-r1 7.0.0: Python Imaging Library (fork)
 dev-python/pint 0.9 0.11 0.16 0.16.1: Operate and manipulate physical quantities in Python
-dev-python/pipenv 2018.11.26: Python Development Workflow for Humans
-dev-python/prompt_toolkit 2.0.7: Building powerful interactive command lines in Python
+dev-python/pipenv 2018.11.26-r1: Python Development Workflow for Humans
+dev-python/prompt_toolkit 2.0.7-r1: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 0.0.5 0.0.6 0.0.7 9999: Web annotation workflows for protocol curation.
-dev-python/protobuf-python 3.9.1 3.10.1 3.11.4: Google's Protocol Buffers - Python bindings
-dev-python/psycopg2cffi 2.8.1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
-dev-python/py-amqp 2.5.0: Low-level AMQP client for Python (fork of amqplib)
-dev-python/pyasn1 0.4.4-r1: ASN.1 library for Python
+dev-python/protobuf-python 3.9.1-r1 3.10.1-r1 3.11.4-r1: Google's Protocol Buffers - Python bindings
+dev-python/psycopg2cffi 2.8.1-r1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
+dev-python/py-amqp 2.5.0-r1: Low-level AMQP client for Python (fork of amqplib)
+dev-python/pyasn1 0.4.4-r2: ASN.1 library for Python
 dev-python/pybind11 2.4.3 2.5.0: AST-based Python refactoring library
-dev-python/pycurl 7.43.0.3 7.43.0.5: python binding for curl/libcurl
-dev-python/pyhamcrest 1.9.0-r1: Hamcrest framework for matcher objects
-dev-python/pyjwt 1.7.1: JSON Web Token implementation in Python
+dev-python/pycurl 7.43.0.3-r1 7.43.0.5-r1: python binding for curl/libcurl
+dev-python/pyhamcrest 1.9.0-r2: Hamcrest framework for matcher objects
+dev-python/pyjwt 1.7.1-r1: JSON Web Token implementation in Python
 dev-python/pyld 2.0.2: A library for working with identifiers of all kinds.
 dev-python/pyontutils 0.1.4 0.1.5 0.1.6 0.1.7 0.1.9 0.1.11 0.1.13 0.1.13-r1 0.1.14 0.1.15 0.1.16 0.1.20 0.1.21 0.1.22 0.1.23 0.1.24 0.1.25 0.1.27 9999: utilities for working with the NIF ontology, SciGraph, and turtle
-dev-python/pyro 4.56 4.77: Distributed object middleware for Python (RPC)
+dev-python/pyro 4.56-r1 4.77-r1: Distributed object middleware for Python (RPC)
 dev-python/pysercomb 0.0.1 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 0.0.7 9999: parser combinator library and assorted parsers
-dev-python/pyxattr 0.6.1: Python interface to xattr
-dev-python/pyzmq 17.1.0 18.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
-dev-python/rdflib 5.0.0_pre1 5.0.0 5.0.1_pre0 5.0.1 5.0.1-r1 9999: RDF library containing a triple store and parser/serializer
-dev-python/rdflib-jsonld 0.4.0 9999: rdflib extension adding JSON-LD parser and serializer
-dev-python/requests-oauthlib 1.3.0: This project provides first-class OAuth library support for Requests
+dev-python/pyxattr 0.6.1-r1: Python interface to xattr
+dev-python/pyzmq 17.1.0-r1 18.1.0-r1: Lightweight and super-fast messaging library built on top of the ZeroMQ library
+dev-python/rdflib 9999: RDF library containing a triple store and parser/serializer
+dev-python/rdflib-jsonld 0.4.0-r1 9999: rdflib extension adding JSON-LD parser and serializer
+dev-python/requests-oauthlib 1.3.0-r1: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
-dev-python/rply 0.7.6 0.7.7: Pure python parser generator that also works with RPython
-dev-python/rsa 4.0 4.2: Pure-Python RSA implementation
-dev-python/s3transfer 0.2.0 0.3.1: An Amazon S3 Transfer Manager
+dev-python/rply 0.7.6-r1 0.7.7-r1: Pure python parser generator that also works with RPython
+dev-python/rsa 4.0-r1 4.2: Pure-Python RSA implementation
+dev-python/s3transfer 0.2.0-r1 0.3.1: An Amazon S3 Transfer Manager
 dev-python/scibot 0.0.1 0.0.3 9999: Web annotation curation pipeline
-dev-python/seaborn 0.9.0: Statistical data visualization
-dev-python/semver 2.8.1 2.10.2: A Python module for semantic versioning
-dev-python/serpent 1.28: A simple serialization library based on ast.literal_eval
-dev-python/service_identity 17.0.0-r1: Service identity verification for pyOpenSSL
+dev-python/seaborn 0.9.0-r1: Statistical data visualization
+dev-python/semver 2.8.1-r1 2.10.2: A Python module for semantic versioning
+dev-python/serpent 1.28-r1: A simple serialization library based on ast.literal_eval
+dev-python/service_identity 17.0.0-r2: Service identity verification for pyOpenSSL
 dev-python/setproctitle 1.1.10-r1: Allow customization of the process title
-dev-python/slugify 1.2.6 3.0.2: A Python Slugify application that handles Unicode
-dev-python/smmap2 2.0.3 2.0.4 3.0.1: A pure python implementation of a sliding window memory map manager
+dev-python/slugify 1.2.6-r1 3.0.2-r1: A Python Slugify application that handles Unicode
+dev-python/smmap2 2.0.3-r1 2.0.4-r1 3.0.1: A pure python implementation of a sliding window memory map manager
 dev-python/sparcur 0.0.1_pre1 0.0.1_pre2 9999: Code for the SPARC curation workflow.
-dev-python/sphinx-issues 1.2.0: A Sphinx extension for linking to your project's issue tracker
-dev-python/statsmodels 0.9.0: Statistical computations and models for use with SciPy
-dev-python/termcolor 1.1.0-r1: ANSII Color formatting for output in terminal
-dev-python/terminaltables 3.1.0-r1 3.1.0-r2: Generate simple tables in terminals from a nested list of strings
+dev-python/sphinx-issues 1.2.0-r1: A Sphinx extension for linking to your project's issue tracker
+dev-python/statsmodels 0.9.0-r1: Statistical computations and models for use with SciPy
+dev-python/termcolor 1.1.0-r2: ANSII Color formatting for output in terminal
+dev-python/terminaltables 3.1.0-r2: Generate simple tables in terminals from a nested list of strings
 dev-python/text-unidecode 1.3: The most basic Text::Unidecode port
-dev-python/traitlets 4.3.2: A configuration system for Python applications
+dev-python/traitlets 4.3.2-r1: A configuration system for Python applications
 dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 1.1.1 1.1.1-r1 1.1.2 1.1.3 9999: Deterministic turtle serialization for rdflib.
-dev-python/twisted 18.7.0 19.10.0: An asynchronous networking framework written in Python
+dev-python/twisted 18.7.0-r1 19.10.0-r1: An asynchronous networking framework written in Python
 dev-python/uncertainties 3.1.2: Python module for calculations with uncertainties
-dev-python/uritemplate 3.0.0: Python implementation of RFC6570, URI Template
-dev-python/versioneer 0.18: Easy VCS-based management of project version strings
+dev-python/uritemplate 3.0.0-r1: Python implementation of RFC6570, URI Template
+dev-python/versioneer 0.18-r1: Easy VCS-based management of project version strings
 dev-python/websockets 4.0.1 6.0 7.0 8.1: WebSocket implementation in Python 3
-dev-python/wrapt 1.10.11: Module for decorators, wrappers and monkey patching
+dev-python/wrapt 1.10.11-r1: Module for decorators, wrappers and monkey patching
 dev-python/zdesk 2.6.0 2.7.1: Zendesk API for Python generated from developer.zendesk.com
 dev-scheme/racket 6.6 6.7 6.8 6.9 6.10 6.10.1 6.11 6.12 7.0 7.1 7.2 7.3 7.6 7.7 7.8 9999: General purpose, multi-paradigm Lisp-Scheme programming language
 kde-frameworks/solid 5.64.0-r1: Provider for platform independent hardware discovery, abstraction and management
