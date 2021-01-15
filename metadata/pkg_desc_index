@@ -96,7 +96,6 @@ dev-python/pexpect 4.7.0-r1 9999: Python module for spawning child apps and resp
 dev-python/pickleshare 0.7.4-r2: A small 'shelve' like datastore with concurrency support
 dev-python/pillow 6.2.1-r1 7.0.0: Python Imaging Library (fork)
 dev-python/pint 0.9 0.11 0.16 0.16.1: Operate and manipulate physical quantities in Python
-dev-python/pipenv 2018.11.26-r1: Python Development Workflow for Humans
 dev-python/prompt_toolkit 2.0.7-r1: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 0.0.5 0.0.6 0.0.7 9999: Web annotation workflows for protocol curation.
 dev-python/protobuf-python 3.9.1-r1 3.10.1-r1 3.11.4-r1: Google's Protocol Buffers - Python bindings
