@@ -1,9 +1,9 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 2019-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy3 python3_{6,7} )
+PYTHON_COMPAT=( pypy3 python3_{6..9} )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
@@ -26,11 +26,7 @@ RESTRICT="!test? ( test )"
 DEPEND="
 	dev-python/setuptools
 	rdf? (
-		>=dev-python/pyontutils-0.1.4[${PYTHON_USEDEP}]
-	)
-	units? (
-		dev-python/protcur[${PYTHON_USEDEP}]
-		dev-python/pint[babel,uncertainties,${PYTHON_USEDEP}]
+		>=dev-python/pyontutils-0.1.25[${PYTHON_USEDEP}]
 	)
 	dev? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
@@ -38,16 +34,22 @@ DEPEND="
 	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-runner[${PYTHON_USEDEP}]
 	)
 "
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	units? (
+		dev-python/protcur[${PYTHON_USEDEP}]
+		>=dev-python/pint-0.16.1[babel,uncertainties,${PYTHON_USEDEP}]
+	)
+"
 
-src_prepare () {
-	# replace package version to keep python quiet
-	sed -i "s/__version__.\+$/__version__ = '9999.0.0'/" ${PN}/__init__.py
-	default
-}
+if [[ ${PV} == "9999" ]]; then
+	src_prepare () {
+		# replace package version to keep python quiet
+		sed -i "s/__version__.\+$/__version__ = '9999.0.0+$(git rev-parse --short HEAD)'/" ${PN}/__init__.py
+		default
+	}
+fi
 
 python_test() {
 	distutils_install_for_testing
