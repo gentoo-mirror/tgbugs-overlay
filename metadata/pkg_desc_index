@@ -65,7 +65,7 @@ dev-python/incremental 17.5.0-r1: Incremental is a small library that versions y
 dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 5.1.0: IPython Kernel for Jupyter
 dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
-dev-python/ipython 7.8.0: Advanced interactive shell for Python
+dev-python/ipython 7.16.1-r1: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0-r1: Vestigial utilities from IPython
 dev-python/jedi 0.12.1-r1: Autocompletion library for Python
 dev-python/joblib 0.11-r1 0.14.0-r1 0.14.1: Tools to provide lightweight pipelining in Python
