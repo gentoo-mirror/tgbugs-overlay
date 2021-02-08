@@ -37,7 +37,6 @@ dev-python/curio 0.9 1.2: Curio is a library for performing concurrent I/O with 
 dev-python/cycler 0.10.0-r1: Composable style cycles
 dev-python/deprecated 1.2.6-r1: Python @deprecated decorator to deprecate old API
 dev-python/dicttoxml 1.7.4: Converts a Python dictionary or other data type to a valid XML string
-dev-python/docopt 0.6.2-r3: Pythonic argument parser, that will make you smile
 dev-python/elasticsearch-py 6.3.1-r2: official Python low-level client for Elasticsearch
 dev-python/factory_boy 2.11.1-r1 2.12.0: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 2.0.3: Faker is a Python package that generates fake data for you.
@@ -50,28 +49,29 @@ dev-python/funcparserlib 0.3.6-r1: Recursive descent parsing library based on fu
 dev-python/future 0.17.0-r1: Easy, clean, reliable Python 2/3 compatibility
 dev-python/git-python 2.1.9-r1 2.1.11-r1 3.1.0: Library used to interact with Git repositories
 dev-python/gitdb2 2.0.3-r1 2.0.4-r1 4.0.2: GitDB is a pure-Python git object database
-dev-python/google-api-core 1.17.0: Core Library for Google Client Libraries
+dev-python/google-api-core 1.17.0 1.24.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 1.7.8-r1 1.8.3-r1: Google API Client for Python
-dev-python/google-auth 1.6.3-r1 1.14.3-r1 1.20.1: Google Authentication Library
+dev-python/google-auth 1.14.3-r1 1.20.1 1.24.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.0.3-r1 0.0.4-r1: httplib2 Transport for Google Auth
-dev-python/google-auth-oauthlib 0.4.1: Google Authentication Library
-dev-python/googleapis-common-protos 1.51.0: python classes generated from the common protos in the googleapis repository
+dev-python/google-auth-oauthlib 0.4.2: Google Authentication Library
+dev-python/googleapis-common-protos 1.52.0: python classes generated from the common protos in the googleapis repository
+dev-python/grpcio 1.32.0-r1: High-performance RPC framework (python libraries)
 dev-python/htmlfn 0.0.3 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
-dev-python/hyperlink 18.0.0-r1: A featureful, correct URL for Python
+dev-python/hyperlink 18.0.0-r1 20.0.1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.3 0.0.4 0.0.5 0.0.6 0.0.8 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/idlib 0.0.1_pre2 0.0.1_pre3 0.0.1_pre4 0.0.1_pre6 0.0.1_pre7 0.0.1_pre8 9999: A library for working with identifiers of all kinds.
 dev-python/incremental 17.5.0-r1: Incremental is a small library that versions your Python projects
 dev-python/interlex 9999: A terminology management system.
-dev-python/ipykernel 5.1.0: IPython Kernel for Jupyter
-dev-python/ipyparallel 6.2.3: Interactive Parallel Computing with IPython
-dev-python/ipython 7.16.1-r1: Advanced interactive shell for Python
+dev-python/ipykernel 5.4.3: IPython Kernel for Jupyter
+dev-python/ipyparallel 6.3.0-r1: Interactive Parallel Computing with IPython
+dev-python/ipython 7.16.1-r1 7.20.0: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0-r1: Vestigial utilities from IPython
 dev-python/jedi 0.12.1-r1: Autocompletion library for Python
 dev-python/joblib 0.11-r1 0.14.0-r1 0.14.1: Tools to provide lightweight pipelining in Python
-dev-python/jsonschema 3.2.0-r1: An implementation of JSON-Schema validation for Python
-dev-python/jupyter_client 5.2.4: Jupyter protocol implementation and client libraries
-dev-python/jupyter_core 4.4.0-r1: Core common functionality of Jupyter projects
+dev-python/jsonschema 3.2.0-r2: An implementation of JSON-Schema validation for Python
+dev-python/jupyter_client 6.1.11: Jupyter protocol implementation and client libraries
+dev-python/jupyter_core 4.4.0-r1 4.7.1: Core common functionality of Jupyter projects
 dev-python/jupyterlab_pygments 0.1.2: Pygments theme making use of JupyterLab CSS variables
 dev-python/kiwisolver 1.0.1-r1: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 4.6.3-r1: AMQP Messaging Framework for Python
@@ -81,14 +81,14 @@ dev-python/memory_profiler 0.54.0-r1: A module for monitoring memory usage of a 
 dev-python/namespace-google 1-r1: Namespace package declaration for google
 dev-python/nbclient 0.5.1: A client library for executing Jupyter notebooks
 dev-python/nbconvert 6.0.7: Converting Jupyter Notebooks
-dev-python/nbformat 4.4.0-r1 5.0.7: Reference implementation of the Jupyter Notebook format
+dev-python/nbformat 4.4.0-r1 5.0.7 5.1.2-r1: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.2.0 1.3.3: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.0 0.1.1 0.1.2 0.1.3 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.1 0.0.1-r1 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 9999: utilities for working with the NIF ontology
 dev-python/numexpr 2.6.8-r1 2.6.9-r1: Fast numerical array expression evaluator for Python and NumPy
-dev-python/numpy 1.17.4 1.17.4-r3: Fast array and numerical python library
+dev-python/numpy 1.17.4 1.17.4-r3 1.19.4: Fast array and numerical python library
 dev-python/oauth2client 4.1.2-r1 4.1.3-r1: Library for accessing resources protected by OAuth 2.0
-dev-python/oauthlib 3.0.1-r1: Spec-compliant and thorough implementation of the OAuth request-signing logic
+dev-python/oauthlib 3.0.1-r1 3.1.0: Spec-compliant and thorough implementation of the OAuth request-signing logic
 dev-python/ontquery 0.2.0 0.2.1 0.2.2 0.2.3 0.2.4 0.2.5 0.2.6 0.2.7 9999: a framework querying ontology terms
 dev-python/orthauth 0.0.2 0.0.3 0.0.4 0.0.5 0.0.6 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11 0.0.12 0.0.13 0.0.14 9999: python orthogonal authentication
 dev-python/pandocfilters 1.4.2-r2: Utilities for writing pandoc filters in python
@@ -101,26 +101,26 @@ dev-python/pillow 6.2.1-r1 7.0.0: Python Imaging Library (fork)
 dev-python/pint 0.9 0.11 0.16 0.16.1: Operate and manipulate physical quantities in Python
 dev-python/prompt_toolkit 2.0.7-r1: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.1 0.0.2 0.0.3 0.0.3-r1 0.0.4 0.0.5 0.0.6 0.0.7 0.0.8 9999: Web annotation workflows for protocol curation.
-dev-python/protobuf-python 3.9.1-r1 3.10.1-r1 3.11.4-r1: Google's Protocol Buffers - Python bindings
+dev-python/protobuf-python 3.14.0: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.8.1-r1: Implementation of the psycopg2 module using cffi. Compatible with Psycopg 2.5.
 dev-python/py-amqp 2.5.0-r1: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pyasn1 0.4.4-r2: ASN.1 library for Python
 dev-python/pybind11 2.4.3 2.5.0: AST-based Python refactoring library
 dev-python/pycurl 7.43.0.6-r1: python binding for curl/libcurl
 dev-python/pyhamcrest 1.9.0-r2: Hamcrest framework for matcher objects
-dev-python/pyjwt 1.7.1-r1: JSON Web Token implementation in Python
+dev-python/pyjwt 1.7.1-r1 2.0.1: JSON Web Token implementation in Python
 dev-python/pyld 2.0.2: A library for working with identifiers of all kinds.
 dev-python/pyontutils 0.1.4 0.1.5 0.1.6 0.1.7 0.1.9 0.1.11 0.1.13 0.1.13-r1 0.1.14 0.1.15 0.1.16 0.1.20 0.1.21 0.1.22 0.1.23 0.1.24 0.1.25 0.1.27 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pyro 4.56-r1 4.77-r1: Distributed object middleware for Python (RPC)
 dev-python/pysercomb 0.0.7 0.0.8 9999: parser combinator library and assorted parsers
 dev-python/pyxattr 0.6.1-r1: Python interface to xattr
 dev-python/pyzmq 19.0.2 20.0.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
-dev-python/rdflib 9999: RDF library containing a triple store and parser/serializer
+dev-python/rdflib 5.0.0 9999: RDF library containing a triple store and parser/serializer
 dev-python/rdflib-jsonld 9999: rdflib extension adding JSON-LD parser and serializer
 dev-python/requests-oauthlib 1.3.0-r1: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.6-r1 0.7.7-r1: Pure python parser generator that also works with RPython
-dev-python/rsa 4.0-r1 4.2: Pure-Python RSA implementation
+dev-python/rsa 4.0-r1 4.2 4.7: Pure-Python RSA implementation
 dev-python/s3transfer 0.2.0-r1 0.3.1: An Amazon S3 Transfer Manager
 dev-python/scibot 0.0.1 0.0.3 9999: Web annotation curation pipeline
 dev-python/seaborn 0.9.0-r1: Statistical data visualization
@@ -136,10 +136,10 @@ dev-python/statsmodels 0.9.0-r1: Statistical computations and models for use wit
 dev-python/termcolor 1.1.0-r2: ANSII Color formatting for output in terminal
 dev-python/terminaltables 3.1.0-r2: Generate simple tables in terminals from a nested list of strings
 dev-python/text-unidecode 1.3: The most basic Text::Unidecode port
-dev-python/traitlets 4.3.2-r1: A configuration system for Python applications
-dev-python/ttlser 1.0.0 1.1.0 1.1.0-r1 1.1.1 1.1.1-r1 1.1.2 1.1.3 9999: Deterministic turtle serialization for rdflib.
+dev-python/traitlets 4.3.2-r1 5.0.5: A configuration system for Python applications
+dev-python/ttlser 1.1.1-r1 1.1.3 9999: Deterministic turtle serialization for rdflib.
 dev-python/twisted 18.7.0-r1 19.10.0-r1: An asynchronous networking framework written in Python
-dev-python/uncertainties 3.1.2: Python module for calculations with uncertainties
+dev-python/uncertainties 3.1.2 3.1.4-r1: Python module for calculations with uncertainties
 dev-python/uritemplate 3.0.0-r1: Python implementation of RFC6570, URI Template
 dev-python/versioneer 0.18-r1: Easy VCS-based management of project version strings
 dev-python/websockets 4.0.1 6.0 7.0 8.1: WebSocket implementation in Python 3
