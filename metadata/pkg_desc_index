@@ -55,7 +55,7 @@ dev-python/google-api-core 1.17.0 1.24.0: Core Library for Google Client Librari
 dev-python/google-api-python-client 1.7.8-r1 1.8.3-r1: Google API Client for Python
 dev-python/google-auth 1.14.3-r1 1.20.1 1.24.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.0.3-r1 0.0.4-r1: httplib2 Transport for Google Auth
-dev-python/google-auth-oauthlib 0.4.2: Google Authentication Library
+dev-python/google-auth-oauthlib 0.4.2 0.4.3: Google Authentication Library
 dev-python/googleapis-common-protos 1.52.0: python classes generated from the common protos in the googleapis repository
 dev-python/grpcio 1.32.0-r1: High-performance RPC framework (python libraries)
 dev-python/htmlfn 0.0.3 0.0.4 9999: python functions for generating html
