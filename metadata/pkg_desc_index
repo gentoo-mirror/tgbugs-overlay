@@ -119,7 +119,10 @@ dev-python/pyxattr 0.6.1-r1: Python interface to xattr
 dev-python/pyzmq 19.0.2 20.0.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 5.0.0 9999: RDF library containing a triple store and parser/serializer
 dev-python/rdflib-jsonld 9999: rdflib extension adding JSON-LD parser and serializer
+dev-python/regex 2020.4.4-r1: Alternative regular expression module to replace re
 dev-python/requests-oauthlib 1.3.0-r1: This project provides first-class OAuth library support for Requests
+dev-python/rfc3986-validator 0.1.1: Pure python RFC3986 validator
+dev-python/rfc3987 1.3.8-r1: Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.6-r1 0.7.7-r1 0.7.8: Pure python parser generator that also works with RPython
 dev-python/rsa 4.0-r1 4.2 4.7: Pure-Python RSA implementation
