@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] virtual/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
+DESCRIPTION=General purpose, multi-paradigm Lisp-Scheme programming language
+EAPI=7
+HOMEPAGE=https://racket-lang.org/
+INHERIT=pax-utils
+IUSE=bc cgc +cs doc +futures +jit minimal +places +readline +threads +X
+LICENSE=LGPL-3 MIT Apache-2.0
+RDEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] virtual/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
+REQUIRED_USE=futures? ( || ( jit cs ) ) || ( bc cgc cs )
+RESTRICT=mirror
+SLOT=0/8.1
+SRC_URI=minimal? ( https://download.racket-lang.org/installers/8.1/racket-minimal-8.1-src-builtpkgs.tgz ) !minimal? ( https://download.racket-lang.org/installers/8.1/racket-8.1-src-builtpkgs.tgz )
+_eclasses_=pax-utils	d3fc79d3d50544347e324864f95206e2
+_md5_=734ddfe24b5dcb7f4296511c5a4455fe
