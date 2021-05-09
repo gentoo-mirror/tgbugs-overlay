@@ -162,7 +162,7 @@ sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visua
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 sci-libs/scipy 1.2.1 1.4.1: Scientific algorithms library for Python
-sys-apps/file 5.37-r1 5.38-r1 5.39-r2 5.39-r3 5.39-r4: identify a file's format by scanning binary data for patterns
+sys-apps/file 5.37-r1 5.38-r1 5.39-r2 5.39-r3 5.39-r4 5.40-r2: identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 www-servers/gunicorn 19.9.0: A WSGI HTTP Server for UNIX
