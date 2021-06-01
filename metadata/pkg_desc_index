@@ -13,7 +13,6 @@ dev-java/scigraph-bin 9999: Web services for SciGraph, A Neo4j backed ontology s
 dev-java/spec-alpha 0.1.143 0.2.176: A Clojure library to describe the structure of data and functions.
 dev-lang/clojure 1.9.0-r1 1.10.0: General-purpose programming language with an emphasis on functional programming
 dev-lang/hy 0.16.0 0.17.0 0.18.0 0.20.0: A LISP dialect running in python
-dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
 dev-lisp/clozurecl 1.12: Common Lisp implementation, derived from Digitool's MCL product
 dev-lisp/sbcl 2.0.11-r1: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
