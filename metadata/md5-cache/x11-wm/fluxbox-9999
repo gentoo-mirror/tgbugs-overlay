@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare unpack
+DEPEND=bidi? ( >=dev-libs/fribidi-0.19.2 ) imlib? ( >=media-libs/imlib2-1.2.0[X] ) truetype? ( media-libs/freetype ) vim-syntax? ( app-vim/fluxbox-syntax ) x11-libs/libXext x11-libs/libXft x11-libs/libXpm x11-libs/libXrandr x11-libs/libXrender xinerama? ( x11-libs/libXinerama ) || ( x11-misc/gxmessage x11-apps/xmessage ) bidi? ( virtual/pkgconfig ) nls? ( sys-devel/gettext ) x11-base/xorg-proto dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=X11 window manager featuring tabs and an iconbar
+EAPI=7
+HOMEPAGE=http://www.fluxbox.org
+INHERIT=flag-o-matic toolchain-funcs git-r3 prefix xdg
+IUSE=nls xinerama bidi +truetype +imlib +slit +systray +toolbar vim-syntax
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=bidi? ( >=dev-libs/fribidi-0.19.2 ) imlib? ( >=media-libs/imlib2-1.2.0[X] ) truetype? ( media-libs/freetype ) vim-syntax? ( app-vim/fluxbox-syntax ) x11-libs/libXext x11-libs/libXft x11-libs/libXpm x11-libs/libXrandr x11-libs/libXrender xinerama? ( x11-libs/libXinerama ) || ( x11-misc/gxmessage x11-apps/xmessage )
+REQUIRED_USE=systray? ( toolbar )
+SLOT=0
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	bc2e7662a4a9a8643be851982a837ddc	git-r3	b8e8c92aa5fe8df7187e466138eb4e52	prefix	de7d8e2b10085ed5ff09ad70e4753e5c	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07
+_md5_=f2329c2d98828a6efb6c075aee2c1a83

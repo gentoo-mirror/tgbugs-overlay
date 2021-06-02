@@ -167,4 +167,5 @@ virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc mo
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 www-servers/gunicorn 19.9.0: A WSGI HTTP Server for UNIX
 www-servers/tornado 5.1: Python web framework and asynchronous networking library
+x11-wm/fluxbox 9999: X11 window manager featuring tabs and an iconbar
 xfce-base/xfce4-meta 4.16-r2: The Xfce Desktop Environment (meta package)
