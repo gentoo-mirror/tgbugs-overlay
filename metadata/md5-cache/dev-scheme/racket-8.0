@@ -11,5 +11,5 @@ RDEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/
 REQUIRED_USE=futures? ( || ( jit cs ) ) || ( bc cgc cs )
 SLOT=0
 SRC_URI=minimal? ( https://download.racket-lang.org/installers/8.0/racket-minimal-8.0-src-builtpkgs.tgz ) !minimal? ( https://download.racket-lang.org/installers/8.0/racket-8.0-src-builtpkgs.tgz )
-_eclasses_=pax-utils	ac4a3f1827ac93db7dcc63a850a9242b
+_eclasses_=pax-utils	74cd9920d64148719fb62c462935c1b5
 _md5_=010a5817b8351bb3904f913902c15912
