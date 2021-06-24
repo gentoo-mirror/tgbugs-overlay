@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] virtual/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
+DEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] dev-libs/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
 DESCRIPTION=General purpose, multi-paradigm Lisp-Scheme programming language
 EAPI=7
 HOMEPAGE=https://racket-lang.org/
@@ -8,8 +8,8 @@ INHERIT=pax-utils git-r3
 IUSE=bc cgc +cs doc +futures +jit minimal +places +readline +threads +X
 LICENSE=MIT Apache-2.0
 PROPERTIES=live
-RDEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] virtual/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
+RDEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] dev-libs/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
 REQUIRED_USE=futures? ( || ( jit cs ) ) || ( bc cgc cs )
 SLOT=0/9999
 _eclasses_=pax-utils	74cd9920d64148719fb62c462935c1b5	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=80a8ef0423e46d76416d9042022450b2
+_md5_=025bf74362c8ccb352e12f4e1bd23d0b
