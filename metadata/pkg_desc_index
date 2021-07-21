@@ -28,6 +28,7 @@ dev-python/astral 1.6-r1 1.6.1-r1: Calculations for the position of the sun and 
 dev-python/augpathlib 0.0.21 9999: Augmented pathlib.
 dev-python/automat 0.7.0-r1: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0 0.1.0-r1: Specifications for callback functions passed in to an API
+dev-python/berkeleydb 18.1.4: Python bindings for Berkeley DB
 dev-python/billiard 3.6.0.0: Python multiprocessing fork
 dev-python/blackfynn 9999: parser combinator library and assorted parsers
 dev-python/boto3 1.9.122-r1 1.13.26: The AWS SDK for Python

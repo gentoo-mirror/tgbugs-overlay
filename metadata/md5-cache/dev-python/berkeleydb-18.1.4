@@ -1,0 +1,16 @@
+BDEPEND=python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0=[threads(+)] ) python_targets_python3_8? ( dev-lang/python:3.8[threads(+)] ) python_targets_python3_9? ( dev-lang/python:3.9[threads(+)] ) python_targets_python3_10? ( dev-lang/python:3.10[threads(+)] ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=<sys-libs/db-6.3:= || ( sys-libs/db:6.2 sys-libs/db:6.1 sys-libs/db:5.3 sys-libs/db:5.1 sys-libs/db:4.8 sys-libs/db:4.7 )
+DESCRIPTION=Python bindings for Berkeley DB
+EAPI=8
+HOMEPAGE=https://www.jcea.es/programacion/pybsddb.htm https://pypi.org/project/berkeleydb/
+INHERIT=db-use distutils-r1
+IUSE=python_targets_pypy3 python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
+KEYWORDS=~alpha amd64 arm arm64 ~hppa ~ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=<sys-libs/db-6.3:= || ( sys-libs/db:6.2 sys-libs/db:6.1 sys-libs/db:5.3 sys-libs/db:5.1 sys-libs/db:4.8 sys-libs/db:4.7 ) python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0=[threads(+)] ) python_targets_python3_8? ( dev-lang/python:3.8[threads(+)] ) python_targets_python3_9? ( dev-lang/python:3.9[threads(+)] ) python_targets_python3_10? ( dev-lang/python:3.10[threads(+)] ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
+SLOT=0
+SRC_URI=mirror://pypi/b/berkeleydb/berkeleydb-18.1.4.tar.gz
+_eclasses_=multilib	97566c1a256d07b00848aa767e38a352	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	db-use	063d3e7add942762a8203b52ec3066c2	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	multibuild	05a584848db4901c97fcd94ae7cc3a97	python-utils-r1	2f5967e7ced9abfa71ff7b0ea8d61b3a	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	943c17c3afd0f811ad36a0b5c8dedba9
+_md5_=3e456e4060dd4ea3e29f93ea5aad814e
