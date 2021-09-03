@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=>=virtual/jre-1.8 >=dev-java/java-config-2.2.0-r3
 SLOT=0
 SRC_URI=https://github.com/blazegraph/database/releases/download/BLAZEGRAPH_2_1_6_RC/blazegraph.jar -> blazegraph-2.1.6_pre1.jar
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	90d7e777563b0e16400c8b8418a7c447
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03
 _md5_=7aeb75b53658e29bbc245dfe6582133f
