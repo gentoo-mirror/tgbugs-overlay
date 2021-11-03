@@ -59,14 +59,15 @@ dev-python/funcparserlib 0.3.6-r1: Recursive descent parsing library based on fu
 dev-python/future 0.17.0-r1: Easy, clean, reliable Python 2/3 compatibility
 dev-python/git-python 2.1.9-r1 2.1.11-r1 3.1.0: Library used to interact with Git repositories
 dev-python/gitdb2 2.0.3-r1 2.0.4-r1 4.0.2: GitDB is a pure-Python git object database
-dev-python/google-api-core 1.17.0 1.24.0: Core Library for Google Client Libraries
-dev-python/google-api-python-client 2.3.0: Google API Client for Python
-dev-python/google-auth 1.14.3-r1 1.20.1 1.24.0: Google Authentication Library
+dev-python/google-api-core 1.17.0 1.24.0 2.0.1: Core Library for Google Client Libraries
+dev-python/google-api-python-client 2.3.0 2.22.0: Google API Client for Python
+dev-python/google-auth 1.14.3-r1 1.20.1 1.24.0 2.1.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.0.3-r1 0.0.4-r1 0.1.0: httplib2 Transport for Google Auth
-dev-python/google-auth-oauthlib 0.4.2 0.4.3: Google Authentication Library
+dev-python/google-auth-oauthlib 0.4.2 0.4.3 0.4.6: Google Authentication Library
 dev-python/googleapis-common-protos 1.52.0: python classes generated from the common protos in the googleapis repository
 dev-python/grpcio 1.32.0-r1: High-performance RPC framework (python libraries)
 dev-python/htmlfn 0.0.3 0.0.4 9999: python functions for generating html
+dev-python/httplib2 0.20.2: A comprehensive HTTP client library
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 18.0.0-r1 20.0.1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.8 9999: Python utilities for the Hypothes.is REST api and websocket interface
