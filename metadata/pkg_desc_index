@@ -2,7 +2,7 @@ acct-group/blazegraph 0: System group: blazegraph
 acct-group/scigraph 0: System group: scigraph
 acct-user/blazegraph 0: A user for dev-db/blazegraph-bin
 acct-user/scigraph 0: A user for dev-java/scigraph-bin
-app-editors/emacs 28.0.9999-r1: The extensible, customizable, self-documenting real-time display editor
+app-editors/emacs 29.0.9999-r1: The extensible, customizable, self-documenting real-time display editor
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
 app-eselect/eselect-racket 0.1: Manages racket symlink
 app-text/xlsx2csv 0.7.6: Convert MS Office xlsx files to CSV
@@ -21,11 +21,10 @@ dev-lang/clojure 1.9.0-r1 1.10.0: General-purpose programming language with an e
 dev-lang/hy 0.16.0 0.17.0 0.18.0 0.20.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
-dev-lisp/clozurecl 1.12: Common Lisp implementation, derived from Digitool's MCL product
 dev-lisp/sbcl 2.1.7: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-python/args 0.1.0-r1: Command Arguments for Humans
 dev-python/astor 0.7.1-r1 0.8.0-r1 0.8.1: Read/rewrite/write Python ASTs
-dev-python/astral 1.6-r1 1.6.1-r1: Calculations for the position of the sun and moon.
+dev-python/astral 1.6-r1 1.6.1-r1 2.2: Calculations for the position of the sun and moon.
 dev-python/augpathlib 0.0.21 9999: Augmented pathlib.
 dev-python/automat 0.7.0-r1: Self-service finite-state machines for the programmer on the go
 dev-python/backcall 0.1.0 0.1.0-r1: Specifications for callback functions passed in to an API
@@ -41,7 +40,7 @@ dev-python/cffi 1.14.4: Foreign Function Interface for Python calling C code
 dev-python/clint 0.5.1-r1: Python Command-line Application Tools
 dev-python/cloudpickle 1.6.0: Extended pickling support for Python objects
 dev-python/colander 1.4-r1: A simple schema-based serialization and deserialization library
-dev-python/colorlog 4.0.2-r1 4.1.0: Log formatting with colors
+dev-python/colorlog 4.0.2-r1 4.1.0 6.6.0: Log formatting with colors
 dev-python/constantly 15.1.0-r2: Symbolic constants in Python
 dev-python/curio 0.9 1.2: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.10.0-r1: Composable style cycles
@@ -171,7 +170,7 @@ sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visua
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 sci-libs/scipy 1.2.1 1.4.1: Scientific algorithms library for Python
-sys-apps/file 5.40-r2 5.40-r3: identify a file's format by scanning binary data for patterns
+sys-apps/file 5.40-r2 5.40-r3 5.41: identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 www-servers/gunicorn 19.9.0: A WSGI HTTP Server for UNIX
