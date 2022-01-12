@@ -48,7 +48,7 @@ dev-python/debugpy 1.5.1: An implementation of the Debug Adapter Protocol for Py
 dev-python/deprecated 1.2.6-r1: Python @deprecated decorator to deprecate old API
 dev-python/elasticsearch-py 6.3.1-r2 7.7.0 7.14.1: Official Python low-level client for Elasticsearch
 dev-python/factory_boy 2.11.1-r1 2.12.0 3.2.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
-dev-python/faker 2.0.3: Faker is a Python package that generates fake data for you.
+dev-python/faker 2.0.3 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/flask-restplus 0.11.0-r1 0.12.1-r1 0.13.0-r1: Framework for fast, easy, and documented API development with Flask
 dev-python/flask-restx 0.1.1 0.2.0 0.3.0 0.5.0 0.5.1: Framework for fast, easy, and documented API development with Flask
