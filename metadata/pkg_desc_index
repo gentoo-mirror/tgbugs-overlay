@@ -19,6 +19,7 @@ dev-lang/hy 0.20.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
 dev-lisp/sbcl 2.1.7: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
+dev-python/Pyro4 4.82: Distributed object middleware for Python (RPC)
 dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.
 dev-python/augpathlib 0.0.22 9999: Augmented pathlib.
@@ -57,6 +58,7 @@ dev-python/google-auth 2.3.3: Google Authentication Library
 dev-python/google-auth-httplib2 0.1.0: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.4.6: Google Authentication Library
 dev-python/googleapis-common-protos 1.54.0: python classes generated from the common protos in the googleapis repository
+dev-python/graphviz 0.19.1: Simple Python interface for Graphviz
 dev-python/grpcio 1.41.1: High-performance RPC framework (python libraries)
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/httplib2 0.20.2: A comprehensive HTTP client library
@@ -76,6 +78,7 @@ dev-python/jsonschema 4.2.1-r1: An implementation of JSON-Schema validation for 
 dev-python/jupyter_client 7.1.0: Jupyter protocol implementation and client libraries
 dev-python/jupyter_core 4.9.1: Core common functionality of Jupyter projects
 dev-python/jupyterlab_pygments 0.1.2: Pygments theme making use of JupyterLab CSS variables
+dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/kiwisolver 1.3.2: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 5.2.3: AMQP Messaging Framework for Python
 dev-python/loky 3.0.0: Robust and reusable Executor for joblib
@@ -110,8 +113,8 @@ dev-python/pydevd 2.7.0: PyDev.Debugger (used in PyDev, PyCharm and VSCode Pytho
 dev-python/pyhamcrest 2.0.2: Hamcrest framework for matcher objects
 dev-python/pyjwt 2.3.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3: A library for working with identifiers of all kinds.
+dev-python/pymongo 4.0.1: Python driver for MongoDB
 dev-python/pyontutils 0.1.27 9999: utilities for working with the NIF ontology, SciGraph, and turtle
-dev-python/pyro 4.82: Distributed object middleware for Python (RPC)
 dev-python/pysercomb 0.0.8 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/pyzmq 22.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
