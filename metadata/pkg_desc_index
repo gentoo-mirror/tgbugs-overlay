@@ -1,7 +1,11 @@
 acct-group/blazegraph 0: System group: blazegraph
+acct-group/interlex 0: System group: interlex
 acct-group/scigraph 0: System group: scigraph
+acct-group/sparc 0: System group: sparc
 acct-user/blazegraph 0: A user for dev-db/blazegraph-bin
+acct-user/interlex 0: A user for dev-python/interlex
 acct-user/scigraph 0: A user for dev-java/scigraph-bin
+acct-user/sparc 0: A user for dev-python/sparcur
 app-editors/emacs 29.0.9999-r1: The extensible, customizable, self-documenting real-time display editor
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
 app-eselect/eselect-racket 0.1: Manages racket symlink
@@ -42,6 +46,7 @@ dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coro
 dev-python/cycler 0.11.0: Composable style cycles
 dev-python/debugpy 1.5.1: An implementation of the Debug Adapter Protocol for Python
 dev-python/elasticsearch-py 7.14.1: Official Python low-level client for Elasticsearch
+dev-python/et_xmlfile 1.1.0: An implementation of lxml.xmlfile for the standard library
 dev-python/factory_boy 3.2.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
