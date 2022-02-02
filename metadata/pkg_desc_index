@@ -23,6 +23,7 @@ dev-lang/hy 0.20.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
 dev-lisp/sbcl 2.1.7: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
+dev-node/apinat-converter 9999: ApiNATOMY model converter
 dev-python/Pyro4 4.82: Distributed object middleware for Python (RPC)
 dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.

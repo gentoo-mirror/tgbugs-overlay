@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=net-libs/nodejs
+DESCRIPTION=ApiNATOMY model converter
+EAPI=8
+HOMEPAGE=https://github.com/open-physiology/open-physiology-viewer
+INHERIT=git-r3
+LICENSE=Apache-2.0
+PROPERTIES=live
+SLOT=9999
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=fc339b321176355dfaa24b010508e387
