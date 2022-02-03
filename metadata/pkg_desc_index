@@ -1,9 +1,11 @@
 acct-group/blazegraph 0: System group: blazegraph
 acct-group/interlex 0: System group: interlex
+acct-group/nifstd-tools 0: System group: nifstd-tools
 acct-group/scigraph 0: System group: scigraph
 acct-group/sparc 0: System group: sparc
 acct-user/blazegraph 0: A user for dev-db/blazegraph-bin
 acct-user/interlex 0: A user for dev-python/interlex
+acct-user/nifstd-tools 0: A user for dev-python/nifstd-tools
 acct-user/scigraph 0: A user for dev-java/scigraph-bin
 acct-user/sparc 0: A user for dev-python/sparcur
 app-editors/emacs 29.0.9999-r1: The extensible, customizable, self-documenting real-time display editor
