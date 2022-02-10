@@ -150,7 +150,7 @@ dev-python/uncertainties 3.1.6: Python module for calculations with uncertaintie
 dev-python/versioneer 0.21: Easy VCS-based management of project version strings
 dev-python/websockets 10.1: Library for building WebSocket servers and clients in Python
 dev-python/zdesk 2.7.1: Zendesk API for Python generated from developer.zendesk.com
-dev-scheme/racket 6.6 6.7 6.8 6.9 6.10 6.10.1 6.11 6.12 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 9999: General purpose, multi-paradigm Lisp-Scheme programming language
+dev-scheme/racket 6.6 6.7 6.8 6.9 6.10 6.10.1 6.11 6.12 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 8.4 9999: General purpose, multi-paradigm Lisp-Scheme programming language
 kde-frameworks/solid 5.64.0-r1: Provider for platform independent hardware discovery, abstraction and management
 media-gfx/yed 3.16.2.1 3.17.1 3.18.1.1 3.20: Diagram and graph editor that generates high-quality drawings.
 media-libs/assimp 3.3.1: Importer library to import assets from 3D files
