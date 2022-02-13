@@ -1,11 +1,13 @@
 acct-group/blazegraph 0: System group: blazegraph
 acct-group/interlex 0: System group: interlex
 acct-group/nifstd-tools 0: System group: nifstd-tools
+acct-group/scibot 0: System group: scibot
 acct-group/scigraph 0: System group: scigraph
 acct-group/sparc 0: System group: sparc
 acct-user/blazegraph 0: A user for dev-db/blazegraph-bin
 acct-user/interlex 0: A user for dev-python/interlex
 acct-user/nifstd-tools 0: A user for dev-python/nifstd-tools
+acct-user/scibot 0: A user for dev-python/scibot
 acct-user/scigraph 0: A user for dev-java/scigraph-bin
 acct-user/sparc 0: A user for dev-python/sparcur
 app-editors/emacs 29.0.9999-r1: The extensible, customizable, self-documenting real-time display editor
@@ -135,6 +137,7 @@ dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.8: Pure python parser generator that also works with RPython
 dev-python/rsa 4.8: Pure-Python RSA implementation
 dev-python/s3transfer 0.5.0-r2: An Amazon S3 Transfer Manager
+dev-python/scibot 9999: Web annotation curation pipeline
 dev-python/slugify 5.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap 5.0.0: A pure Python implementation of a sliding window memory map manager
 dev-python/sparcur 9999: Code for the SPARC curation workflow.
