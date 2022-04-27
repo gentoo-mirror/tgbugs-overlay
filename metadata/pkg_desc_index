@@ -33,7 +33,7 @@ dev-python/anyio 3.4.0: Compatibility layer for multiple asynchronous event loop
 dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.
 dev-python/asttokens 2.0.5: Annotate Python AST trees with source text and token information
-dev-python/augpathlib 0.0.22 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.22 0.0.23 9999: Augmented pathlib.
 dev-python/backcall 0.2.0: Specifications for callback functions passed in to an API
 dev-python/berkeleydb 18.1.4: Python bindings for Berkeley DB
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
