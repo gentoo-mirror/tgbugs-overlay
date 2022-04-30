@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/uriparser dev-db/postgresql:=
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=eae0f340d5511e39b163488af0807d43
+_md5_=24d71102d704563690a822af28bd6a9d
