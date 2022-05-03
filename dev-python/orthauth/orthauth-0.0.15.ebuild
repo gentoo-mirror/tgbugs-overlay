@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( pypy3 python3_{8..10} )
+PYTHON_COMPAT=( python3_{8..10} pypy3 )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
@@ -11,18 +11,19 @@ if [[ ${PV} == "9999" ]]; then
 	inherit git-r3
 	KEYWORDS=""
 else
-	MY_P=${PN}-${PV/_pre/.dev}  # 1.1.1_pre0 -> 1.1.1.dev0
-	S=${WORKDIR}/${MY_P}
-	SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
-DESCRIPTION="A library for working with identifiers of all kinds."
-HOMEPAGE="https://github.com/tgbugs/sxpyr"
+DESCRIPTION="python orthogonal authentication"
+HOMEPAGE="https://github.com/tgbugs/orthauth"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="dev cli test"
+IUSE="dev test +sxpr yaml"
+REQUIRE_USE="
+	test? ( yaml sxpr )
+"
 RESTRICT="!test? ( test )"
 
 DEPEND="
@@ -31,12 +32,14 @@ DEPEND="
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/wheel[${PYTHON_USEDEP}]
 	)
-	cli? (
-		>=dev-python/pyontutils-0.1.27[${PYTHON_USEDEP}]
-	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		>=dev-python/pyontutils-0.1.27[${PYTHON_USEDEP}]
+	)
+	sxpr? (
+		>=dev-python/sxpr-0.0.2[${PYTHON_USEDEP}]
+	)
+	yaml? (
+		dev-python/pyyaml[${PYTHON_USEDEP}]
 	)
 "
 RDEPEND="${DEPEND}"
@@ -44,7 +47,7 @@ RDEPEND="${DEPEND}"
 if [[ ${PV} == "9999" ]]; then
 	src_prepare () {
 		# replace package version to keep python quiet
-		sed -i "s/__version__.\+$/__version__ = '9999.0.0+$(git rev-parse --short HEAD)'/" ${PN}/sxpyr.py
+		sed -i "s/__version__.\+$/__version__ = '9999.0.0+$(git rev-parse --short HEAD)'/" ${PN}/__init__.py
 		default
 	}
 fi
@@ -58,6 +61,6 @@ python_test() {
 }
 
 python_install_all() {
-	local DOCS=( README* )
+	local DOCS=( README* docs/* )
 	distutils-r1_python_install_all
 }

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( pypy3 python3_{8..10} )
+PYTHON_COMPAT=( python3_{8..10} pypy3 )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]]; then
@@ -20,9 +20,9 @@ HOMEPAGE="https://github.com/tgbugs/orthauth"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="dev test yaml"
+IUSE="dev test +sxpr yaml"
 REQUIRE_USE="
-	test? ( yaml )
+	test? ( yaml sxpr )
 "
 RESTRICT="!test? ( test )"
 
@@ -34,6 +34,9 @@ DEPEND="
 	)
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
+	)
+	sxpr? (
+		>=dev-python/sxpr-0.0.2[${PYTHON_USEDEP}]
 	)
 	yaml? (
 		dev-python/pyyaml[${PYTHON_USEDEP}]
