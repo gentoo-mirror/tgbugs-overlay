@@ -32,7 +32,7 @@ dev-python/Pyro4 4.82: Distributed object middleware for Python (RPC)
 dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.
 dev-python/asttokens 2.0.5: Annotate Python AST trees with source text and token information
-dev-python/augpathlib 0.0.22 0.0.23 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.22 0.0.24 9999: Augmented pathlib.
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
 dev-python/black 22.3.0: The uncompromising Python code formatter
