@@ -49,7 +49,7 @@ dev-python/click-plugins 1.1.1: Module for click to enable registering CLI comma
 dev-python/click-repl 0.2.0: Subcommand REPL for click apps
 dev-python/cloudpickle 2.0.0: Extended pickling support for Python objects
 dev-python/colorlog 6.6.0: Log formatting with colors
-dev-python/cppy 1.2.0-r1: C++ header library which makes it easier to write Python extension modules
+dev-python/cppy 1.2.0-r1 1.2.1-r1: C++ header library which makes it easier to write Python extension modules
 dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.11.0: Composable style cycles
 dev-python/debugpy 1.5.1: An implementation of the Debug Adapter Protocol for Python
