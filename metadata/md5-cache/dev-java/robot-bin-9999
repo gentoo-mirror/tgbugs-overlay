@@ -1,4 +1,4 @@
-BDEPEND=>=virtual/jdk-1.8 >=dev-java/maven-bin-3.3 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=virtual/jdk-17 >=dev-java/maven-bin-3.3 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install preinst prepare setup unpack
 DEPEND=>=dev-java/java-config-2.2.0-r3
 DESCRIPTION=A tool for automating ontology workflows.
@@ -8,7 +8,7 @@ INHERIT=java-pkg-2 git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=>=virtual/jre-1.8 >=dev-java/java-config-2.2.0-r3
+RDEPEND=>=virtual/jre-17 >=dev-java/java-config-2.2.0-r3
 SLOT=9999
 _eclasses_=java-utils-2	cfb5f6911bb70204c94ceafd0372c716	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=d32e257f0ea9193d82d1de359874189f
+_md5_=70a0198b716d689d10d9710a3ae244fa
