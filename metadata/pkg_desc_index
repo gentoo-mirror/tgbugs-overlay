@@ -41,8 +41,8 @@ dev-python/bcp47 0.0.4: BCP47 LCID language codes, plain and simple
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
 dev-python/black 22.3.0: The uncompromising Python code formatter
-dev-python/boto3 1.21.42: The AWS SDK for Python
-dev-python/botocore 1.24.42: Low-level, data-driven core of boto 3
+dev-python/boto3 1.24.17: The AWS SDK for Python
+dev-python/botocore 1.27.17: Low-level, data-driven core of boto 3
 dev-python/bottleneck 1.3.4: Fast NumPy array functions written in C
 dev-python/cachetools 4.2.4 5.0.0: Extensible memoizing collections and decorators
 dev-python/celery 5.2.3: Asynchronous task queue/job queue based on distributed message passing
@@ -141,7 +141,7 @@ dev-python/requests-oauthlib 1.3.0 1.3.1: This project provides first-class OAut
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.8: Pure python parser generator that also works with RPython
 dev-python/rsa 4.8: Pure-Python RSA implementation
-dev-python/s3transfer 0.5.2: An Amazon S3 Transfer Manager
+dev-python/s3transfer 0.6.0: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
 dev-python/scipy 1.8.0: Scientific algorithms library for Python
 dev-python/send2trash 1.8.0: Sends files to the Trash (or Recycle Bin)
