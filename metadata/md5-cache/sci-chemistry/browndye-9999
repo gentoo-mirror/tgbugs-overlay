@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-lang/ocaml
+DESCRIPTION=Brownian Dynamics of Biological Molecules
+EAPI=8
+HOMEPAGE=http://browndye.ucsd.edu/
+LICENSE=MIT
+RDEPEND=dev-lang/ocaml
+SLOT=0
+SRC_URI=http://browndye.ucsd.edu/browndye.tar.gz
+_md5_=055570b54a37f7a1e0a96717e3a4d642
