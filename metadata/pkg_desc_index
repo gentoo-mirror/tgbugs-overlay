@@ -83,7 +83,7 @@ dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.8 9999: Python utilities for the Hypothes.is REST api and websocket interface
-dev-python/idlib 0.0.1_pre11 9999: A library for working with identifiers of all kinds.
+dev-python/idlib 0.0.1_pre11 0.0.1_pre12 9999: A library for working with identifiers of all kinds.
 dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 6.15.0 6.15.1: IPython Kernel for Jupyter
 dev-python/ipyparallel 8.3.0 8.4.1: Interactive Parallel Computing with IPython
@@ -113,7 +113,7 @@ dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
 dev-python/numpy 1.22.3: Fast array and numerical python library
 dev-python/oauth2client 4.1.3-r2: Library for accessing resources protected by OAuth 2.0
 dev-python/oauthlib 3.2.0: Spec-compliant and thorough implementation of the OAuth request-signing logic
-dev-python/ontquery 0.2.8 9999: a framework querying ontology terms
+dev-python/ontquery 0.2.8 0.2.9 9999: a framework querying ontology terms
 dev-python/openpyxl 3.0.9-r1: Pure python reader and writer of Excel OpenXML files
 dev-python/orthauth 0.0.15 0.0.16 9999: python orthogonal authentication
 dev-python/pandocfilters 1.5.0: Utilities for writing pandoc filters in python
@@ -134,7 +134,7 @@ dev-python/pydevd 2.8.0-r1: PyDev.Debugger (used in PyDev, PyCharm and VSCode Py
 dev-python/pyjwt 2.3.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
 dev-python/pymongo 4.0.2: Python driver for MongoDB
-dev-python/pyontutils 0.1.27 0.1.28 0.1.29 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyontutils 0.1.27 0.1.28 0.1.29 0.1.30 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pysercomb 0.0.9 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/pyzmq 23.2.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
