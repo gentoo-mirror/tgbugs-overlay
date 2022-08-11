@@ -168,7 +168,7 @@ net-im/skypeforlinux 8.29.0.50: Instant messaging client, with support for audio
 net-mail/aerc 0.1.1 9999: Asynchronous email client for your terminal, written in Go.
 net-misc/curl 7.71.1-r1: A Client that groks URLs
 sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
-sci-biology/mcell 3.3 9999: 
+sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 sys-apps/file 5.40-r2 5.40-r3 5.41 5.42: Identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
