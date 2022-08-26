@@ -42,11 +42,12 @@ dev-python/bcp47 0.0.4: BCP47 LCID language codes, plain and simple
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
 dev-python/black 22.3.0: The uncompromising Python code formatter
-dev-python/boto3 1.24.31: The AWS SDK for Python
-dev-python/botocore 1.27.31: Low-level, data-driven core of boto 3
-dev-python/bottleneck 1.3.4: Fast NumPy array functions written in C
+dev-python/boto3 1.24.36: The AWS SDK for Python
+dev-python/botocore 1.27.36: Low-level, data-driven core of boto 3
+dev-python/bottleneck 1.3.5: Fast NumPy array functions written in C
 dev-python/cachetools 5.2.0: Extensible memoizing collections and decorators
 dev-python/celery 5.2.3: Asynchronous task queue/job queue based on distributed message passing
+dev-python/cffi 1.15.1: Foreign Function Interface for Python calling C code
 dev-python/click-didyoumean 0.3.0: Enable git-like did-you-mean feature in click
 dev-python/click-plugins 1.1.1: Module for click to enable registering CLI commands via setuptools entry-points
 dev-python/click-repl 0.2.0: Subcommand REPL for click apps
@@ -73,7 +74,7 @@ dev-python/funowl 0.1.11: Pythonic representation of OWL through the OWL functio
 dev-python/git-python 3.1.26: Library used to interact with Git repositories
 dev-python/gitdb 4.0.9-r1: GitDB is a pure-Python git object database
 dev-python/google-api-core 2.8.2: Core Library for Google Client Libraries
-dev-python/google-api-python-client 2.53.0: Google API Client for Python
+dev-python/google-api-python-client 2.55.0: Google API Client for Python
 dev-python/google-auth 2.9.1: Google Authentication Library
 dev-python/google-auth-httplib2 0.1.0-r1: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.5.2: Google Authentication Library
@@ -89,24 +90,24 @@ dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 6.15.0 6.15.1: IPython Kernel for Jupyter
 dev-python/ipyparallel 8.3.0 8.4.1: Interactive Parallel Computing with IPython
 dev-python/ipython 7.31.1 8.0.1 8.2.0 8.3.0-r1 8.4.0: Advanced interactive shell for Python
-dev-python/ipython_genutils 0.2.0-r2 0.2.0-r3: Vestigial utilities from IPython
+dev-python/ipython_genutils 0.2.0-r4: Vestigial utilities from IPython
 dev-python/jedi 0.18.1: Autocompletion library for Python
 dev-python/joblib 1.1.0-r1: Tools to provide lightweight pipelining in Python
 dev-python/jsonasobj 1.3.1: JSON objects as first class python objects.
 dev-python/jupyter_client 7.3.4: Jupyter protocol implementation and client libraries
 dev-python/jupyter_core 4.10.0 4.11.1: Core common functionality of Jupyter projects
 dev-python/jupyter_packaging 0.12.2: Tools to help build and install Jupyter Python packages
-dev-python/jupyter_server 1.18.0: Core services, APIs, and REST endpoints to Jupyter web applications
+dev-python/jupyter_server 1.18.1: Core services, APIs, and REST endpoints to Jupyter web applications
 dev-python/jupyterlab_pygments 0.2.2: Pygments theme making use of JupyterLab CSS variables
 dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
-dev-python/kiwisolver 1.4.3: An efficient C++ implementation of the Cassowary constraint solving algorithm
+dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 5.2.3: AMQP Messaging Framework for Python
 dev-python/loky 3.1.0: Robust and reusable Executor for joblib
-dev-python/matplotlib 3.5.2-r3: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 3.5.3: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.3-r1: Inline Matplotlib backend for Jupyter
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
 dev-python/nbclient 0.6.6: A client library for executing Jupyter notebooks
-dev-python/nbconvert 6.5.0-r2: Converting Jupyter Notebooks
+dev-python/nbconvert 6.5.3: Converting Jupyter Notebooks
 dev-python/nbformat 5.4.0: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.5.5: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.3 9999: A data model for neuron types.
@@ -138,12 +139,12 @@ dev-python/pymongo 4.1.1: Python driver for MongoDB
 dev-python/pyontutils 0.1.27 0.1.28 0.1.29 0.1.30 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pysercomb 0.0.9 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
-dev-python/pyzmq 23.2.0-r1: Lightweight and super-fast messaging library built on top of the ZeroMQ library
+dev-python/pyzmq 23.2.1: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 6.0.2 6.1.1 6.2.0 9999: RDF library containing a triple store and parser/serializer
 dev-python/requests-oauthlib 1.3.0 1.3.1: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.8: Pure python parser generator that also works with RPython
-dev-python/rsa 4.8-r2: Pure-Python RSA implementation
+dev-python/rsa 4.9: Pure-Python RSA implementation
 dev-python/s3transfer 0.6.0: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
 dev-python/send2trash 1.8.0-r1: Sends files to the Trash (or Recycle Bin)
