@@ -74,7 +74,7 @@ dev-python/git-python 3.1.26: Library used to interact with Git repositories
 dev-python/gitdb 4.0.9-r1: GitDB is a pure-Python git object database
 dev-python/google-api-core 2.8.2: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.53.0: Google API Client for Python
-dev-python/google-auth 2.9.0: Google Authentication Library
+dev-python/google-auth 2.9.1: Google Authentication Library
 dev-python/google-auth-httplib2 0.1.0-r1: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.5.2: Google Authentication Library
 dev-python/googleapis-common-protos 1.56.4: Python classes generated from the common protos in the googleapis repository
