@@ -13,8 +13,11 @@ LICENSE="Apache-2.0"
 SLOT="9999"
 KEYWORDS=""
 
-DEPEND="
-	<=net-libs/nodejs-15"
+BDEPEND="
+	net-libs/nodejs:0/18"
+
+RDEPEND="
+	net-libs/nodejs"
 
 src_unpack() {
 	# NOTE for this to work you must have run the command npm with no arguments
@@ -26,9 +29,9 @@ src_unpack() {
 	git-r3_src_unpack
 	ewarn "Running npm install in src_unpack. This violates various security assumptions. You have been warned."
 	pushd ${S}
-	npm install || die
+	npm install --legacy-peer-deps || die
 	pushd wrapper
-	npm install || die
+	npm install --legacy-peer-deps || die
 	popd
 	popd
 }
