@@ -51,7 +51,7 @@ dev-python/cffi 1.15.1: Foreign Function Interface for Python calling C code
 dev-python/click-didyoumean 0.3.0: Enable git-like did-you-mean feature in click
 dev-python/click-plugins 1.1.1: Module for click to enable registering CLI commands via setuptools entry-points
 dev-python/click-repl 0.2.0: Subcommand REPL for click apps
-dev-python/cloudpickle 2.1.0: Extended pickling support for Python objects
+dev-python/cloudpickle 2.2.0: Extended pickling support for Python objects
 dev-python/colorlog 6.6.0: Log formatting with colors
 dev-python/cppy 1.2.0-r1 1.2.1-r1: C++ header library which makes it easier to write Python extension modules
 dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coroutines in Python 3.
