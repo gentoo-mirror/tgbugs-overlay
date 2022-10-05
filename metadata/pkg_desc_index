@@ -176,6 +176,5 @@ sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 sys-apps/file 5.40-r2 5.40-r3 5.41 5.42: Identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
-www-servers/tornado 5.1 6.1: Python web framework and asynchronous networking library
 x11-wm/fluxbox 9999: X11 window manager featuring tabs and an iconbar
 xfce-base/xfce4-meta 4.16-r2: The Xfce Desktop Environment (meta package)
