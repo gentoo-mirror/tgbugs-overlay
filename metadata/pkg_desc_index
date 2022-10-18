@@ -57,7 +57,7 @@ dev-python/colorlog 6.6.0: Log formatting with colors
 dev-python/cppy 1.2.0-r1 1.2.1-r1: C++ header library which makes it easier to write Python extension modules
 dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.11.0-r1: Composable style cycles
-dev-python/debugpy 1.6.0: An implementation of the Debug Adapter Protocol for Python
+dev-python/debugpy 1.6.3: An implementation of the Debug Adapter Protocol for Python
 dev-python/dicttoxml 1.7.4-r3: Converts a Python dictionary or other data type to a valid XML string
 dev-python/elasticsearch-py 7.14.1: Official Python low-level client for Elasticsearch
 dev-python/et_xmlfile 1.1.0-r1: An implementation of lxml.xmlfile for the standard library
