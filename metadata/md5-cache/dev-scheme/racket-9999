@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=app-eselect/eselect-racket dev-db/sqlite:3 media-libs/libpng:0 x11-libs/cairo[X?] x11-libs/pango[X?] dev-libs/libffi virtual/jpeg:0 readline? ( dev-libs/libedit ) X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex
 REQUIRED_USE=futures? ( || ( jit cs ) ) || ( bc cgc cs )
 SLOT=0/9999
-_eclasses_=pax-utils	91d47e5d20627c717aa878b9167c62a8	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=pax-utils	91d47e5d20627c717aa878b9167c62a8	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=025bf74362c8ccb352e12f4e1bd23d0b

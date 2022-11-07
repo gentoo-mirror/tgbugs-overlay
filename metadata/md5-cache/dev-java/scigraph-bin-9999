@@ -12,5 +12,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=virtual/jre:1.8 x11-misc/xvfb-run >=dev-java/java-config-2.2.0-r3
 SLOT=9999
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=1ec5258443ece60d5b44a6ad8ab5dbf0
