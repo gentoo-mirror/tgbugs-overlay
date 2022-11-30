@@ -19,7 +19,7 @@ app-text/xlsx2csv 0.7.8: Convert MS Office xlsx files to CSV
 dev-db/blazegraph-bin 2.1.6_pre1: A high-performance graph database supporting Blueprints and RDF/SPARQL APIs.
 dev-db/metabase-bin 0.31.2 0.33.6: Get business intelligence from databases
 dev-db/pguri 9999: uri datatype for PostgreSQL
-dev-db/schemaspy-bin 6.0.0: Document your database simply and easily
+dev-db/schemaspy-bin 6.0.0 6.1.0: Document your database simply and easily
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
 dev-embedded/teensyduino-bin 1.35 1.45: USB-based electronics prototyping platform compatible with Arduino
 dev-haskell/dot2graphml 9999: convert graphviz dot to yworks graphml
