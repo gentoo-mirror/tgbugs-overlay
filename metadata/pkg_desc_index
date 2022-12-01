@@ -59,13 +59,13 @@ dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coro
 dev-python/cycler 0.11.0-r1: Composable style cycles
 dev-python/debugpy 1.6.3: An implementation of the Debug Adapter Protocol for Python
 dev-python/dicttoxml 1.7.4-r3: Converts a Python dictionary or other data type to a valid XML string
-dev-python/elasticsearch-py 7.14.1: Official Python low-level client for Elasticsearch
+dev-python/elasticsearch-py 7.17.6: Official Python low-level client for Elasticsearch
 dev-python/et_xmlfile 1.1.0-r1: An implementation of lxml.xmlfile for the standard library
 dev-python/executing 1.2.0: Get information about what a Python frame is currently doing
 dev-python/factory_boy 3.2.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
-dev-python/fastjsonschema 2.15.3-r1: Fast JSON schema validator for Python
+dev-python/fastjsonschema 2.16.2: Fast JSON schema validator for Python
 dev-python/flask-restx 0.5.1 1.0.3: Framework for fast, easy, and documented API development with Flask
 dev-python/fonttools 4.38.0: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/frozendict 1.2 2.3.4: A simple immutable mapping for python
@@ -128,7 +128,7 @@ dev-python/pint 0.18 0.19.2: Operate and manipulate physical quantities in Pytho
 dev-python/prometheus_client 0.15.0: Python client for the Prometheus monitoring system
 dev-python/prompt_toolkit 3.0.31: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.9 9999: Web annotation workflows for protocol curation.
-dev-python/protobuf-python 3.19.3-r3 4.21.9: Google's Protocol Buffers - Python bindings
+dev-python/protobuf-python 3.19.3-r3: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
 dev-python/pure_eval 0.2.2: Safely evaluate AST nodes without side effects
 dev-python/py-amqp 5.1.1-r1: Low-level AMQP client for Python (fork of amqplib)
@@ -164,7 +164,6 @@ dev-python/tornado 5.1 6.1 6.2: Python web framework and asynchronous networking
 dev-python/traitlets 5.5.0: A configuration system for Python applications
 dev-python/ttlser 1.1.4 9999: Deterministic turtle serialization for rdflib.
 dev-python/uncertainties 3.1.7: Python module for calculations with uncertainties
-dev-python/versioneer 0.22: Easy VCS-based management of project version strings
 dev-python/zdesk 2.7.1: Zendesk API for Python generated from developer.zendesk.com
 dev-scheme/racket 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 8.4 8.5 8.5.900 8.6 8.7 9999: General purpose, multi-paradigm Lisp-Scheme programming language
 kde-frameworks/solid 5.64.0-r1: Provider for platform independent hardware discovery, abstraction and management
