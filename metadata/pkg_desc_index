@@ -113,12 +113,14 @@ dev-python/nest_asyncio 1.5.6: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.3 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
 dev-python/notebook 6.4.12: Jupyter Interactive Notebook
+dev-python/numexpr 2.8.4: Fast numerical array expression evaluator for Python and NumPy
 dev-python/numpy 1.23.4: Fast array and numerical python library
 dev-python/oauth2client 4.1.3-r2: Library for accessing resources protected by OAuth 2.0
 dev-python/oauthlib 3.2.2: Spec-compliant and thorough implementation of the OAuth request-signing logic
 dev-python/ontquery 0.2.8 0.2.9 0.2.10 9999: a framework querying ontology terms
 dev-python/openpyxl 3.0.10: Pure python reader and writer of Excel OpenXML files
 dev-python/orthauth 0.0.15 0.0.16 9999: python orthogonal authentication
+dev-python/pandas 1.5.1: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.5.0: Utilities for writing pandoc filters in python
 dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired by Parsec Haskell library
 dev-python/pennsieve 6.1.2: Python client and command line tool for Pennsieve
@@ -148,6 +150,7 @@ dev-python/rply 0.7.8: Pure python parser generator that also works with RPython
 dev-python/rsa 4.9: Pure-Python RSA implementation
 dev-python/s3transfer 0.6.0: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
+dev-python/seaborn 0.12.0: Statistical data visualization
 dev-python/send2trash 1.8.0-r1: Sends files to the Trash (or Recycle Bin)
 dev-python/slugify 5.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap 5.0.0: A pure Python implementation of a sliding window memory map manager
