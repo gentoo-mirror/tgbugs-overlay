@@ -28,7 +28,6 @@ dev-java/robot-bin 9999: A tool for automating ontology workflows.
 dev-java/scigraph-bin 9999: Web services for SciGraph, A Neo4j backed ontology store.
 dev-lang/hy 0.20.0: A LISP dialect running in python
 dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
-dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
 dev-lisp/sbcl 2.1.7 2.2.7: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-node/apinat-converter 9999: ApiNATOMY model converter
 dev-python/PyJSG 0.11.6: JSON Schema Grammar bindings for Python
