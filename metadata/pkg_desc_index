@@ -122,7 +122,7 @@ dev-python/orthauth 0.0.15 0.0.16 0.0.17 9999: python orthogonal authentication
 dev-python/pandas 1.5.1: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.5.0: Utilities for writing pandoc filters in python
 dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired by Parsec Haskell library
-dev-python/pennsieve 6.1.2: Python client and command line tool for Pennsieve
+dev-python/pennsieve 6.2.0: Python client and command line tool for Pennsieve
 dev-python/pickleshare 0.7.5: A small 'shelve' like datastore with concurrency support
 dev-python/pint 0.18 0.19.2 0.20.1: Operate and manipulate physical quantities in Python
 dev-python/prometheus_client 0.15.0: Python client for the Prometheus monitoring system
