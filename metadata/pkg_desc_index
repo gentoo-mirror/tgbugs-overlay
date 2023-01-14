@@ -88,7 +88,7 @@ dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.8 0.0.9 9999: Python utilities for the Hypothes.is REST api and websocket interface
-dev-python/idlib 0.0.1_pre11 0.0.1_pre12 0.0.1_pre13 0.0.1_pre14 9999: A library for working with identifiers of all kinds.
+dev-python/idlib 0.0.1_pre11 0.0.1_pre12 0.0.1_pre13 0.0.1_pre14 0.0.1_pre15 9999: A library for working with identifiers of all kinds.
 dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 6.15.3 6.16.2: IPython Kernel for Jupyter
 dev-python/ipyparallel 8.3.0 8.4.1: Interactive Parallel Computing with IPython
@@ -131,7 +131,7 @@ dev-python/pickleshare 0.7.5: A small 'shelve' like datastore with concurrency s
 dev-python/pint 0.18 0.19.2 0.20.1: Operate and manipulate physical quantities in Python
 dev-python/prometheus_client 0.15.0: Python client for the Prometheus monitoring system
 dev-python/prompt_toolkit 3.0.31: Building powerful interactive command lines in Python
-dev-python/protcur 0.0.9 0.0.10 9999: Web annotation workflows for protocol curation.
+dev-python/protcur 0.0.9 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
 dev-python/protobuf-python 3.19.3-r3: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
 dev-python/pure_eval 0.2.2: Safely evaluate AST nodes without side effects
@@ -142,8 +142,8 @@ dev-python/pydevd 2.9.1: PyDev.Debugger (used in PyDev, PyCharm and VSCode Pytho
 dev-python/pyjwt 2.4.0 2.6.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
 dev-python/pymongo 4.3.3: Python driver for MongoDB
-dev-python/pyontutils 0.1.27 0.1.28 0.1.29 0.1.30 0.1.31 9999: utilities for working with the NIF ontology, SciGraph, and turtle
-dev-python/pysercomb 0.0.9 0.0.10 9999: parser combinator library and assorted parsers
+dev-python/pyontutils 0.1.27 0.1.28 0.1.29 0.1.30 0.1.31 0.1.32 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pysercomb 0.0.9 0.0.10 0.0.11 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/pyzmq 24.0.1: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 6.0.2 6.1.1 6.2.0 9999: RDF library containing a triple store and parser/serializer
@@ -157,7 +157,7 @@ dev-python/seaborn 0.12.0: Statistical data visualization
 dev-python/send2trash 1.8.0-r1: Sends files to the Trash (or Recycle Bin)
 dev-python/slugify 5.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap 5.0.0: A pure Python implementation of a sliding window memory map manager
-dev-python/sparcur 0.0.1_pre3 0.0.1_pre4 9999: Code for the SPARC curation workflow.
+dev-python/sparcur 0.0.1_pre3 0.0.1_pre4 0.0.1_pre5 9999: Code for the SPARC curation workflow.
 dev-python/sphinx-issues 3.0.1-r1: Sphinx extension for linking to your project's issue tracker
 dev-python/stack_data 0.5.1: Extract data from Python tracebacks for informative displays
 dev-python/sxpyr 0.0.3 9999: A library for working with identifiers of all kinds.
@@ -179,7 +179,7 @@ net-misc/curl 7.71.1-r1: A Client that groks URLs
 sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
-sys-apps/file 5.40-r2 5.40-r3 5.41 5.42 5.43 5.43-r1 5.43-r2: Identify a file's format by scanning binary data for patterns
+sys-apps/file 5.40-r2 5.40-r3 5.41 5.42 5.43 5.43-r1 5.43-r2 5.44-r3: Identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 x11-wm/fluxbox 9999: X11 window manager featuring tabs and an iconbar
