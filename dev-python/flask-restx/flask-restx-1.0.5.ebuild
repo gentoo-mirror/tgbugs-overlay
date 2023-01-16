@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( pypy3 python3_{8..10} )
+PYTHON_COMPAT=( pypy3 python3_{9..10} )
 inherit distutils-r1
 
 DESCRIPTION="Framework for fast, easy, and documented API development with Flask"
@@ -32,24 +32,22 @@ RDEPEND="${DEPEND}
 	)
 	doc? (
 		=dev-python/alabaster-0.7.12
-		=dev-python/sphinx-2.1.2
-		=dev-python/sphinx-issues-1.2.0
+		=dev-python/sphinx-5.3.0
+		=dev-python/sphinx-issues-3.0.1
 	)
 	test? (
 		dev-python/blinker
 		=dev-python/faker-2.0.0
 		=dev-python/mock-3.0.5
-		dev-python/ossaudit
 		=dev-python/invoke-1.3.0
-		=dev-python/pytest-5.0.1
-		=dev-python/pytest-benchmark-3.2.2
-		=dev-python/pytest-cov-2.7.1
-		=dev-python/pytest-flask-0.15.1
-		=dev-python/pytest-mock-1.10.4
+		=dev-python/pytest-7.0.1
+		=dev-python/pytest-benchmark-3.4.1
+		=dev-python/pytest-cov-4.0.0
+		=dev-python/pytest-flask-1.2.0
+		=dev-python/pytest-mock-3.6.1
 		=dev-python/pytest-profiling-1.7.0
-		=dev-python/pytest-sugar-0.9.2
-		=dev-python/readme-renderer-24.0
-		=dev-python/twine-1.15.0
+		=dev-python/invoke-1.7.3
+		=dev-python/twine-3.8.0
 		dev-python/tzlocal
 	)
 "
