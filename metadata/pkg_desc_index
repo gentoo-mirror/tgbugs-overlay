@@ -167,7 +167,7 @@ dev-python/text-unidecode 1.3-r1: The most basic port of the Text::Unidecode Per
 dev-python/tinycss2 1.2.1: A complete yet simple CSS parser for Python
 dev-python/tornado 6.1 6.2: Python web framework and asynchronous networking library
 dev-python/traitlets 5.5.0: A configuration system for Python applications
-dev-python/ttlser 1.1.4 9999: Deterministic turtle serialization for rdflib.
+dev-python/ttlser 1.1.4 1.1.5 9999: Deterministic turtle serialization for rdflib.
 dev-python/uncertainties 3.1.7: Python module for calculations with uncertainties
 dev-python/zdesk 2.7.1: Zendesk API for Python generated from developer.zendesk.com
 dev-scheme/racket 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 8.4 8.5 8.5.900 8.6 8.7 9999: General purpose, multi-paradigm Lisp-Scheme programming language
