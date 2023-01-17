@@ -83,7 +83,7 @@ dev-python/google-auth-httplib2 0.1.0-r1: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.5.2: Google Authentication Library
 dev-python/googleapis-common-protos 1.56.4-r1: Python classes generated from the common protos in the googleapis repository
 dev-python/graphviz 0.20.1: Simple Python interface for Graphviz
-dev-python/grpcio 1.51.0: High-performance RPC framework (python libraries)
+dev-python/grpcio 1.43.0-r1: High-performance RPC framework (python libraries)
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
@@ -132,7 +132,7 @@ dev-python/pint 0.18 0.19.2 0.20.1: Operate and manipulate physical quantities i
 dev-python/prometheus_client 0.15.0: Python client for the Prometheus monitoring system
 dev-python/prompt_toolkit 3.0.36: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
-dev-python/protobuf-python 4.21.9: Google's Protocol Buffers - Python bindings
+dev-python/protobuf-python 3.19.3-r3: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
 dev-python/pure_eval 0.2.2: Safely evaluate AST nodes without side effects
 dev-python/py-amqp 5.1.1-r1: Low-level AMQP client for Python (fork of amqplib)
