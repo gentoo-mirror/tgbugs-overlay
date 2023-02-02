@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=SCKAN data releases
+EAPI=8
+HOMEPAGE=https://github.com/SciCrunch/sparc-curation
+LICENSE=CC-BY-4.0
+SLOT=2023-01-23
+SRC_URI=https://github.com/SciCrunch/NIF-Ontology/releases/download/sckan-2023-01-23/release-2023-01-23T230336Z-sckan.zip -> sckan-2023.01.23.zip
+_md5_=25494a36804ed74670d47d62cfe9e207
