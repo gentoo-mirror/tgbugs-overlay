@@ -1,4 +1,4 @@
-BDEPEND=virtual/jdk:1.8 >=dev-java/maven-bin-3.3 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=virtual/jdk-1.8 >=dev-java/maven-bin-3.3 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install preinst prepare setup unpack
 DEPEND=>=dev-java/java-config-2.2.0-r3
 DESCRIPTION=Web services for SciGraph, A Neo4j backed ontology store.
@@ -10,7 +10,7 @@ IUSE=+core
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 PROPERTIES=live
-RDEPEND=virtual/jre:1.8 x11-misc/xvfb-run >=dev-java/java-config-2.2.0-r3
+RDEPEND=>=virtual/jre-1.8 x11-misc/xvfb-run >=dev-java/java-config-2.2.0-r3
 SLOT=9999
 _eclasses_=java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-2	a6b42ffd8b6827abbd8cf09329c2c8fb	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=a4958684f8efd0f9ad71e73b4f8c9905
+_md5_=2ad094f63993a8af08a46dde0513281f
