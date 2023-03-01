@@ -169,6 +169,7 @@ dev-python/smmap 5.0.0: A pure Python implementation of a sliding window memory 
 dev-python/sparcur 0.0.1_pre5 9999: Code for the SPARC curation workflow.
 dev-python/sphinx-issues 3.0.1-r1: Sphinx extension for linking to your project's issue tracker
 dev-python/stack_data 0.6.2: Extract data from Python tracebacks for informative displays
+dev-python/statsmodels 0.13.5: Statistical computations and models for use with SciPy
 dev-python/sxpyr 0.0.3 9999: A library for working with identifiers of all kinds.
 dev-python/terminado 0.17.1: Terminals served to term.js using Tornado websockets
 dev-python/terminaltables 3.1.10-r1: Generate simple tables in terminals from a nested list of strings
