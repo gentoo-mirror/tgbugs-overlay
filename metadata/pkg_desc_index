@@ -77,6 +77,7 @@ dev-python/frozendict 2.3.4: A simple immutable mapping for python
 dev-python/fs 2.4.16: Filesystem abstraction layer
 dev-python/funcparserlib 1.0.1: Recursive descent parsing library based on functional combinators
 dev-python/funowl 0.1.11: Pythonic representation of OWL through the OWL functional syntax
+dev-python/gast 0.5.3-r1: A generic AST to represent Python2 and Python3's Abstract Syntax Tree (AST)
 dev-python/gitdb 4.0.10: GitDB is a pure-Python git object database
 dev-python/google-api-core 2.8.2: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.65.0: Google API Client for Python
@@ -111,6 +112,7 @@ dev-python/loky 3.3.0: Robust and reusable Executor for joblib
 dev-python/matplotlib 3.5.3: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.6: Inline Matplotlib backend for Jupyter
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
+dev-python/meson-python 0.12.0: Meson PEP 517 Python build backend
 dev-python/nbclient 0.7.2: A client library for executing Jupyter notebooks
 dev-python/nbconvert 7.1.0: Converting Jupyter Notebooks
 dev-python/nbformat 5.4.0: Reference implementation of the Jupyter Notebook format
@@ -131,6 +133,7 @@ dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired 
 dev-python/pennsieve 6.2.0-r1: Python client and command line tool for Pennsieve
 dev-python/pickleshare 0.7.5: A small 'shelve' like datastore with concurrency support
 dev-python/pint 0.18 0.19.2 0.20.1: Operate and manipulate physical quantities in Python
+dev-python/pooch 1.6.0: Manage your Python library's sample data files
 dev-python/prometheus_client 0.15.0: Python client for the Prometheus monitoring system
 dev-python/prompt_toolkit 3.0.36: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
@@ -147,6 +150,8 @@ dev-python/pymongo 4.3.3: Python driver for MongoDB
 dev-python/pyontutils 0.1.32 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pysercomb 0.0.10 0.0.11 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
+dev-python/python-slugify 7.0.0: A Python Slugify application that handles Unicode
+dev-python/pythran 0.12.1: Ahead of Time compiler for numeric kernels
 dev-python/pyzmq 24.0.1: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 6.2.0 9999: RDF library containing a triple store and parser/serializer
 dev-python/requests-oauthlib 1.3.1: This project provides first-class OAuth library support for Requests
@@ -155,6 +160,7 @@ dev-python/rply 0.7.8: Pure python parser generator that also works with RPython
 dev-python/rsa 4.9: Pure-Python RSA implementation
 dev-python/s3transfer 0.6.0: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
+dev-python/scipy 1.10.0: Scientific algorithms library for Python
 dev-python/seaborn 0.12.0: Statistical data visualization
 dev-python/send2trash 1.8.0-r1: Sends files to the Trash (or Recycle Bin)
 dev-python/slugify 5.0.2: A Python Slugify application that handles Unicode
@@ -173,6 +179,7 @@ dev-python/ttlser 1.1.4 1.1.5 9999: Deterministic turtle serialization for rdfli
 dev-python/uncertainties 3.1.7: Python module for calculations with uncertainties
 dev-python/zdesk 2.7.1: Zendesk API for Python generated from developer.zendesk.com
 dev-scheme/racket 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 8.4 8.5 8.5.900 8.6 8.7 8.8 9999: General purpose, multi-paradigm Lisp-Scheme programming language
+dev-util/meson 1.0.0: Open source build system
 kde-frameworks/solid 5.99.0: Provider for platform independent hardware discovery, abstraction and management
 media-gfx/yed 3.16.2.1 3.17.1 3.18.1.1 3.20 3.22: Diagram and graph editor that generates high-quality drawings.
 net-im/skypeforlinux 8.29.0.50: Instant messaging client, with support for audio and video
