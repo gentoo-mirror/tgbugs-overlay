@@ -151,7 +151,7 @@ dev-python/pyjwt 2.4.0 2.6.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
 dev-python/pymongo 4.3.3: Python driver for MongoDB
 dev-python/pyontutils 0.1.32 9999: utilities for working with the NIF ontology, SciGraph, and turtle
-dev-python/pysercomb 0.0.10 0.0.11 9999: parser combinator library and assorted parsers
+dev-python/pysercomb 0.0.12 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-slugify 7.0.0: A Python Slugify application that handles Unicode
 dev-python/pythran 0.12.1: Ahead of Time compiler for numeric kernels
