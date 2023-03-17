@@ -61,6 +61,7 @@ dev-python/click-plugins 1.1.1: Module for click to enable registering CLI comma
 dev-python/click-repl 0.2.0: Subcommand REPL for click apps
 dev-python/cloudpickle 2.2.1: Extended pickling support for Python objects
 dev-python/colorlog 6.6.0: Log formatting with colors
+dev-python/contourpy 1.0.7: Python library for calculating contours in 2D quadrilateral grids
 dev-python/cppy 1.2.1-r1: C++ header library which makes it easier to write Python extension modules
 dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.11.0-r1: Composable style cycles
@@ -147,7 +148,7 @@ dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
 dev-python/pure_eval 0.2.2: Safely evaluate AST nodes without side effects
 dev-python/py-amqp 5.1.1-r1: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pybind11 2.9.2-r1: AST-based Python refactoring library
-dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
+dev-python/pycurl 7.45.2: Python bindings for curl/libcurl
 dev-python/pydevd 2.9.5: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.4.0 2.6.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
