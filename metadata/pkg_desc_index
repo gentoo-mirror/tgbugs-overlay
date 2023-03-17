@@ -148,7 +148,7 @@ dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
 dev-python/pure_eval 0.2.2: Safely evaluate AST nodes without side effects
 dev-python/py-amqp 5.1.1-r1: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pybind11 2.9.2-r1: AST-based Python refactoring library
-dev-python/pycurl 7.45.2: Python bindings for curl/libcurl
+dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.9.5: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.4.0 2.6.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
