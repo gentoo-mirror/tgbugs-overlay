@@ -112,7 +112,7 @@ dev-python/jupyter_server 2.4.0: Core services, APIs, and REST endpoints to Jupy
 dev-python/jupyterlab_pygments 0.2.2: Pygments theme making use of JupyterLab CSS variables
 dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
-dev-python/kombu 5.2.3: AMQP Messaging Framework for Python
+dev-python/kombu 5.2.4: AMQP Messaging Framework for Python
 dev-python/loky 3.3.0: Robust and reusable Executor for joblib
 dev-python/matplotlib 3.6.2: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.6: Inline Matplotlib backend for Jupyter
