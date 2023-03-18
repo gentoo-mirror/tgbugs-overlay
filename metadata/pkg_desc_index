@@ -61,6 +61,7 @@ dev-python/click-plugins 1.1.1: Module for click to enable registering CLI comma
 dev-python/click-repl 0.2.0: Subcommand REPL for click apps
 dev-python/cloudpickle 2.2.1: Extended pickling support for Python objects
 dev-python/colorlog 6.6.0: Log formatting with colors
+dev-python/comm 0.1.2: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
 dev-python/contourpy 1.0.7: Python library for calculating contours in 2D quadrilateral grids
 dev-python/cppy 1.2.1-r1: C++ header library which makes it easier to write Python extension modules
 dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coroutines in Python 3.
