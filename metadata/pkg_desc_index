@@ -159,7 +159,7 @@ dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) 
 dev-python/python-slugify 8.0.1: A Python Slugify application that handles Unicode
 dev-python/pythran 0.12.1: Ahead of Time compiler for numeric kernels
 dev-python/pyzmq 25.0.2: Lightweight and super-fast messaging library built on top of the ZeroMQ library
-dev-python/rdflib 6.2.0 9999: RDF library containing a triple store and parser/serializer
+dev-python/rdflib 6.2.0 6.3.2 9999: RDF library containing a triple store and parser/serializer
 dev-python/requests-oauthlib 1.3.1: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.8: Pure python parser generator that also works with RPython
