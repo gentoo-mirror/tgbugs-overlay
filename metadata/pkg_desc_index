@@ -18,7 +18,7 @@ app-editors/emacs 29.0.9999-r1: The extensible, customizable, self-documenting r
 app-emacs/zmq 0.0.1_p20230213-r1: Emacs bindings for zeromq.
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
 app-eselect/eselect-racket 0.1: Manages racket symlink
-app-text/xlsx2csv 0.8.0: Convert MS Office xlsx files to CSV
+app-text/xlsx2csv 0.8.1: Convert MS Office xlsx files to CSV
 data-biology/sckan 2023.01.23: SCKAN data releases
 data-biology/sckan-scigraph 2023.01.23: SCKAN SciGraph releases
 dev-db/blazegraph-bin 2.1.6_pre1: A high-performance graph database supporting Blueprints and RDF/SPARQL APIs.
@@ -115,7 +115,7 @@ dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use 
 dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 5.2.4: AMQP Messaging Framework for Python
 dev-python/loky 3.3.0: Robust and reusable Executor for joblib
-dev-python/matplotlib 3.6.2: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 3.7.1: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.6: Inline Matplotlib backend for Jupyter
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
 dev-python/meson-python 0.12.0: Meson PEP 517 Python build backend
