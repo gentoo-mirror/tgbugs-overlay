@@ -44,7 +44,7 @@ dev-python/antlr4-python3-runtime 4.10.1: Python 3 runtime for ANTLR
 dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.
 dev-python/asttokens 2.2.1: Annotate Python AST trees with source text and token information
-dev-python/augpathlib 0.0.25 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.26 9999: Augmented pathlib.
 dev-python/bcp47 0.0.4: BCP47 LCID language codes, plain and simple
 dev-python/beniget 0.4.1-r1: Extract semantic information about static Python code
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
