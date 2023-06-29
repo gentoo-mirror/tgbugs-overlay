@@ -50,9 +50,9 @@ dev-python/beniget 0.4.1-r1: Extract semantic information about static Python co
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
 dev-python/black 22.12.0: The uncompromising Python code formatter
-dev-python/boto3 1.26.8: The AWS SDK for Python
-dev-python/botocore 1.29.74: Low-level, data-driven core of boto 3
-dev-python/bottleneck 1.3.5-r1: Fast NumPy array functions written in C
+dev-python/boto3 1.26.155: The AWS SDK for Python
+dev-python/botocore 1.29.155: Low-level, data-driven core of boto 3
+dev-python/bottleneck 1.3.7: Fast NumPy array functions written in C
 dev-python/cachetools 5.2.0: Extensible memoizing collections and decorators
 dev-python/celery 5.2.3: Asynchronous task queue/job queue based on distributed message passing
 dev-python/click-didyoumean 0.3.0: Enable git-like did-you-mean feature in click
@@ -68,7 +68,7 @@ dev-python/cycler 0.11.0-r1: Composable style cycles
 dev-python/debugpy 1.6.6: An implementation of the Debug Adapter Protocol for Python
 dev-python/dicttoxml 1.7.16: Converts a Python dictionary or other data type to a valid XML string
 dev-python/elastic-transport 8.4.0: Transport classes and utilities shared among Python Elastic client libraries
-dev-python/elasticsearch-py 8.6.2: Official Elasticsearch client library for Python
+dev-python/elasticsearch-py 8.7.0: Official Elasticsearch client library for Python
 dev-python/et_xmlfile 1.1.0-r1: An implementation of lxml.xmlfile for the standard library
 dev-python/executing 1.2.0: Get information about what a Python frame is currently doing
 dev-python/factory_boy 3.2.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
@@ -76,19 +76,19 @@ dev-python/faker 11.3.0: Faker is a Python package that generates fake data for 
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/fastjsonschema 2.16.3: Fast JSON schema validator for Python
 dev-python/flask-restx 1.0.3 1.0.5: Framework for fast, easy, and documented API development with Flask
-dev-python/fonttools 4.38.0: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
-dev-python/frozendict 2.3.4 2.3.5: A simple immutable mapping for python
+dev-python/fonttools 4.39.4: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/frozendict 2.3.8: A simple immutable mapping for python
 dev-python/fs 2.4.16: Filesystem abstraction layer
 dev-python/funcparserlib 1.0.1: Recursive descent parsing library based on functional combinators
 dev-python/funowl 0.1.13: Pythonic representation of OWL through the OWL functional syntax
 dev-python/gast 0.5.3-r1: A generic AST to represent Python2 and Python3's Abstract Syntax Tree (AST)
 dev-python/gitdb 4.0.10: GitDB is a pure-Python git object database
 dev-python/google-api-core 2.8.2 2.11.0-r1: Core Library for Google Client Libraries
-dev-python/google-api-python-client 2.65.0 2.81.0: Google API Client for Python
-dev-python/google-auth 2.13.0 2.16.2: Google Authentication Library
+dev-python/google-api-python-client 2.89.0: Google API Client for Python
+dev-python/google-auth 2.18.1: Google Authentication Library
 dev-python/google-auth-httplib2 0.1.0-r3: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.5.2 1.0.0: Google Authentication Library
-dev-python/googleapis-common-protos 1.58.0: Python classes generated from the common protos in the googleapis repository
+dev-python/googleapis-common-protos 1.59.0: Python classes generated from the common protos in the googleapis repository
 dev-python/graphviz 0.20.1: Simple Python interface for Graphviz
 dev-python/grpcio 1.51.0: High-performance RPC framework (python libraries)
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
@@ -102,7 +102,7 @@ dev-python/ipyparallel 8.4.1: Interactive Parallel Computing with IPython
 dev-python/ipython 8.12.0: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0-r4: Vestigial utilities from IPython
 dev-python/jedi 0.18.2: Autocompletion library for Python
-dev-python/joblib 1.1.0-r1: Tools to provide lightweight pipelining in Python
+dev-python/joblib 1.2.0: Tools to provide lightweight pipelining in Python
 dev-python/jsonasobj 1.3.1: JSON objects as first class python objects.
 dev-python/jupyter-client 8.0.3: Jupyter protocol implementation and client libraries
 dev-python/jupyter-core 5.3.0: Core common functionality of Jupyter projects
@@ -114,7 +114,7 @@ dev-python/jupyterlab_pygments 0.2.2: Pygments theme making use of JupyterLab CS
 dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 5.2.4: AMQP Messaging Framework for Python
-dev-python/loky 3.3.0: Robust and reusable Executor for joblib
+dev-python/loky 3.4.0: Robust and reusable Executor for joblib
 dev-python/matplotlib 3.7.1: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.6: Inline Matplotlib backend for Jupyter
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
@@ -139,7 +139,7 @@ dev-python/patsy 0.5.3-r1: Python module to describe statistical models and desi
 dev-python/pennsieve 6.2.0-r1: Python client and command line tool for Pennsieve
 dev-python/pickleshare 0.7.5: A small 'shelve' like datastore with concurrency support
 dev-python/pint 0.20.1: Operate and manipulate physical quantities in Python
-dev-python/pooch 1.6.0: Manage your Python library's sample data files
+dev-python/pooch 1.7.0: Manage your Python library's sample data files
 dev-python/prometheus_client 0.16.0: Python client for the Prometheus monitoring system
 dev-python/prompt-toolkit 3.0.38: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
@@ -157,14 +157,14 @@ dev-python/pyontutils 0.1.32 9999: utilities for working with the NIF ontology, 
 dev-python/pysercomb 0.0.12 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-slugify 8.0.1: A Python Slugify application that handles Unicode
-dev-python/pythran 0.12.1: Ahead of Time compiler for numeric kernels
+dev-python/pythran 0.13.1: Ahead of Time compiler for numeric kernels
 dev-python/pyzmq 25.0.2: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 6.2.0 6.3.2 9999: RDF library containing a triple store and parser/serializer
 dev-python/requests-oauthlib 1.3.1: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
-dev-python/rply 0.7.8: Pure python parser generator that also works with RPython
+dev-python/rply 0.7.8-r1: Pure python parser generator that also works with RPython
 dev-python/rsa 4.9: Pure-Python RSA implementation
-dev-python/s3transfer 0.6.0-r1: An Amazon S3 Transfer Manager
+dev-python/s3transfer 0.6.1: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
 dev-python/scipy 1.10.1: Scientific algorithms library for Python
 dev-python/seaborn 0.12.2: Statistical data visualization
@@ -174,7 +174,7 @@ dev-python/smmap 5.0.0: A pure Python implementation of a sliding window memory 
 dev-python/sparcur 0.0.1_pre5 9999: Code for the SPARC curation workflow.
 dev-python/sphinx-issues 3.0.1-r1: Sphinx extension for linking to your project's issue tracker
 dev-python/stack_data 0.6.2: Extract data from Python tracebacks for informative displays
-dev-python/statsmodels 0.13.5: Statistical computations and models for use with SciPy
+dev-python/statsmodels 0.14.0: Statistical computations and models for use with SciPy
 dev-python/sxpyr 0.0.3 9999: A library for working with identifiers of all kinds.
 dev-python/terminado 0.17.1: Terminals served to term.js using Tornado websockets
 dev-python/terminaltables 3.1.10-r1: Generate simple tables in terminals from a nested list of strings
