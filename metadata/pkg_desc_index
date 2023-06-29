@@ -97,19 +97,19 @@ dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.8 0.0.9-r1 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/idlib 0.0.1_pre17 9999: A library for working with identifiers of all kinds.
 dev-python/interlex 9999: A terminology management system.
-dev-python/ipykernel 6.21.3: IPython Kernel for Jupyter
-dev-python/ipyparallel 8.4.1: Interactive Parallel Computing with IPython
-dev-python/ipython 8.12.0: Advanced interactive shell for Python
+dev-python/ipykernel 6.23.1: IPython Kernel for Jupyter
+dev-python/ipyparallel 8.6.1: Interactive Parallel Computing with IPython
+dev-python/ipython 8.13.2: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0-r4: Vestigial utilities from IPython
 dev-python/jedi 0.18.2: Autocompletion library for Python
 dev-python/joblib 1.2.0: Tools to provide lightweight pipelining in Python
 dev-python/jsonasobj 1.3.1: JSON objects as first class python objects.
-dev-python/jupyter-client 8.0.3: Jupyter protocol implementation and client libraries
+dev-python/jupyter-client 8.2.0: Jupyter protocol implementation and client libraries
 dev-python/jupyter-core 5.3.0: Core common functionality of Jupyter projects
-dev-python/jupyter-server 2.4.0: Core services, APIs, and REST endpoints to Jupyter web applications
+dev-python/jupyter-events 0.6.3: Jupyter Event System library
+dev-python/jupyter-packaging 0.12.3: Tools to help build and install Jupyter Python packages
+dev-python/jupyter-server 2.5.0: Core services, APIs, and REST endpoints to Jupyter web applications
 dev-python/jupyter-server-terminals 0.4.4: A Jupyter Server Extension Providing Terminals
-dev-python/jupyter_events 0.6.3: Jupyter Event System library
-dev-python/jupyter_packaging 0.12.3: Tools to help build and install Jupyter Python packages
 dev-python/jupyterlab-pygments 0.2.2: Pygments theme making use of JupyterLab CSS variables
 dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
@@ -119,13 +119,15 @@ dev-python/matplotlib 3.7.1: Pure python plotting library with matlab like synta
 dev-python/matplotlib-inline 0.1.6: Inline Matplotlib backend for Jupyter
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
 dev-python/meson-python 0.12.0: Meson PEP 517 Python build backend
+dev-python/nbclassic 1.0.0: Jupyter Notebook as a Jupyter Server Extension
 dev-python/nbclient 0.7.2: A client library for executing Jupyter notebooks
-dev-python/nbconvert 7.2.9: Converting Jupyter Notebooks
-dev-python/nbformat 5.7.3: Reference implementation of the Jupyter Notebook format
+dev-python/nbconvert 7.3.1-r1: Converting Jupyter Notebooks
+dev-python/nbformat 5.8.0: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.5.6: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.3 0.1.4 0.1.5 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
-dev-python/notebook 6.4.12: Jupyter Interactive Notebook
+dev-python/notebook 6.5.4: Jupyter Interactive Notebook
+dev-python/notebook-shim 0.2.3: A shim layer for notebook traits and config
 dev-python/numexpr 2.8.4: Fast numerical array expression evaluator for Python and NumPy
 dev-python/oauth2client 4.1.3-r2: Library for accessing resources protected by OAuth 2.0
 dev-python/oauthlib 3.2.2: Spec-compliant and thorough implementation of the OAuth request-signing logic
@@ -140,7 +142,7 @@ dev-python/pennsieve 6.2.0-r1: Python client and command line tool for Pennsieve
 dev-python/pickleshare 0.7.5: A small 'shelve' like datastore with concurrency support
 dev-python/pint 0.20.1: Operate and manipulate physical quantities in Python
 dev-python/pooch 1.7.0: Manage your Python library's sample data files
-dev-python/prometheus_client 0.16.0: Python client for the Prometheus monitoring system
+dev-python/prometheus-client 0.17.0: Python client for the Prometheus monitoring system
 dev-python/prompt-toolkit 3.0.38: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
 dev-python/protobuf-python 4.21.9: Google's Protocol Buffers - Python bindings
@@ -158,7 +160,7 @@ dev-python/pysercomb 0.0.12 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-slugify 8.0.1: A Python Slugify application that handles Unicode
 dev-python/pythran 0.13.1: Ahead of Time compiler for numeric kernels
-dev-python/pyzmq 25.0.2: Lightweight and super-fast messaging library built on top of the ZeroMQ library
+dev-python/pyzmq 25.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 6.2.0 6.3.2 9999: RDF library containing a triple store and parser/serializer
 dev-python/requests-oauthlib 1.3.1: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
@@ -168,7 +170,7 @@ dev-python/s3transfer 0.6.1: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
 dev-python/scipy 1.10.1: Scientific algorithms library for Python
 dev-python/seaborn 0.12.2: Statistical data visualization
-dev-python/send2trash 1.8.0-r1: Sends files to the Trash (or Recycle Bin)
+dev-python/send2trash 1.8.2: Sends files to the Trash (or Recycle Bin)
 dev-python/slugify 5.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap 5.0.0: A pure Python implementation of a sliding window memory map manager
 dev-python/sparcur 0.0.1_pre5 9999: Code for the SPARC curation workflow.
