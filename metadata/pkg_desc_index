@@ -1,19 +1,19 @@
-acct-group/blazegraph 0: System group: blazegraph
-acct-group/interlex 0: System group: interlex
-acct-group/metabase 0: System group: metabase
-acct-group/nifstd-tools 0: System group: nifstd-tools
-acct-group/protcur 0: System group: protcur
-acct-group/scibot 0: System group: scibot
-acct-group/scigraph 0: System group: scigraph
-acct-group/sparc 0: System group: sparc
-acct-user/blazegraph 0: A user for dev-db/blazegraph-bin
-acct-user/interlex 0: A user for dev-python/interlex
-acct-user/metabase 0: A user for dev-db/metabase-bin
-acct-user/nifstd-tools 0: A user for dev-python/nifstd-tools
-acct-user/protcur 0: A user for dev-python/protcur
-acct-user/scibot 0: A user for dev-python/scibot
-acct-user/scigraph 0: A user for dev-java/scigraph-bin
-acct-user/sparc 0: A user for dev-python/sparcur
+acct-group/blazegraph 0-r1: System group: blazegraph
+acct-group/interlex 0-r1: System group: interlex
+acct-group/metabase 0-r1: System group: metabase
+acct-group/nifstd-tools 0-r1: System group: nifstd-tools
+acct-group/protcur 0-r1: System group: protcur
+acct-group/scibot 0-r1: System group: scibot
+acct-group/scigraph 0-r1: System group: scigraph
+acct-group/sparc 0-r1: System group: sparc
+acct-user/blazegraph 0-r1: A user for dev-db/blazegraph-bin
+acct-user/interlex 0-r1: A user for dev-python/interlex
+acct-user/metabase 0-r1: A user for dev-db/metabase-bin
+acct-user/nifstd-tools 0-r1: A user for dev-python/nifstd-tools
+acct-user/protcur 0-r1: A user for dev-python/protcur
+acct-user/scibot 0-r1: A user for dev-python/scibot
+acct-user/scigraph 0-r1: A user for dev-java/scigraph-bin
+acct-user/sparc 0-r1: A user for dev-python/sparcur
 app-editors/emacs 29.0.9999-r1: The extensible, customizable, self-documenting real-time display editor
 app-emacs/zmq 0.0.1_p20230213-r1: Emacs bindings for zeromq.
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
