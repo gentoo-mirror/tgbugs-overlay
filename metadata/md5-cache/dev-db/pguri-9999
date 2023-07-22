@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile unpack
+DEFINED_PHASES=compile install prepare unpack
 DEPEND=dev-libs/uriparser dev-db/postgresql:=
 DESCRIPTION=uri datatype for PostgreSQL
 EAPI=8
@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/uriparser dev-db/postgresql:=
 SLOT=0
 _eclasses_=git-r3	97f7f638070d17e4c2b6542589bb4575
-_md5_=5dcdb2ff08881c577f7e502410e12772
+_md5_=7baa63d306545fdd07aa3312b1bba888
