@@ -140,7 +140,7 @@ dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired 
 dev-python/patsy 0.5.3-r1: Python module to describe statistical models and design matrices
 dev-python/pennsieve 6.2.0-r1: Python client and command line tool for Pennsieve
 dev-python/pickleshare 0.7.5: A small 'shelve' like datastore with concurrency support
-dev-python/pint 0.20.1: Operate and manipulate physical quantities in Python
+dev-python/pint 0.20.1 0.22: Operate and manipulate physical quantities in Python
 dev-python/pooch 1.7.0: Manage your Python library's sample data files
 dev-python/prometheus-client 0.17.0: Python client for the Prometheus monitoring system
 dev-python/prompt-toolkit 3.0.38: Building powerful interactive command lines in Python
