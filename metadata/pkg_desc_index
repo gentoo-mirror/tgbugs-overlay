@@ -121,7 +121,7 @@ dev-python/memory_profiler 0.60: A module for monitoring memory usage of a pytho
 dev-python/meson-python 0.12.0: Meson PEP 517 Python build backend
 dev-python/nbclassic 1.0.0: Jupyter Notebook as a Jupyter Server Extension
 dev-python/nbclient 0.8.0: A client library for executing Jupyter notebooks
-dev-python/nbconvert 7.3.1-r1: Converting Jupyter Notebooks
+dev-python/nbconvert 7.6.0: Converting Jupyter Notebooks
 dev-python/nbformat 5.9.0: Reference implementation of the Jupyter Notebook format
 dev-python/nest_asyncio 1.5.6: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.6 9999: A data model for neuron types.
