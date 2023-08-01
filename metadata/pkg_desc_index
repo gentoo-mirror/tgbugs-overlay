@@ -124,7 +124,7 @@ dev-python/nbclassic 1.0.0: Jupyter Notebook as a Jupyter Server Extension
 dev-python/nbclient 0.8.0: A client library for executing Jupyter notebooks
 dev-python/nbconvert 7.6.0: Converting Jupyter Notebooks
 dev-python/nbformat 5.9.0: Reference implementation of the Jupyter Notebook format
-dev-python/nest_asyncio 1.5.6: Patch asyncio to allow nested event loops
+dev-python/nest-asyncio 1.5.6: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.6 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
 dev-python/notebook 6.5.4: Jupyter Interactive Notebook
