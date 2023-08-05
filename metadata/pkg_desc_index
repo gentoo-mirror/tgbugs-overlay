@@ -19,8 +19,8 @@ app-emacs/zmq 0.0.1_p20230213-r1 1.0.0: Emacs bindings for zeromq.
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
 app-eselect/eselect-racket 0.1: Manages racket symlink
 app-text/xlsx2csv 0.8.1: Convert MS Office xlsx files to CSV
-data-biology/sckan 2023.01.23: SCKAN data releases
-data-biology/sckan-scigraph 2023.01.23: SCKAN SciGraph releases
+data-biology/sckan 2023.01.23 2023.08.04: SCKAN data releases
+data-biology/sckan-scigraph 2023.01.23 2023.08.04: SCKAN SciGraph releases
 dev-db/blazegraph-bin 2.1.6_pre1: A high-performance graph database supporting Blueprints and RDF/SPARQL APIs.
 dev-db/metabase-bin 0.45.1: Get business intelligence from databases
 dev-db/pguri 9999: uri datatype for PostgreSQL
