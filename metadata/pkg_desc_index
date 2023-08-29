@@ -194,8 +194,7 @@ kde-frameworks/solid 5.99.0: Provider for platform independent hardware discover
 media-gfx/yed 3.16.2.1 3.17.1 3.18.1.1 3.20 3.22 3.23.1: Diagram and graph editor that generates high-quality drawings.
 net-im/skypeforlinux 8.29.0.50: Instant messaging client, with support for audio and video
 net-mail/aerc 0.1.1 9999: Asynchronous email client for your terminal, written in Go.
-net-misc/curl 7.71.1-r1: A Client that groks URLs
-sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
+sci-biology/cellblender 1.0.1 9999: 
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
 sys-apps/file 5.44-r3: Identify a file's format by scanning binary data for patterns
