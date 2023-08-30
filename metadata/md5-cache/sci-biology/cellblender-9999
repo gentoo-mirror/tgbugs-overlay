@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DEPEND=>=media-gfx/blender-2.6 mcell? ( sci-biology/mcell )
+DESCRIPTION=MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
+EAPI=8
+HOMEPAGE=http://mcell.org/
+INHERIT=git-r3
+IUSE=+mcell
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=>=media-gfx/blender-2.6 mcell? ( sci-biology/mcell )
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=ef6ee0af828414829ef5601664fa6deb
