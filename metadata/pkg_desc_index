@@ -37,7 +37,7 @@ dev-libs/redland-bindings 1.0.17.1: Language bindings for Redland
 dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C++
 dev-lisp/sbcl 2.1.7 2.2.7: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-node/apinat-converter 9999: ApiNATOMY model converter
-dev-python/GitPython 3.1.31: Library used to interact with Git repositories
+dev-python/GitPython 3.1.32: Library used to interact with Git repositories
 dev-python/PyJSG 0.11.6: JSON Schema Grammar bindings for Python
 dev-python/Pyro4 4.82-r1: Distributed object middleware for Python (RPC)
 dev-python/antlr4-python3-runtime 4.10.1: Python 3 runtime for ANTLR
@@ -62,7 +62,7 @@ dev-python/clifn 0.0.1 9999: helper classes for organizing docopt programs
 dev-python/cloudpickle 2.2.1: Extended pickling support for Python objects
 dev-python/colorlog 6.6.0: Log formatting with colors
 dev-python/comm 0.1.3: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
-dev-python/contourpy 1.0.7: Python library for calculating contours in 2D quadrilateral grids
+dev-python/contourpy 1.1.0: Python library for calculating contours in 2D quadrilateral grids
 dev-python/cppy 1.2.1-r1: C++ header library which makes it easier to write Python extension modules
 dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.11.0-r1: Composable style cycles
@@ -75,7 +75,7 @@ dev-python/executing 1.2.0: Get information about what a Python frame is current
 dev-python/factory_boy 3.2.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
-dev-python/fastjsonschema 2.17.1: Fast JSON schema validator for Python
+dev-python/fastjsonschema 2.18.0: Fast JSON schema validator for Python
 dev-python/flask-restx 1.0.3 1.0.5: Framework for fast, easy, and documented API development with Flask
 dev-python/fonttools 4.39.4: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/frozendict 2.3.8: A simple immutable mapping for python
@@ -86,7 +86,7 @@ dev-python/gast 0.5.3-r1: A generic AST to represent Python2 and Python3's Abstr
 dev-python/gitdb 4.0.10: GitDB is a pure-Python git object database
 dev-python/google-api-core 2.8.2 2.11.0-r1: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.89.0: Google API Client for Python
-dev-python/google-auth 2.19.1: Google Authentication Library
+dev-python/google-auth 2.22.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.1.0-r3: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.5.2 1.0.0: Google Authentication Library
 dev-python/googleapis-common-protos 1.59.0: Python classes generated from the common protos in the googleapis repository
@@ -106,7 +106,7 @@ dev-python/jedi 0.18.2: Autocompletion library for Python
 dev-python/joblib 1.2.0: Tools to provide lightweight pipelining in Python
 dev-python/jsonasobj 1.3.1: JSON objects as first class python objects.
 dev-python/jupyter-client 8.2.0: Jupyter protocol implementation and client libraries
-dev-python/jupyter-core 5.3.0: Core common functionality of Jupyter projects
+dev-python/jupyter-core 5.3.1: Core common functionality of Jupyter projects
 dev-python/jupyter-events 0.6.3: Jupyter Event System library
 dev-python/jupyter-packaging 0.12.3: Tools to help build and install Jupyter Python packages
 dev-python/jupyter-server 2.5.0: Core services, APIs, and REST endpoints to Jupyter web applications
@@ -115,7 +115,7 @@ dev-python/jupyterlab-pygments 0.2.2: Pygments theme making use of JupyterLab CS
 dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 5.2.4: AMQP Messaging Framework for Python
-dev-python/loky 3.4.0: Robust and reusable Executor for joblib
+dev-python/loky 3.4.1: Robust and reusable Executor for joblib
 dev-python/matplotlib 3.7.1: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.6: Inline Matplotlib backend for Jupyter
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
@@ -123,7 +123,7 @@ dev-python/meson-python 0.12.0: Meson PEP 517 Python build backend
 dev-python/nbclassic 1.0.0: Jupyter Notebook as a Jupyter Server Extension
 dev-python/nbclient 0.8.0: A client library for executing Jupyter notebooks
 dev-python/nbconvert 7.6.0: Converting Jupyter Notebooks
-dev-python/nbformat 5.9.0: Reference implementation of the Jupyter Notebook format
+dev-python/nbformat 5.9.2: Reference implementation of the Jupyter Notebook format
 dev-python/nest-asyncio 1.5.6: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.7 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
@@ -143,8 +143,8 @@ dev-python/pennsieve 6.2.0-r1: Python client and command line tool for Pennsieve
 dev-python/pickleshare 0.7.5: A small 'shelve' like datastore with concurrency support
 dev-python/pint 0.20.1 0.22: Operate and manipulate physical quantities in Python
 dev-python/pooch 1.7.0: Manage your Python library's sample data files
-dev-python/prometheus-client 0.17.0: Python client for the Prometheus monitoring system
-dev-python/prompt-toolkit 3.0.38: Building powerful interactive command lines in Python
+dev-python/prometheus-client 0.17.1: Python client for the Prometheus monitoring system
+dev-python/prompt-toolkit 3.0.39: Building powerful interactive command lines in Python
 dev-python/protcur 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
 dev-python/protobuf-python 4.21.9: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
@@ -153,7 +153,7 @@ dev-python/py-amqp 5.1.1-r1: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pybind11 2.9.2-r1: AST-based Python refactoring library
 dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.9.5: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
-dev-python/pyjwt 2.7.0: JSON Web Token implementation in Python
+dev-python/pyjwt 2.8.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
 dev-python/pymongo 4.3.3: Python driver for MongoDB
 dev-python/pyontutils 0.1.33 0.1.34 9999: utilities for working with the NIF ontology, SciGraph, and turtle
@@ -187,6 +187,7 @@ dev-python/tornado 6.2: Python web framework and asynchronous networking library
 dev-python/traitlets 5.9.0: A configuration system for Python applications
 dev-python/ttlser 1.1.4 1.1.5 9999: Deterministic turtle serialization for rdflib.
 dev-python/uncertainties 3.1.7-r1: Python module for calculations with uncertainties
+dev-python/wurlitzer 3.0.3: Capture C-level stdout/stderr in Python
 dev-python/zdesk 2.7.1: Zendesk API for Python generated from developer.zendesk.com
 dev-scheme/racket 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 8.4 8.5 8.5.900 8.6 8.7 8.8 8.9 8.10 9999: General purpose, multi-paradigm Lisp-Scheme programming language
 dev-util/meson 1.0.1: Open source build system
