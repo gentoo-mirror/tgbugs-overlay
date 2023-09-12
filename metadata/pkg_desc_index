@@ -198,7 +198,7 @@ net-mail/aerc 0.1.1 9999: Asynchronous email client for your terminal, written i
 sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
-sys-apps/file 5.44-r3: Identify a file's format by scanning binary data for patterns
+sys-apps/file 5.45-r1: Identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 x11-wm/fluxbox 9999: X11 window manager featuring tabs and an iconbar
