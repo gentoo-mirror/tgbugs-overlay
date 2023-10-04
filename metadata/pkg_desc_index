@@ -61,10 +61,10 @@ dev-python/click-repl 0.2.0: Subcommand REPL for click apps
 dev-python/clifn 0.0.1 9999: helper classes for organizing docopt programs
 dev-python/cloudpickle 2.2.1: Extended pickling support for Python objects
 dev-python/colorlog 6.6.0: Log formatting with colors
-dev-python/comm 0.1.3: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
+dev-python/comm 0.1.4: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
 dev-python/contourpy 1.1.0: Python library for calculating contours in 2D quadrilateral grids
 dev-python/cppy 1.2.1-r1: C++ header library which makes it easier to write Python extension modules
-dev-python/curio 1.5: Curio is a library for performing concurrent I/O with coroutines in Python 3.
+dev-python/curio 1.6: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/cycler 0.11.0-r1: Composable style cycles
 dev-python/debugpy 1.6.6: An implementation of the Debug Adapter Protocol for Python
 dev-python/dicttoxml 1.7.16: Converts a Python dictionary or other data type to a valid XML string
@@ -72,7 +72,6 @@ dev-python/elastic-transport 8.4.0: Transport classes and utilities shared among
 dev-python/elasticsearch-py 8.7.0: Official Elasticsearch client library for Python
 dev-python/et_xmlfile 1.1.0-r1: An implementation of lxml.xmlfile for the standard library
 dev-python/executing 1.2.0: Get information about what a Python frame is currently doing
-dev-python/factory_boy 3.2.1: A test fixtures replacement based on thoughtbot's factory_bot for Ruby.
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/fastjsonschema 2.18.0: Fast JSON schema validator for Python
@@ -89,7 +88,7 @@ dev-python/google-api-python-client 2.89.0: Google API Client for Python
 dev-python/google-auth 2.22.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.1.0-r3: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 0.5.2 1.0.0: Google Authentication Library
-dev-python/googleapis-common-protos 1.59.0: Python classes generated from the common protos in the googleapis repository
+dev-python/googleapis-common-protos 1.60.0: Python classes generated from the common protos in the googleapis repository
 dev-python/graphviz 0.20.1: Simple Python interface for Graphviz
 dev-python/grpcio 1.51.0: High-performance RPC framework (python libraries)
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
@@ -103,26 +102,26 @@ dev-python/ipyparallel 8.6.1: Interactive Parallel Computing with IPython
 dev-python/ipython 8.14.0: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0-r4: Vestigial utilities from IPython
 dev-python/jedi 0.18.2: Autocompletion library for Python
-dev-python/joblib 1.2.0: Tools to provide lightweight pipelining in Python
+dev-python/joblib 1.3.2: Tools to provide lightweight pipelining in Python
 dev-python/jsonasobj 1.3.1: JSON objects as first class python objects.
-dev-python/jupyter-client 8.2.0: Jupyter protocol implementation and client libraries
+dev-python/jupyter-client 8.3.1: Jupyter protocol implementation and client libraries
 dev-python/jupyter-core 5.3.1: Core common functionality of Jupyter projects
-dev-python/jupyter-events 0.6.3: Jupyter Event System library
+dev-python/jupyter-events 0.7.0: Jupyter Event System library
 dev-python/jupyter-packaging 0.12.3: Tools to help build and install Jupyter Python packages
-dev-python/jupyter-server 2.5.0: Core services, APIs, and REST endpoints to Jupyter web applications
+dev-python/jupyter-server 2.7.3: Core services, APIs, and REST endpoints to Jupyter web applications
 dev-python/jupyter-server-terminals 0.4.4: A Jupyter Server Extension Providing Terminals
 dev-python/jupyterlab-pygments 0.2.2: Pygments theme making use of JupyterLab CSS variables
 dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 5.2.4: AMQP Messaging Framework for Python
 dev-python/loky 3.4.1: Robust and reusable Executor for joblib
-dev-python/matplotlib 3.7.1: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 3.8.0: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.6: Inline Matplotlib backend for Jupyter
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
 dev-python/meson-python 0.12.0: Meson PEP 517 Python build backend
 dev-python/nbclassic 1.0.0: Jupyter Notebook as a Jupyter Server Extension
 dev-python/nbclient 0.8.0: A client library for executing Jupyter notebooks
-dev-python/nbconvert 7.6.0: Converting Jupyter Notebooks
+dev-python/nbconvert 7.8.0: Converting Jupyter Notebooks
 dev-python/nbformat 5.9.2: Reference implementation of the Jupyter Notebook format
 dev-python/nest-asyncio 1.5.6: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.7 9999: A data model for neuron types.
@@ -135,6 +134,7 @@ dev-python/oauthlib 3.2.2: Spec-compliant and thorough implementation of the OAu
 dev-python/ontquery 0.2.11 9999: a framework querying ontology terms
 dev-python/openpyxl 3.1.2: Pure python reader and writer of Excel OpenXML files
 dev-python/orthauth 0.0.18 9999: python orthogonal authentication
+dev-python/overrides 7.4.0: A decorator to automatically detect mismatch when overriding a method.
 dev-python/pandas 1.5.2: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.5.0: Utilities for writing pandoc filters in python
 dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired by Parsec Haskell library
@@ -155,13 +155,12 @@ dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.9.5: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.8.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
-dev-python/pymongo 4.3.3: Python driver for MongoDB
+dev-python/pymongo 4.5.0: Python driver for MongoDB
 dev-python/pyontutils 0.1.33 0.1.34 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pysercomb 0.0.12 9999: parser combinator library and assorted parsers
 dev-python/python-jose 3.3.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
-dev-python/python-slugify 8.0.1: A Python Slugify application that handles Unicode
 dev-python/pythran 0.13.1: Ahead of Time compiler for numeric kernels
-dev-python/pyzmq 25.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
+dev-python/pyzmq 25.1.1: Lightweight and super-fast messaging library built on top of the ZeroMQ library
 dev-python/rdflib 6.2.0 6.3.2 9999: RDF library containing a triple store and parser/serializer
 dev-python/requests-oauthlib 1.3.1: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
@@ -169,10 +168,9 @@ dev-python/rply 0.7.8-r1: Pure python parser generator that also works with RPyt
 dev-python/rsa 4.9: Pure-Python RSA implementation
 dev-python/s3transfer 0.6.1: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
-dev-python/scipy 1.10.1: Scientific algorithms library for Python
+dev-python/scipy 1.11.2: Scientific algorithms library for Python
 dev-python/seaborn 0.12.2: Statistical data visualization
 dev-python/send2trash 1.8.2: Sends files to the Trash (or Recycle Bin)
-dev-python/slugify 5.0.2: A Python Slugify application that handles Unicode
 dev-python/smmap 5.0.0-r1: A pure Python implementation of a sliding window memory map manager
 dev-python/sparcur 0.0.1_pre5 9999: Code for the SPARC curation workflow.
 dev-python/sphinx-issues 3.0.1-r1: Sphinx extension for linking to your project's issue tracker
