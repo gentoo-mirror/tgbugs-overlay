@@ -97,7 +97,7 @@ dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.8 0.0.9-r1 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/idlib 0.0.1_pre19 9999: A library for working with identifiers of all kinds.
 dev-python/interlex 9999: A terminology management system.
-dev-python/ipykernel 6.24.0: IPython Kernel for Jupyter
+dev-python/ipykernel 6.25.2: IPython Kernel for Jupyter
 dev-python/ipyparallel 8.6.1: Interactive Parallel Computing with IPython
 dev-python/ipython 8.14.0: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0-r4: Vestigial utilities from IPython
