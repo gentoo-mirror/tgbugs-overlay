@@ -108,9 +108,10 @@ dev-python/jupyter-client 8.3.1: Jupyter protocol implementation and client libr
 dev-python/jupyter-core 5.3.1: Core common functionality of Jupyter projects
 dev-python/jupyter-events 0.7.0: Jupyter Event System library
 dev-python/jupyter-packaging 0.12.3: Tools to help build and install Jupyter Python packages
-dev-python/jupyter-server 2.7.3: Core services, APIs, and REST endpoints to Jupyter web applications
+dev-python/jupyter-server 2.9.1: Core services, APIs, and REST endpoints to Jupyter web applications
 dev-python/jupyter-server-terminals 0.4.4: A Jupyter Server Extension Providing Terminals
 dev-python/jupyterlab-pygments 0.2.2: Pygments theme making use of JupyterLab CSS variables
+dev-python/jupyterlab-server 2.25.1: Server components for JupyterLab and JupyterLab like applications
 dev-python/kazoo 2.8.0: A high-level Python library that makes it easier to use Apache Zookeeper
 dev-python/kiwisolver 1.4.4: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/kombu 5.2.4: AMQP Messaging Framework for Python
@@ -126,7 +127,7 @@ dev-python/nbformat 5.9.2: Reference implementation of the Jupyter Notebook form
 dev-python/nest-asyncio 1.5.6: Patch asyncio to allow nested event loops
 dev-python/neurondm 0.1.7 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
-dev-python/notebook 6.5.4: Jupyter Interactive Notebook
+dev-python/notebook 7.0.6: Jupyter Interactive Notebook
 dev-python/notebook-shim 0.2.3: A shim layer for notebook traits and config
 dev-python/numexpr 2.8.4: Fast numerical array expression evaluator for Python and NumPy
 dev-python/oauth2client 4.1.3-r2: Library for accessing resources protected by OAuth 2.0
