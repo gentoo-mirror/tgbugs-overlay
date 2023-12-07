@@ -75,6 +75,7 @@ dev-python/executing 1.2.0: Get information about what a Python frame is current
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/fastjsonschema 2.18.0: Fast JSON schema validator for Python
+dev-python/flask-login 0.6.3: Login session support for Flask
 dev-python/flask-restx 1.0.3 1.0.5 1.2.0: Framework for fast, easy, and documented API development with Flask
 dev-python/fonttools 4.39.4: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/frozendict 2.3.8: A simple immutable mapping for python
