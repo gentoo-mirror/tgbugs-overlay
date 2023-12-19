@@ -97,6 +97,7 @@ dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
 dev-python/hyputils 0.0.8 0.0.9-r1 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/idlib 0.0.1_pre19 9999: A library for working with identifiers of all kinds.
+dev-python/immutabledict 4.0.0: An immutable wrapper around dictionaries
 dev-python/interlex 9999: A terminology management system.
 dev-python/ipykernel 6.25.2: IPython Kernel for Jupyter
 dev-python/ipyparallel 8.6.1: Interactive Parallel Computing with IPython
@@ -154,7 +155,7 @@ dev-python/pybind11 2.9.2-r1: AST-based Python refactoring library
 dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.9.5: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.8.0: JSON Web Token implementation in Python
-dev-python/pyld 2.0.3-r1: A library for working with identifiers of all kinds.
+dev-python/pyld 2.0.3-r1 2.0.3-r2: A library for working with identifiers of all kinds.
 dev-python/pymongo 4.5.0: Python driver for MongoDB
 dev-python/pyontutils 0.1.33 0.1.34 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pysercomb 0.0.12 9999: parser combinator library and assorted parsers
