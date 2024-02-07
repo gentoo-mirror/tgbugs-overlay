@@ -46,7 +46,7 @@ dev-python/Pyro4 4.82-r1: Distributed object middleware for Python (RPC)
 dev-python/SPARQLWrapper 2.0.0: A wrapper for a remote SPARQL endpoint
 dev-python/ShExJSG 0.8.2: ShEx AST as python classes
 dev-python/amqp 5.2.0: Low-level AMQP client for Python (fork of amqplib)
-dev-python/antlr4-python3-runtime 4.13.1: Python 3 runtime for ANTLR
+dev-python/antlr4-python3-runtime 4.9.3: Python 3 runtime for ANTLR
 dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.
 dev-python/augpathlib 0.0.28 9999: Augmented pathlib.
