@@ -141,6 +141,7 @@ dev-python/scibot 9999: Web annotation curation pipeline
 dev-python/seaborn 0.13.0: Statistical data visualization
 dev-python/smmap 6.0.0: A pure Python implementation of a sliding window memory map manager
 dev-python/sparcur 0.0.1_pre5 9999: Code for the SPARC curation workflow.
+dev-python/sparqlslurper 0.5.1: SPARQL slurper for rdflib
 dev-python/sphinx-issues 3.0.1-r1: Sphinx extension for linking to your project's issue tracker
 dev-python/statsmodels 0.14.0: Statistical computations and models for use with SciPy
 dev-python/sxpyr 0.0.3 0.0.4 9999: A library for working with identifiers of all kinds.
