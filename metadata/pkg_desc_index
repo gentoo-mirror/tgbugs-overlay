@@ -28,7 +28,6 @@ dev-db/schemaspy-bin 6.0.0 6.1.0: Document your database simply and easily
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
 dev-embedded/teensyduino-bin 1.35 1.45: USB-based electronics prototyping platform compatible with Arduino
 dev-haskell/dot2graphml 9999: convert graphviz dot to yworks graphml
-dev-java/icedtea-bin 3.24.0: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/math-numeric-tower 0.0.4: Math functions for Clojure's numeric tower
 dev-java/robot-bin 9999: A tool for automating ontology workflows.
 dev-java/scigraph-bin 9999: Web services for SciGraph, A Neo4j backed ontology store.
