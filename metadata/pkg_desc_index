@@ -48,7 +48,7 @@ dev-python/amqp 5.2.0: Low-level AMQP client for Python (fork of amqplib)
 dev-python/antlr4-python3-runtime 4.9.3: Python 3 runtime for ANTLR
 dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.29 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.30 9999: Augmented pathlib.
 dev-python/bcp47 0.0.4: BCP47 LCID language codes, plain and simple
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 3.6.4.0 4.2.0: Python multiprocessing fork
