@@ -113,7 +113,7 @@ dev-python/owlrl 6.0.2: Idiomatic conversion between URIs and compact URIs (CURI
 dev-python/pandas 1.5.2 2.1.3: Powerful data structures for data analysis and statistics
 dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired by Parsec Haskell library
 dev-python/pennsieve 6.2.0-r3: Python client and command line tool for Pennsieve
-dev-python/pint 0.20.1 0.22: Operate and manipulate physical quantities in Python
+dev-python/pint 0.20.1 0.22 0.23: Operate and manipulate physical quantities in Python
 dev-python/poetry-dynamic-versioning 1.2.0: Plugin for Poetry to enable dynamic versioning based on VCS tags
 dev-python/prefixcommons 0.1.12: Prefix commons python utlities
 dev-python/prefixmaps 0.2.1: Semantic prefix map registry
