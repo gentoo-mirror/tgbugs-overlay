@@ -85,7 +85,7 @@ dev-python/hbreader 0.9.1: Promiscuous file and URL reader
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyputils 0.0.8 0.0.9-r1 9999: Python utilities for the Hypothes.is REST api and websocket interface
-dev-python/idlib 0.0.1_pre20 9999: A library for working with identifiers of all kinds.
+dev-python/idlib 0.0.1_pre21 9999: A library for working with identifiers of all kinds.
 dev-python/immutabledict 4.0.0: An immutable wrapper around dictionaries
 dev-python/interlex 9999: A terminology management system.
 dev-python/jedi 0.18.2: Autocompletion library for Python
