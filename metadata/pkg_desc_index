@@ -26,7 +26,6 @@ dev-db/metabase-bin 0.45.1: Get business intelligence from databases
 dev-db/pguri 9999: uri datatype for PostgreSQL
 dev-db/schemaspy-bin 6.0.0 6.1.0: Document your database simply and easily
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
-dev-embedded/teensyduino-bin 1.35 1.45: USB-based electronics prototyping platform compatible with Arduino
 dev-haskell/dot2graphml 9999: convert graphviz dot to yworks graphml
 dev-java/math-numeric-tower 0.0.4: Math functions for Clojure's numeric tower
 dev-java/robot-bin 9999: A tool for automating ontology workflows.
@@ -152,7 +151,6 @@ dev-python/zdesk 2.7.1: Zendesk API for Python generated from developer.zendesk.
 dev-scheme/racket 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 8.4 8.5 8.5.900 8.6 8.7 8.8 8.9 8.10 8.11 8.12 8.13 9999: General purpose, multi-paradigm Lisp-Scheme programming language
 dev-util/meson 1.0.1: Open source build system
 kde-frameworks/solid 5.99.0: Provider for platform independent hardware discovery, abstraction and management
-media-gfx/yed 3.16.2.1 3.17.1 3.18.1.1 3.20 3.22 3.23.1: Diagram and graph editor that generates high-quality drawings.
 net-mail/aerc 0.1.1 9999: Asynchronous email client for your terminal, written in Go.
 sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
