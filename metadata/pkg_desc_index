@@ -18,7 +18,7 @@ app-editors/emacs 29.0.9999-r1: The extensible, customizable, self-documenting r
 app-emacs/zmq 0.0.1_p20230213-r1 1.0.0: Emacs bindings for zeromq.
 app-emulation/vmware-horizon-client 4.10.0: VMware Horizon View client
 app-eselect/eselect-racket 0.1: Manages racket symlink
-app-text/xlsx2csv 0.8.1: Convert MS Office xlsx files to CSV
+app-text/xlsx2csv 0.8.2: Convert MS Office xlsx files to CSV
 data-biology/sckan 2023.01.23 2023.08.04: SCKAN data releases
 data-biology/sckan-scigraph 2023.01.23 2023.08.04: SCKAN SciGraph releases
 dev-db/blazegraph-bin 2.1.6_pre1: A high-performance graph database supporting Blueprints and RDF/SPARQL APIs.
@@ -36,7 +36,7 @@ dev-lisp/clasp 9999: A Common Lisp with LLVM back end and interoperation with C+
 dev-lisp/sbcl 2.1.7 2.2.7: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-node/apinat-converter 9999: ApiNATOMY model converter
 dev-python/CFGraph 0.2.1: RDF Collection Flattening Graph
-dev-python/GitPython 3.1.40: Library used to interact with Git repositories
+dev-python/GitPython 3.1.43: Library used to interact with Git repositories
 dev-python/PyJSG 0.11.10: JSON Schema Grammar bindings for Python
 dev-python/PyShEx 0.8.1: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
 dev-python/PyShExC 0.9.1: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
@@ -45,17 +45,16 @@ dev-python/SPARQLWrapper 2.0.0: A wrapper for a remote SPARQL endpoint
 dev-python/ShExJSG 0.8.2: ShEx AST as python classes
 dev-python/amqp 5.2.0: Low-level AMQP client for Python (fork of amqplib)
 dev-python/antlr4-python3-runtime 4.9.3: Python 3 runtime for ANTLR
-dev-python/astor 0.8.1: Read/rewrite/write Python ASTs
 dev-python/astral 2.2: Calculations for the position of the sun and moon.
 dev-python/augpathlib 0.0.30 9999: Augmented pathlib.
 dev-python/bcp47 0.0.4: BCP47 LCID language codes, plain and simple
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 3.6.4.0 4.2.0: Python multiprocessing fork
 dev-python/bioregistry 0.10.135: An integrative registry of biological databases, ontologies, and nomenclatures.
-dev-python/boto3 1.33.6: The AWS SDK for Python
-dev-python/botocore 1.33.6: Low-level, data-driven core of boto 3
+dev-python/boto3 1.34.122: The AWS SDK for Python
+dev-python/botocore 1.34.122: Low-level, data-driven core of boto 3
 dev-python/celery 5.2.3 5.3.6: Asynchronous task queue/job queue based on distributed message passing
-dev-python/click-plugins 1.1.1-r1: Module for click to enable registering CLI commands via setuptools entry-points
+dev-python/click-plugins 1.1.1-r1: Module for click to enable registering CLI commands via entry points
 dev-python/click-repl 0.2.0: Subcommand REPL for click apps
 dev-python/clifn 0.0.1 9999: helper classes for organizing docopt programs
 dev-python/curies 0.7.7: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
@@ -68,27 +67,26 @@ dev-python/elasticsearch-py 8.7.0: Official Elasticsearch client library for Pyt
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/flask-login 0.6.3: Login session support for Flask
-dev-python/flask-restx 1.0.3 1.0.5 1.2.0 1.3.0: Framework for fast, easy, and documented API development with Flask
+dev-python/flask-restx 1.3.0: Framework for fast, easy, and documented API development with Flask
 dev-python/frozendict 2.3.8: A simple immutable mapping for python
 dev-python/funcparserlib 1.0.1: Recursive descent parsing library based on functional combinators
 dev-python/funowl 0.1.13: Pythonic representation of OWL through the OWL functional syntax
-dev-python/gitdb 4.0.10: GitDB is a pure-Python git object database
-dev-python/google-api-core 2.14.0: Core Library for Google Client Libraries
-dev-python/google-api-python-client 2.109.0: Google API Client for Python
-dev-python/google-auth 2.24.0: Google Authentication Library
-dev-python/google-auth-httplib2 0.1.1: httplib2 Transport for Google Auth
+dev-python/gitdb 4.0.11: GitDB is a pure-Python git object database
+dev-python/google-api-core 2.19.0: Core Library for Google Client Libraries
+dev-python/google-api-python-client 2.132.0: Google API Client for Python
+dev-python/google-auth 2.30.0: Google Authentication Library
+dev-python/google-auth-httplib2 0.2.0: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.2.0: Google Authentication Library
-dev-python/googleapis-common-protos 1.61.0: Python classes generated from the common protos in the googleapis repository
+dev-python/googleapis-common-protos 1.63.1: Python classes generated from the common protos in the googleapis repository
 dev-python/grpcio 1.51.0: High-performance RPC framework (python libraries)
 dev-python/hbreader 0.9.1: Promiscuous file and URL reader
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyputils 0.0.8 0.0.9-r1 9999: Python utilities for the Hypothes.is REST api and websocket interface
 dev-python/idlib 0.0.1_pre21 9999: A library for working with identifiers of all kinds.
-dev-python/immutabledict 4.0.0: An immutable wrapper around dictionaries
+dev-python/immutabledict 4.2.0: An immutable wrapper around dictionaries
 dev-python/interlex 9999: A terminology management system.
-dev-python/jedi 0.18.2: Autocompletion library for Python
-dev-python/joblib 1.3.2: Tools to provide lightweight pipelining in Python
+dev-python/joblib 1.4.2: Tools to provide lightweight pipelining in Python
 dev-python/json-flattener 0.1.9: Python library for denormalizing nested dicts or json objects to tables and back
 dev-python/jsonasobj 1.3.1: JSON objects as first class python objects.
 dev-python/jsonasobj2 1.0.4: New, non-backwards compatible version of the original jsonasobj
@@ -101,15 +99,14 @@ dev-python/linkml-dataops 0.1.0: Data API for LinkML instance data
 dev-python/linkml-runtime 1.6.3: Runtime support for linkml generated models
 dev-python/loky 3.4.1: Robust and reusable Executor for joblib
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
-dev-python/nbclassic 1.0.0: Jupyter Notebook as a Jupyter Server Extension
 dev-python/neurondm 0.1.8 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
-dev-python/numexpr 2.8.7: Fast numerical array expression evaluator for Python and NumPy
+dev-python/numexpr 2.9.0: Fast numerical array expression evaluator for Python and NumPy
 dev-python/oauthlib 3.2.2: Spec-compliant and thorough implementation of the OAuth request-signing logic
 dev-python/ontquery 0.2.11 9999: a framework querying ontology terms
 dev-python/orthauth 0.0.18 9999: python orthogonal authentication
 dev-python/owlrl 6.0.2: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
-dev-python/pandas 1.5.2 2.1.3: Powerful data structures for data analysis and statistics
+dev-python/pandas 2.2.2: Powerful data structures for data analysis and statistics
 dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired by Parsec Haskell library
 dev-python/pennsieve 6.2.0-r3: Python client and command line tool for Pennsieve
 dev-python/pint 0.20.1 0.22 0.23: Operate and manipulate physical quantities in Python
@@ -117,32 +114,32 @@ dev-python/poetry-dynamic-versioning 1.2.0: Plugin for Poetry to enable dynamic 
 dev-python/prefixcommons 0.1.12: Prefix commons python utlities
 dev-python/prefixmaps 0.2.1: Semantic prefix map registry
 dev-python/protcur 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
-dev-python/protobuf-python 4.21.9: Google's Protocol Buffers - Python bindings
+dev-python/proto-plus 1.23.0: Beautiful, Pythonic protocol buffers
+dev-python/protobuf-python 4.23.3: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
 dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.10.0: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.8.0: JSON Web Token implementation in Python
-dev-python/pyld 2.0.3-r1 2.0.3-r2: A library for working with identifiers of all kinds.
+dev-python/pyld 2.0.3-r2 2.0.4: A library for working with identifiers of all kinds.
 dev-python/pyontutils 0.1.33 0.1.34 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pysercomb 0.0.12 9999: parser combinator library and assorted parsers
 dev-python/pyshacl 0.25.0: A Python validator for SHACL
 dev-python/pystow 0.5.2: Easily pick a place to store data for your Python code.
 dev-python/python-jose 3.3.0-r1: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
-dev-python/pythran 0.13.1: Ahead of Time compiler for numeric kernels
 dev-python/pytrie 0.4.0-r1: A pure Python implementation of the trie data structure
 dev-python/rdflib 6.2.0 6.3.2 7.0.0 9999: RDF library containing a triple store and parser/serializer
-dev-python/requests-oauthlib 1.3.1: This project provides first-class OAuth library support for Requests
+dev-python/requests-oauthlib 2.0.0: This project provides first-class OAuth library support for Requests
 dev-python/robobrowser 0.5.3: Your friendly neighborhood web scraper
 dev-python/rply 0.7.8-r1: Pure python parser generator that also works with RPython
 dev-python/rsa 4.9: Pure-Python RSA implementation
-dev-python/s3transfer 0.8.2: An Amazon S3 Transfer Manager
+dev-python/s3transfer 0.10.1: An Amazon S3 Transfer Manager
 dev-python/scibot 9999: Web annotation curation pipeline
-dev-python/seaborn 0.13.0: Statistical data visualization
+dev-python/seaborn 0.13.2: Statistical data visualization
 dev-python/smmap 6.0.0: A pure Python implementation of a sliding window memory map manager
 dev-python/sparcur 0.0.1_pre5 9999: Code for the SPARC curation workflow.
 dev-python/sparqlslurper 0.5.1: SPARQL slurper for rdflib
-dev-python/sphinx-issues 3.0.1-r1: Sphinx extension for linking to your project's issue tracker
-dev-python/statsmodels 0.14.0: Statistical computations and models for use with SciPy
+dev-python/sphinx-issues 4.1.0: Sphinx extension for linking to your project's issue tracker
+dev-python/statsmodels 0.14.2: Statistical computations and models for use with SciPy
 dev-python/sxpyr 0.0.3 0.0.4 9999: A library for working with identifiers of all kinds.
 dev-python/terminaltables 3.1.10-r1: Generate simple tables in terminals from a nested list of strings
 dev-python/ttlser 1.1.4 1.1.5 9999: Deterministic turtle serialization for rdflib.
