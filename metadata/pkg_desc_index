@@ -60,8 +60,8 @@ dev-python/curies 0.7.7: Idiomatic conversion between URIs and compact URIs (CUR
 dev-python/curio 1.6: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/dicttoxml 1.7.16: Converts a Python dictionary or other data type to a valid XML string
 dev-python/dunamai 1.19.0: Dynamic versioning library and CLI
-dev-python/elastic-transport 8.10.0: Transport classes and utilities shared among Python Elastic client libraries
-dev-python/elasticsearch-py 8.7.0: Official Elasticsearch client library for Python
+dev-python/elastic-transport 8.10.0 8.13.1: Transport classes and utilities shared among Python Elastic client libraries
+dev-python/elasticsearch 8.7.0 8.14.0: Official Elasticsearch client library for Python
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/flask-login 0.6.3: Login session support for Flask
@@ -104,6 +104,9 @@ dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
 dev-python/numexpr 2.9.0: Fast numerical array expression evaluator for Python and NumPy
 dev-python/oauthlib 3.2.2: Spec-compliant and thorough implementation of the OAuth request-signing logic
 dev-python/ontquery 0.2.11 9999: a framework querying ontology terms
+dev-python/opentelemetry-api 1.24.0: OpenTelemetry Python API
+dev-python/opentelemetry-sdk 1.24.0: OpenTelemetry Python SDK
+dev-python/orjson 3.10.6: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/orthauth 0.0.18 9999: python orthogonal authentication
 dev-python/owlrl 6.0.2: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
 dev-python/pandas 2.2.2: Powerful data structures for data analysis and statistics
