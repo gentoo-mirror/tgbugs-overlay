@@ -106,7 +106,6 @@ dev-python/oauthlib 3.2.2: Spec-compliant and thorough implementation of the OAu
 dev-python/ontquery 0.2.11 9999: a framework querying ontology terms
 dev-python/opentelemetry-api 1.24.0: OpenTelemetry Python API
 dev-python/opentelemetry-sdk 1.24.0: OpenTelemetry Python SDK
-dev-python/orjson 3.10.6: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/orthauth 0.0.18 9999: python orthogonal authentication
 dev-python/owlrl 6.0.2: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
 dev-python/pandas 2.2.2: Powerful data structures for data analysis and statistics
