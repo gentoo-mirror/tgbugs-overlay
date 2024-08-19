@@ -10,5 +10,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=>=dev-haskell/graphviz-2999.17.0.1:=[profile?] >=dev-haskell/hxt-9.2:=[profile?] >=dev-haskell/text-0.11.2.3:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/9999
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=aa7c5824b8f81528280f305ee0466fde
