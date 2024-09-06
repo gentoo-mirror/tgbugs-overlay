@@ -108,7 +108,7 @@ dev-python/opentelemetry-api 1.24.0: OpenTelemetry Python API
 dev-python/opentelemetry-sdk 1.24.0: OpenTelemetry Python SDK
 dev-python/orthauth 0.0.18 9999: python orthogonal authentication
 dev-python/owlrl 6.0.2: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
-dev-python/pandas 2.2.2: Powerful data structures for data analysis and statistics
+dev-python/pandas 2.2.2-r1: Powerful data structures for data analysis and statistics
 dev-python/parsec 3.3-r1: A universal Python parser combinator library inspired by Parsec Haskell library
 dev-python/pennsieve 6.2.0-r3: Python client and command line tool for Pennsieve
 dev-python/pint 0.20.1 0.22 0.23 0.24.3: Operate and manipulate physical quantities in Python
