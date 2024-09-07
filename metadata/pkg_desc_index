@@ -80,6 +80,7 @@ dev-python/google-auth-oauthlib 1.2.0: Google Authentication Library
 dev-python/googleapis-common-protos 1.63.1: Python classes generated from the common protos in the googleapis repository
 dev-python/grpcio 1.51.0: High-performance RPC framework (python libraries)
 dev-python/hbreader 0.9.1: Promiscuous file and URL reader
+dev-python/healdata-utils 0.5.2: HEAL data packaging tools
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
 dev-python/hyputils 0.0.8 0.0.9-r1 9999: Python utilities for the Hypothes.is REST api and websocket interface
@@ -99,6 +100,8 @@ dev-python/linkml-dataops 0.1.0: Data API for LinkML instance data
 dev-python/linkml-runtime 1.6.3: Runtime support for linkml generated models
 dev-python/loky 3.4.1: Robust and reusable Executor for joblib
 dev-python/memory_profiler 0.60: A module for monitoring memory usage of a python program
+dev-python/multimethod 1.12: Multiple argument dispatching in Python
+dev-python/networkx 3.3: Python tools to manipulate graphs and complex networks
 dev-python/neurondm 0.1.8 9999: A data model for neuron types.
 dev-python/nifstd-tools 0.0.6 9999: utilities for working with the NIF ontology
 dev-python/numexpr 2.9.0: Fast numerical array expression evaluator for Python and NumPy
@@ -124,6 +127,7 @@ dev-python/pydevd 2.10.0: PyDev.Debugger (used in PyDev, PyCharm and VSCode Pyth
 dev-python/pyjwt 2.8.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r2 2.0.4: A library for working with identifiers of all kinds.
 dev-python/pyontutils 0.1.33 0.1.34 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyreadstat 1.2.7: Python package to read sas, spss and stata files into pandas data frames.
 dev-python/pysercomb 0.0.12 9999: parser combinator library and assorted parsers
 dev-python/pyshacl 0.25.0: A Python validator for SHACL
 dev-python/pystow 0.5.2: Easily pick a place to store data for your Python code.
@@ -146,6 +150,7 @@ dev-python/sxpyr 0.0.3 0.0.4 9999: A library for working with identifiers of all
 dev-python/terminaltables 3.1.10-r1: Generate simple tables in terminals from a nested list of strings
 dev-python/ttlser 1.1.4 1.1.5 9999: Deterministic turtle serialization for rdflib.
 dev-python/uncertainties 3.1.7-r1: Python module for calculations with uncertainties
+dev-python/visions 0.7.5: Python package to read sas, spss and stata files into pandas data frames.
 dev-python/zdesk 2.7.1: Zendesk API for Python generated from developer.zendesk.com
 dev-scheme/racket 7.0 7.1 7.2 7.3 7.6 7.7 7.8 7.9 8.0 8.1 8.1.9999 8.2 8.3 8.4 8.5 8.5.900 8.6 8.7 8.8 8.9 8.10 8.11 8.12 8.13 8.14 9999: General purpose, multi-paradigm Lisp-Scheme programming language
 dev-util/meson 1.0.1: Open source build system
@@ -155,6 +160,7 @@ net-mail/aerc 0.1.1 9999: Asynchronous email client for your terminal, written i
 sci-biology/cellblender 1.0.1 9999: MCell blender addon. Create, Simulate, Visualize, and Analyze 3D Cell Models
 sci-biology/mcell 3.3 9999: MCell: Monte Carlo Simulator of Cellular Microphysiology
 sci-chemistry/browndye 9999: Brownian Dynamics of Biological Molecules
+sci-libs/readstat 1.1.9: library for converting SAS, Stata, and SPSS files
 sys-apps/file 5.45-r4: Identify a file's format by scanning binary data for patterns
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
