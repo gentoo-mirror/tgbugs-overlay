@@ -68,7 +68,6 @@ dev-python/flask-login 0.6.3: Login session support for Flask
 dev-python/flask-restx 1.3.0: Framework for fast, easy, and documented API development with Flask
 dev-python/flexcache 0.3: 
 dev-python/flexparser 0.3.1: 
-dev-python/frozendict 2.3.8: A simple immutable mapping for python
 dev-python/funcparserlib 1.0.1: Recursive descent parsing library based on functional combinators
 dev-python/funowl 0.1.13: Pythonic representation of OWL through the OWL functional syntax
 dev-python/gitdb 4.0.11: GitDB is a pure-Python git object database
