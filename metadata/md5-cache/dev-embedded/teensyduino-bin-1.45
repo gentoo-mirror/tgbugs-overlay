@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst unpack
+DEPEND=virtual/libusb:0
+DESCRIPTION=USB-based electronics prototyping platform compatible with Arduino
+EAPI=7
+HOMEPAGE=https://www.pjrc.com/teensy/
+INHERIT=udev
+KEYWORDS=~amd64
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=virtual/libusb:0
+RESTRICT=binchecks preserve-libs strip
+SLOT=0
+SRC_URI=amd64? ( https://github.com/tgbugs/tgbugs-overlay/releases/download/teensyduino-1.45/teensyduino-1.45-linux64.tar.xz )
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	udev	f3d9a4376ebd22131726a68e1a0a058f
+_md5_=b013b83ba38a5ce84a65e47f34663a60

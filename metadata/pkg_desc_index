@@ -26,6 +26,7 @@ dev-db/blazegraph-bin 2.1.6_pre1: A high-performance graph database supporting B
 dev-db/metabase-bin 0.45.1: Get business intelligence from databases
 dev-db/pguri 9999: uri datatype for PostgreSQL
 dev-db/schemaspy-bin 6.0.0 6.1.0: Document your database simply and easily
+dev-embedded/teensyduino-bin 1.35 1.45: USB-based electronics prototyping platform compatible with Arduino
 dev-haskell/dot2graphml 9999: convert graphviz dot to yworks graphml
 dev-java/math-numeric-tower 0.0.4: Math functions for Clojure's numeric tower
 dev-java/robot-bin 9999: A tool for automating ontology workflows.
