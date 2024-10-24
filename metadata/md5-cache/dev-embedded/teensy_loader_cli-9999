@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=dev-libs/libusb-compat
+DESCRIPTION=Teensy loader command line interface
+EAPI=8
+HOMEPAGE=http://www.pjrc.com/teensy/loader_cli.html
+INHERIT=git-r3
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-libs/libusb-compat
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=77c46b23caa42d46ea6319bf4619392a
