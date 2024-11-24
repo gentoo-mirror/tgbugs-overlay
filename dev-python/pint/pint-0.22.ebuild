@@ -3,6 +3,7 @@
 
 EAPI=8
 
+DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( pypy3 python3_{10..11} )
 PYPI_NO_NORMALIZE=1
 PYPI_PN=Pint
@@ -20,7 +21,7 @@ IUSE="babel uncertainties test"
 
 DEPEND=""
 RDEPEND="${DEPEND}
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( dev-python/babel[${PYTHON_USEDEP}] )
 	uncertainties? ( dev-python/uncertainties[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 "

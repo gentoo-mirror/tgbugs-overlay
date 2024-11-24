@@ -3,7 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( pypy3 python3_{10..12} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( pypy3 python3_{10..13} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Curio is a library for performing concurrent I/O with coroutines in Python 3."
@@ -22,6 +23,5 @@ RESTRICT="!test? ( test )"
 distutils_enable_tests pytest
 
 python_test() {
-	distutils_install_for_testing
-	pytest -vv || die "tests fail with ${EPYTHON}"
+	epytest -vv || die "tests fail with ${EPYTHON}"
 }

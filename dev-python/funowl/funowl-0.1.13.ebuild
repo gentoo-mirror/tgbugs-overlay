@@ -3,7 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} pypy3 )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{10..13} pypy3 )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Pythonic representation of OWL through the OWL functional syntax"
@@ -15,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
-	dev-python/bcp47
-	>=dev-python/PyJSG-0.11.6
-	>=dev-python/rdflib-6.2.0
-	dev-python/rfc3987
+	dev-python/bcp47[${PYTHON_USEDEP}]
+	>=dev-python/PyJSG-0.11.6[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.2.0[${PYTHON_USEDEP}]
+	dev-python/rfc3987[${PYTHON_USEDEP}]
 "
 RDEPEND="${DEPEND}"
 
@@ -32,6 +33,5 @@ PATCHES=(
 distutils_enable_tests pytest
 
 python_test() {
-	distutils_install_for_testing
-	pytest -vv || die "tests fail with ${EPYTHON}"
+	epytest -vv || die "tests fail with ${EPYTHON}"
 }

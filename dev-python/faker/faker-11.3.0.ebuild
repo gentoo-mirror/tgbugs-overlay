@@ -3,15 +3,17 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( pypy3 python3_{10..12} )
-inherit distutils-r1
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( pypy3 python3_{10..13} )
+PYPI_PN="Faker"
+PYPI_NO_NORMALIZE=1
+inherit distutils-r1 pypi
 
 MY_PN=Faker
 MY_P="${MY_PN}-${PV}"
 
 DESCRIPTION="Faker is a Python package that generates fake data for you."
 HOMEPAGE="https://github.com/joke2k/faker"
-SRC_URI="mirror://pypi/${MY_P:0:1}/${MY_PN}/${MY_P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -38,15 +40,13 @@ RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/${MY_P}
 
+distutils_enable_tests pytest
+
 python_prepare_all() {
 	sed -i '/pytest-runner/d' setup.py
 	distutils-r1_python_prepare_all
 }
 
 python_test() {
-	distutils_install_for_testing
-	cd "${TEST_DIR}" || die
-	cp -r "${S}/tests" . || die
-	cp "${S}/setup.cfg" . || die
 	pytest || die "Tests fail with ${EPYTHON}"
 }

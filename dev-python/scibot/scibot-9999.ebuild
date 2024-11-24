@@ -3,6 +3,7 @@
 
 EAPI=8
 
+DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( pypy3 python3_{10..12} )
 inherit distutils-r1
 
@@ -35,7 +36,7 @@ RDEPEND="
 	dev-python/curio[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
-	www-servers/tornado[${PYTHON_USEDEP}]
+	dev-python/tornado[${PYTHON_USEDEP}]
 	>=dev-python/hyputils-0.0.6[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>=dev-python/pyontutils-0.1.23[${PYTHON_USEDEP}]
@@ -47,6 +48,8 @@ RDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
 "
+
+distutils_enable_tests pytest
 
 pkg_setup() {
 	ebegin "Creating scibot user and group"
@@ -68,11 +71,7 @@ else
 fi
 
 python_test() {
-	distutils_install_for_testing
-	cd "${TEST_DIR}" || die
-	cp -r "${S}/test" . || die
-	cp "${S}/setup.cfg" . || die
-	PYTHONWARNINGS=ignore pytest -v --color=yes || die "Tests fail with ${EPYTHON}"
+	PYTHONWARNINGS=ignore epytest -v --color=yes || die "Tests fail with ${EPYTHON}"
 }
 
 python_install_all() {
