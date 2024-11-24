@@ -125,7 +125,7 @@ dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.10.0: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.9.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r2 2.0.4: A library for working with identifiers of all kinds.
-dev-python/pyontutils 0.1.33 0.1.34 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyontutils 0.1.33 0.1.34 0.1.35 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pyreadstat 1.2.8: Python package to read sas, spss and stata files into pandas data frames.
 dev-python/pysercomb 0.0.13 9999: parser combinator library and assorted parsers
 dev-python/pyshacl 0.29.0: A Python validator for SHACL
