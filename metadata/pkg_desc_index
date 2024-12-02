@@ -72,7 +72,8 @@ dev-python/funcparserlib 1.0.1: Recursive descent parsing library based on funct
 dev-python/funowl 0.1.13 0.2.3: Pythonic representation of OWL through the OWL functional syntax
 dev-python/gitdb 4.0.11: GitDB is a pure-Python git object database
 dev-python/gitpython 3.1.43: Library used to interact with Git repositories
-dev-python/google-api-python-client 2.151.0: Google API Client for Python
+dev-python/google-api-core 2.23.0: Core Library for Google Client Libraries
+dev-python/google-api-python-client 2.153.0: Google API Client for Python
 dev-python/google-auth 2.35.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.2.0: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.2.0: Google Authentication Library
