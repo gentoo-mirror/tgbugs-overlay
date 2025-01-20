@@ -46,7 +46,7 @@ dev-python/ShExJSG 0.8.2: ShEx AST as python classes
 dev-python/amqp 5.2.0: Low-level AMQP client for Python (fork of amqplib)
 dev-python/antlr4-python3-runtime 4.9.3: Python 3 runtime for ANTLR
 dev-python/astral 3.2: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.31 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.32 9999: Augmented pathlib.
 dev-python/bcp47 0.1.0: BCP47 LCID language codes, plain and simple
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 4.2.1: Python multiprocessing fork
@@ -84,8 +84,8 @@ dev-python/hbreader 0.9.1: Promiscuous file and URL reader
 dev-python/healdata-utils 0.5.2: HEAL data packaging tools
 dev-python/htmlfn 0.0.4 9999: python functions for generating html
 dev-python/hunspell 0.5.5: Module for the Hunspell spellchecker engine
-dev-python/hyputils 0.0.8 0.0.9-r1 9999: Python utilities for the Hypothes.is REST api and websocket interface
-dev-python/idlib 0.0.1_pre21 9999: A library for working with identifiers of all kinds.
+dev-python/hyputils 0.0.10 9999: Python utilities for the Hypothes.is REST api and websocket interface
+dev-python/idlib 0.0.1_pre22 9999: A library for working with identifiers of all kinds.
 dev-python/immutabledict 4.2.0: An immutable wrapper around dictionaries
 dev-python/interlex 9999: A terminology management system.
 dev-python/joblib 1.4.2: Tools to provide lightweight pipelining in Python
@@ -119,7 +119,7 @@ dev-python/pint 0.20.1 0.22 0.23 0.24.3 0.24.4: Operate and manipulate physical 
 dev-python/poetry-dynamic-versioning 1.4.1: Plugin for Poetry to enable dynamic versioning based on VCS tags
 dev-python/prefixcommons 0.1.12: Prefix commons python utlities
 dev-python/prefixmaps 0.2.6: Semantic prefix map registry
-dev-python/protcur 0.0.10 0.0.11 9999: Web annotation workflows for protocol curation.
+dev-python/protcur 0.0.12 9999: Web annotation workflows for protocol curation.
 dev-python/proto-plus 1.25.0: Beautiful, Pythonic protocol buffers
 dev-python/protobuf 5.28.0: Google's Protocol Buffers - Python bindings
 dev-python/psycopg2cffi 2.9.0: Implementation of the psycopg2 module using cffi.
@@ -127,7 +127,7 @@ dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.10.0: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.9.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r2 2.0.4: A library for working with identifiers of all kinds.
-dev-python/pyontutils 0.1.33 0.1.34 0.1.35 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyontutils 0.1.36 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pyreadstat 1.2.8: Python package to read sas, spss and stata files into pandas data frames.
 dev-python/pysercomb 0.0.13 9999: parser combinator library and assorted parsers
 dev-python/pyshacl 0.29.0: A Python validator for SHACL
@@ -149,7 +149,7 @@ dev-python/sphinx-issues 5.0.0: Sphinx extension for linking to your project's i
 dev-python/statsmodels 0.14.4: Statistical computations and models for use with SciPy
 dev-python/sxpyr 0.0.3 0.0.4 9999: A library for working with identifiers of all kinds.
 dev-python/terminaltables 3.1.10-r1: Generate simple tables in terminals from a nested list of strings
-dev-python/ttlser 1.1.4 1.1.5 9999: Deterministic turtle serialization for rdflib.
+dev-python/ttlser 1.1.6 9999: Deterministic turtle serialization for rdflib.
 dev-python/uncertainties 3.1.7-r1: Python module for calculations with uncertainties
 dev-python/visions 0.7.5: Python package to read sas, spss and stata files into pandas data frames.
 dev-python/zdesk 2.8.1: Zendesk API for Python generated from developer.zendesk.com
