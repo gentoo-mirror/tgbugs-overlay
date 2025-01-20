@@ -46,17 +46,17 @@ dev-python/ShExJSG 0.8.2: ShEx AST as python classes
 dev-python/amqp 5.2.0: Low-level AMQP client for Python (fork of amqplib)
 dev-python/antlr4-python3-runtime 4.9.3: Python 3 runtime for ANTLR
 dev-python/astral 3.2: Calculations for the position of the sun and moon.
-dev-python/augpathlib 0.0.32 9999: Augmented pathlib.
+dev-python/augpathlib 0.0.32 0.0.33 9999: Augmented pathlib.
 dev-python/bcp47 0.1.0: BCP47 LCID language codes, plain and simple
 dev-python/berkeleydb 18.1.5: Python bindings for Oracle Berkeley DB
 dev-python/billiard 4.2.1: Python multiprocessing fork
 dev-python/bioregistry 0.11.26: An integrative registry of biological databases, ontologies, and nomenclatures.
-dev-python/boto3 1.35.81: The AWS SDK for Python
-dev-python/botocore 1.35.81: Low-level, data-driven core of boto 3
+dev-python/boto3 1.35.90: The AWS SDK for Python
+dev-python/botocore 1.35.90: Low-level, data-driven core of boto 3
 dev-python/celery 5.3.6: Asynchronous task queue/job queue based on distributed message passing
 dev-python/click-plugins 1.1.1-r1: Module for click to enable registering CLI commands via entry points
 dev-python/click-repl 0.3.0: Subcommand REPL for click apps
-dev-python/clifn 0.0.1 9999: helper classes for organizing docopt programs
+dev-python/clifn 0.0.2 9999: helper classes for organizing docopt programs
 dev-python/curies 0.9.0: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
 dev-python/curio 1.6: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/dicttoxml 1.7.16: Converts a Python dictionary or other data type to a valid XML string
@@ -127,7 +127,7 @@ dev-python/pycurl 7.45.1: Python bindings for curl/libcurl
 dev-python/pydevd 2.10.0: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pyjwt 2.9.0: JSON Web Token implementation in Python
 dev-python/pyld 2.0.3-r2 2.0.4: A library for working with identifiers of all kinds.
-dev-python/pyontutils 0.1.36 9999: utilities for working with the NIF ontology, SciGraph, and turtle
+dev-python/pyontutils 0.1.36 0.1.37 9999: utilities for working with the NIF ontology, SciGraph, and turtle
 dev-python/pyreadstat 1.2.8: Python package to read sas, spss and stata files into pandas data frames.
 dev-python/pysercomb 0.0.13 9999: parser combinator library and assorted parsers
 dev-python/pyshacl 0.29.0: A Python validator for SHACL
@@ -149,6 +149,7 @@ dev-python/sphinx-issues 5.0.0: Sphinx extension for linking to your project's i
 dev-python/statsmodels 0.14.4: Statistical computations and models for use with SciPy
 dev-python/sxpyr 0.0.3 0.0.4 9999: A library for working with identifiers of all kinds.
 dev-python/terminaltables 3.1.10-r1: Generate simple tables in terminals from a nested list of strings
+dev-python/terminaltables3 4.0.0: Generate simple tables in terminals from a nested list of strings
 dev-python/ttlser 1.1.6 9999: Deterministic turtle serialization for rdflib.
 dev-python/uncertainties 3.1.7-r1: Python module for calculations with uncertainties
 dev-python/visions 0.7.5: Python package to read sas, spss and stata files into pandas data frames.
