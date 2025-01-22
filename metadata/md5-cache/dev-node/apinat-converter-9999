@@ -1,4 +1,4 @@
-BDEPEND=>=net-libs/nodejs-18 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=net-libs/nodejs-18[npm] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare unpack
 DESCRIPTION=ApiNATOMY model converter
 EAPI=8
@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=net-libs/nodejs
 SLOT=9999
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=35f209efce9d67030a0b9c377fcd0f37
+_md5_=779cb5a48d1969ea3006d2465814ca21
