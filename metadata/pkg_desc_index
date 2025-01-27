@@ -167,4 +167,4 @@ sys-apps/file 5.45-r4: Identify a file's format by scanning binary data for patt
 virtual/python-backports_abc 0: A virtual for the Python 3.3+ collections.abc module
 virtual/python-singledispatch 0: A virtual for the Python functools.singledispatch function
 x11-wm/fluxbox 9999: X11 window manager featuring tabs and an iconbar
-xfce-base/xfce4-meta 4.16-r2 4.18 4.18-r1: The Xfce Desktop Environment (meta package)
+xfce-base/xfce4-meta 4.16-r2 4.18 4.18-r1 4.20: The Xfce Desktop Environment (meta package)
