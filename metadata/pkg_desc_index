@@ -61,8 +61,8 @@ dev-python/curies 0.9.0: Idiomatic conversion between URIs and compact URIs (CUR
 dev-python/curio 1.6: Curio is a library for performing concurrent I/O with coroutines in Python 3.
 dev-python/dicttoxml 1.7.16: Converts a Python dictionary or other data type to a valid XML string
 dev-python/dunamai 1.23.0: Dynamic versioning library and CLI
-dev-python/elastic-transport 8.15.1: Transport classes and utilities shared among Python Elastic client libraries
-dev-python/elasticsearch 8.14.0: Official Elasticsearch client library for Python
+dev-python/elastic-transport 8.17.0: Transport classes and utilities shared among Python Elastic client libraries
+dev-python/elasticsearch 8.17.1: Official Elasticsearch client library for Python
 dev-python/faker 11.3.0: Faker is a Python package that generates fake data for you.
 dev-python/fastentrypoints 0.12: Makes entry_points specified in setup.py load more quickly
 dev-python/flask-login 0.6.3: Login session support for Flask
@@ -74,7 +74,7 @@ dev-python/funowl 0.1.13 0.2.3: Pythonic representation of OWL through the OWL f
 dev-python/gitdb 4.0.11: GitDB is a pure-Python git object database
 dev-python/gitpython 3.1.43: Library used to interact with Git repositories
 dev-python/google-api-core 2.23.0: Core Library for Google Client Libraries
-dev-python/google-api-python-client 2.153.0: Google API Client for Python
+dev-python/google-api-python-client 2.159.0: Google API Client for Python
 dev-python/google-auth 2.35.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.2.0: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.2.0: Google Authentication Library
